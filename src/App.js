@@ -4,29 +4,23 @@ import Filters from './Filters.js';
 import MealPlanner from './MealPlanner.js';
 import FoodList from './FoodList.js';
 import Cart from './Cart.js';
-import { Row, Col, Container } from 'reactstrap';
+import { Grid, Cell } from 'react-md';
 
 class App extends Component {
   render() {
     return (
-      <Container>
-      <Row>
-        <Col xs="3">
-          <Filters />
-        </Col>
-        <Col xs="7">
-          <Row>
-            <MealPlanner />
-          </Row>
-          <Row>
-            <FoodList />
-          </Row>
-        </Col>
-        <Col xs="2">
-          <Cart />
-        </Col>
-      </Row>
-      </Container>
+      <Grid>
+      <Cell size={3}>
+        <Filters />
+      </Cell>
+      <Cell size={7}>
+        <MealPlanner />
+        <FoodList />
+      </Cell>
+      <Cell size={2}>
+        <Cart />
+      </Cell>
+      </Grid>
     );
   }
 }

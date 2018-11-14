@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import WebFontLoader from 'webfontloader';
+
+WebFontLoader.load({
+    google: {
+        families: ['Roboto:300,400,500,700', 'Material Icons'],
+    },
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
