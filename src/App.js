@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './styles/App.css';
+import Filters from './Filters.js';
+import MealPlanner from './MealPlanner.js';
+import FoodList from './FoodList.js';
+import Cart from './Cart.js';
+import { Row, Col, Container } from 'reactstrap';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Container>
+      <Row>
+        <Col xs="3">
+          <Filters />
+        </Col>
+        <Col xs="7">
+          <Row>
+            <MealPlanner />
+          </Row>
+          <Row>
+            <FoodList />
+          </Row>
+        </Col>
+        <Col xs="2">
+          <Cart />
+        </Col>
+      </Row>
+      </Container>
     );
   }
 }

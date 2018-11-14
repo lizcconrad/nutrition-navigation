@@ -8,6 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. [Sass](https://sass-lang.com/install)
 4. (Optional): [VSCode](https://code.visualstudio.com/download)
 
+### Useful Links
+1. [React Guide](https://reactjs.org/docs/hello-world.html)
+2. [reactstrap](https://reactstrap.github.io/components/alerts/) (VERY useful for styling, try to use these components if possible). 
+3. [Bootstrap Grid system](https://getbootstrap.com/docs/4.1/layout/grid/) (use this to understand Bootstrap's grid layout, try to think about your components in grids)
+
 ### Launching the project
 ```bash
 # install necessary packagees of project
@@ -22,6 +27,16 @@ yarn remove [package]
 # launch project
 yarn start
 ```
+
+### Adding a new component
+
+First run the command below, then add an associated SCSS file in the Sass folder
+
+```bash
+react-create component [component-name]
+
+```
+
 
 ### Work with SASS
 
