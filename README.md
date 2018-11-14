@@ -60,7 +60,7 @@ git add [file]
 git commit -m "Message about changes!"
 
 # switch back to master then merge changes
-git branch master
+git checkout master
 git merge [branch-to-merge]
 
 # push to github
