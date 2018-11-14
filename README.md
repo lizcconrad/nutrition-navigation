@@ -6,7 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. (Optional): [choco for Windows](https://chocolatey.org/install) or [homebrew for OSX](https://brew.sh/)
 2. [yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 3. [Sass](https://sass-lang.com/install)
-4. (Optional): [VSCode](https://code.visualstudio.com/download)
+4. (Optional): [VSCode](https://code.visualstudio.com/download) 
+5. Recommended VSCode extensions (click the Extensions icon, which is the fifth one, and just type these in and install them). The only two that I think are *necessary* are the first two so that our code follows proper style and we all have the same style:
+    * **ESLint** by Dirk Baeumer
+    * **TSLint** by Sergii Naumov
+    * **Auto Import - ES6 & TS** by Martin Oppitz
+    * **Auto Rename Tag** by Jun Han
+    * **vscode-icons** by Roberto Huertas
+    * **React Native Tools** by Visual Studio Mobile Tools
+    * **Debugger for Chrome** by Microsoft
 
 ### Useful Links
 1. [React Guide](https://reactjs.org/docs/hello-world.html)
