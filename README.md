@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Working on the project
+## Working on the project
 ```bash
 # pull the current version of the repo
 git pull
