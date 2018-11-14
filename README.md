@@ -1,6 +1,39 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Working on the project
+
+### Things to install
+1. (Optional): [choco for Windows](https://chocolatey.org/install) or [homebrew for OSX](https://brew.sh/)
+2. [yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
+3. [Sass](https://sass-lang.com/install)
+4. (Optional): [VSCode](https://code.visualstudio.com/download)
+
+### Launching the project
+```bash
+# install necessary packagees of project
+yarn or yarn install
+
+# add new package
+yarn add [package]
+
+# remove a package
+yarn remove [package]
+
+# launch project
+yarn start
+```
+
+### Work with SASS
+
+When adding/updating a component, work with SCSS for styling. SCSS is just like CSS but better and smarter. Just add the SCSS file for your component in the `/sass` folder, and be sure to run the `watch` command and Sass will take care of the rest. Sass guide [here](https://sass-lang.com/guide)
+
+```bash
+# run this command so sass updates as needed
+sass --watch src/sass:src/styles
+```
+
+
+### Version management
 ```bash
 # pull the current version of the repo
 git pull
