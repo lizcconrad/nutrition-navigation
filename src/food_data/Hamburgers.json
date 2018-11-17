@@ -1,0 +1,542 @@
+{
+    "S'Awesome Bacon Classic Single": {
+        "description": "A quarter-pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. A masterpiece signed with S’Awesome.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2723_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 640},
+            "calories from fat": {"value": 360},
+            "total fat": {"value": 40, "unit": "g"},
+            "saturated fat": {"value": 15, "unit": "g"},
+            "trans fat": {"value": 1.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 7, "unit": "g"},
+            "monounsaturated fat": {"value": 15, "unit": "g"},
+            "cholesterol": {"value": 115, "unit": "mg"},
+            "sodium": {"value": 1390, "unit": "mg"},
+            "potassium": {"value": 480, "unit": "mg"},
+            "carbohydrates": {"value": 40, "unit": "g"},
+            "sugar": {"value": 8, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 10, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 25, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Side of S'Awesome™ Sauce": ["Soybean Oil", "Water", "Tomato Paste", "Sugar", "Corn Syrup", "Distilled Vinegar", "Egg Yolks",
+                "Hot Sauce (Peppers, Vinegar, Salt)", "Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor)", 
+                "Sea Salt", "Cultured Dextrose", "Spices", "Ground Mustard Seed", "Paprika", "Apple Cider Vinegar", "Salt", "Onion Powder", "Garlic Powder", "Yeast Extract", 
+                "Natural Smoke Flavor", "Xanthan Gum", "Dried Chili Pepper", "Citric Acid", "Potassium Sorbate (Preservative)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Hamburger Patty": ["Ground Beef", "Salt"],
+            "Lettuce": ["Lettuce"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Sweet Onion": ["Onion"]
+        }
+    },
+    "S'Awesome Bacon Classic Double": {
+        "description": "A half-pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. What’s S’Awesome times two? You’re looking at it.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2708_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 890},
+            "calories from fat": {"value": 520},
+            "total fat": {"value": 57, "unit": "g"},
+            "saturated fat": {"value": 22, "unit": "g"},
+            "trans fat": {"value": 3, "unit": "g"},
+            "polyunsaturated fat": {"value": 7, "unit": "g"},
+            "monounsaturated fat": {"value": 23, "unit": "g"},
+            "cholesterol": {"value": 190, "unit": "mg"},
+            "sodium": {"value": 1570, "unit": "mg"},
+            "potassium": {"value": 720, "unit": "mg"},
+            "carbohydrates": {"value": 41, "unit": "g"},
+            "sugar": {"value": 8, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 10, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 35, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Side of S'Awesome™ Sauce": ["Soybean Oil", "Water", "Tomato Paste", "Sugar", "Corn Syrup", "Distilled Vinegar", "Egg Yolks",
+                "Hot Sauce (Peppers, Vinegar, Salt)", "Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor)", 
+                "Sea Salt", "Cultured Dextrose", "Spices", "Ground Mustard Seed", "Paprika", "Apple Cider Vinegar", "Salt", "Onion Powder", "Garlic Powder", "Yeast Extract", 
+                "Natural Smoke Flavor", "Xanthan Gum", "Dried Chili Pepper", "Citric Acid", "Potassium Sorbate (Preservative)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Hamburger Patty": ["Ground Beef", "Salt"],
+            "Lettuce": ["Lettuce"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Sweet Onion": ["Onion"]
+        }
+    },
+    "S'Awesome Bacon Classic Triple": {
+        "description": "Three quarters of a pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. It doesn’t get more S’Awesome than this",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2709_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 1170},
+            "calories from fat": {"value": 710},
+            "total fat": {"value": 78, "unit": "g"},
+            "saturated fat": {"value": 32, "unit": "g"},
+            "trans fat": {"value": 4, "unit": "g"},
+            "polyunsaturated fat": {"value": 8, "unit": "g"},
+            "monounsaturated fat": {"value": 31, "unit": "g"},
+            "cholesterol": {"value": 275, "unit": "mg"},
+            "sodium": {"value": 1930, "unit": "mg"},
+            "potassium": {"value": 980, "unit": "mg"},
+            "carbohydrates": {"value": 43, "unit": "g"},
+            "sugar": {"value": 8, "unit": "g"},
+            "vitamin A": {"value": 15, "unit": "%DV"},
+            "vitamin C": {"value": 10, "unit": "%DV"},
+            "calcium": {"value": 30, "unit": "%DV"},
+            "iron": {"value": 50, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Side of S'Awesome™ Sauce": ["Soybean Oil", "Water", "Tomato Paste", "Sugar", "Corn Syrup", "Distilled Vinegar", "Egg Yolks",
+                "Hot Sauce (Peppers, Vinegar, Salt)", "Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor)", 
+                "Sea Salt", "Cultured Dextrose", "Spices", "Ground Mustard Seed", "Paprika", "Apple Cider Vinegar", "Salt", "Onion Powder", "Garlic Powder", "Yeast Extract", 
+                "Natural Smoke Flavor", "Xanthan Gum", "Dried Chili Pepper", "Citric Acid", "Potassium Sorbate (Preservative)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Hamburger Patty": ["Ground Beef", "Salt"],
+            "Lettuce": ["Lettuce"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Sweet Onion": ["Onion"]
+        }
+    },
+    "Dave's Single®": {
+        "description": "A quarter-pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun — just the way Dave intended.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/1_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 570},
+            "calories from fat": {"value": 300},
+            "total fat": {"value": 34, "unit": "g"},
+            "saturated fat": {"value": 13, "unit": "g"},
+            "trans fat": {"value": 1.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 2, "unit": "g"},
+            "monounsaturated fat": {"value": 11, "unit": "g"},
+            "cholesterol": {"value": 100, "unit": "mg"},
+            "sodium": {"value": 1110, "unit": "mg"},
+            "potassium": {"value": 460, "unit": "mg"},
+            "carbohydrates": {"value": 40, "unit": "g"},
+            "sugar": {"value": 8, "unit": "g"},
+            "vitamin A": {"value": 15, "unit": "%DV"},
+            "vitamin C": {"value": 8, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 25, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Sweet Onion": ["Onion"],
+            "Tomato": ["Tomato"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    },
+    "Dave's Double®": {
+        "description": "A half-pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. More meat means more to love.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 810},
+            "calories from fat": {"value": 460},
+            "total fat": {"value": 51, "unit": "g"},
+            "saturated fat": {"value": 20, "unit": "g"},
+            "trans fat": {"value": 3, "unit": "g"},
+            "polyunsaturated fat": {"value": 2.5, "unit": "g"},
+            "monounsaturated fat": {"value": 18, "unit": "g"},
+            "cholesterol": {"value": 175, "unit": "mg"},
+            "sodium": {"value": 1280, "unit": "mg"},
+            "potassium": {"value": 700, "unit": "mg"},
+            "carbohydrates": {"value": 41, "unit": "g"},
+            "sugar": {"value": 8, "unit": "g"},
+            "vitamin A": {"value": 15, "unit": "%DV"},
+            "vitamin C": {"value": 8, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 35, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Sweet Onion": ["Onion"],
+            "Tomato": ["Tomato"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    },
+    "Dave's Triple®": {
+        "description": "Three quarters of a pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. Use both hands!",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/3_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 1090},
+            "calories from fat": {"value": 650},
+            "total fat": {"value": 72, "unit": "g"},
+            "saturated fat": {"value": 30, "unit": "g"},
+            "trans fat": {"value": 4, "unit": "g"},
+            "polyunsaturated fat": {"value": 3.5, "unit": "g"},
+            "monounsaturated fat": {"value": 27, "unit": "g"},
+            "cholesterol": {"value": 260, "unit": "mg"},
+            "sodium": {"value": 1650, "unit": "mg"},
+            "potassium": {"value": 960, "unit": "mg"},
+            "carbohydrates": {"value": 43, "unit": "g"},
+            "sugar": {"value": 9, "unit": "g"},
+            "vitamin A": {"value": 20, "unit": "%DV"},
+            "vitamin C": {"value": 8, "unit": "%DV"},
+            "calcium": {"value": 25, "unit": "%DV"},
+            "iron": {"value": 50, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Sweet Onion": ["Onion"],
+            "Tomato": ["Tomato"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    },
+    "Baconator®": {
+        "description": "A half-pound* of fresh, never frozen beef, American cheese, 6 pieces of crispy Applewood smoked bacon, ketchup, and mayo. Carnivores rejoice!",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/4_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 950},
+            "calories from fat": {"value": 560},
+            "total fat": {"value": 62, "unit": "g"},
+            "saturated fat": {"value": 24, "unit": "g"},
+            "trans fat": {"value": 3, "unit": "g"},
+            "polyunsaturated fat": {"value": 4.5, "unit": "g"},
+            "monounsaturated fat": {"value": 23, "unit": "g"},
+            "cholesterol": {"value": 205, "unit": "mg"},
+            "sodium": {"value": 1630, "unit": "mg"},
+            "potassium": {"value": 730, "unit": "mg"},
+            "carbohydrates": {"value": 40, "unit": "g"},
+            "sugar": {"value": 40, "unit": "g"},
+            "vitamin A": {"value": 8, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 35, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Hamburger Patty": ["Ground Beef", "Salt"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
+        }
+    },
+    "Son of Baconator®": {
+        "description": "A quarter-pound* of fresh, never frozen beef, plenty of Applewood smoked bacon, ketchup, and mayo. Like Baconator®, like Son.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/1429_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 630},
+            "calories from fat": {"value": 350},
+            "total fat": {"value": 39, "unit": "g"},
+            "saturated fat": {"value": 15, "unit": "g"},
+            "trans fat": {"value": 1.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 3.5, "unit": "g"},
+            "monounsaturated fat": {"value": 13, "unit": "g"},
+            "cholesterol": {"value": 125, "unit": "mg"},
+            "sodium": {"value": 1280, "unit": "mg"},
+            "potassium": {"value": 440, "unit": "mg"},
+            "carbohydrates": {"value": 37, "unit": "g"},
+            "sugar": {"value": 7, "unit": "g"},
+            "vitamin A": {"value": 8, "unit": "%DV"},
+            "vitamin C": {"value": 8, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 25, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Jr. Hamburger Patty": ["Ground Beef", "Salt"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
+        }
+    },
+    "Jr. Bacon Cheeseburger": {
+        "description": "Fresh, never frozen beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, and mayo. It’s a favorite of bacon lovers everywhere.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/5_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 380},
+            "calories from fat": {"value": 200},
+            "total fat": {"value": 22, "unit": "g"},
+            "saturated fat": {"value": 8, "unit": "g"},
+            "trans fat": {"value": 1, "unit": "g"},
+            "polyunsaturated fat": {"value": 2, "unit": "g"},
+            "monounsaturated fat": {"value": 6, "unit": "g"},
+            "cholesterol": {"value": 65, "unit": "mg"},
+            "sodium": {"value": 680, "unit": "mg"},
+            "potassium": {"value": 300, "unit": "mg"},
+            "carbohydrates": {"value": 25, "unit": "g"},
+            "sugar": {"value": 5, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 10, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Tomato": ["Tomato"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
+
+        }
+    },
+    "Jr. Cheeseburger Deluxe": {
+        "description": "Fresh, never frozen beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It’s big flavor at a junior price.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/6_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 340},
+            "calories from fat": {"value": 170},
+            "total fat": {"value": 19, "unit": "g"},
+            "saturated fat": {"value": 7, "unit": "g"},
+            "trans fat": {"value": 1, "unit": "g"},
+            "polyunsaturated fat": {"value": 1, "unit": "g"},
+            "monounsaturated fat": {"value": 4.5, "unit": "g"},
+            "cholesterol": {"value": 55, "unit": "mg"},
+            "sodium": {"value": 660, "unit": "mg"},
+            "potassium": {"value": 280, "unit": "mg"},
+            "carbohydrates": {"value": 27, "unit": "g"},
+            "sugar": {"value": 7, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 6, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Sweet Onion": ["Onion"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Tomato": ["Tomato"],
+            "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    },
+    "Jr. Cheeseburger": {
+        "description": "Fresh, never frozen beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It’s big flavor at a junior price.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/6_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 280},
+            "calories from fat": {"value": 120},
+            "total fat": {"value": 13, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 1, "unit": "g"},
+            "polyunsaturated fat": {"value": 1, "unit": "g"},
+            "monounsaturated fat": {"value": 4.5, "unit": "g"},
+            "cholesterol": {"value": 50, "unit": "mg"},
+            "sodium": {"value": 660, "unit": "mg"},
+            "potassium": {"value": 210, "unit": "mg"},
+            "carbohydrates": {"value": 26, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 4, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mustard": ["Water", "Distilled Vinegar", "Mustard Seed", "Salt", "Turmeric (color)", "Paprika", "Spice"],
+            "Sweet Onion": ["Onion"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    },
+    "Double Stack™": {
+        "description": "Two patties of fresh, never frozen beef with cheese, ketchup, mustard, pickle, and onion. It’s double the fresh beef, stacked with deliciousness.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/128_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 390},
+            "calories from fat": {"value": 190},
+            "total fat": {"value": 21, "unit": "g"},
+            "saturated fat": {"value": 9, "unit": "g"},
+            "trans fat": {"value": 1.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 1.5, "unit": "g"},
+            "monounsaturated fat": {"value": 8, "unit": "g"},
+            "cholesterol": {"value": 90, "unit": "mg"},
+            "sodium": {"value": 740, "unit": "mg"},
+            "potassium": {"value": 320, "unit": "mg"},
+            "carbohydrates": {"value": 26, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 4, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 20, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+            "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mustard": ["Water", "Distilled Vinegar", "Mustard Seed", "Salt", "Turmeric (color)", "Paprika", "Spice"],
+            "Sweet Onion": ["Onion"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    },
+    "Jr. Hamburger": {
+        "description": "Fresh, never frozen beef topped with pickles, onion, ketchup, and mustard on a toasted bun. It’s done just right, and just the right size.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/78_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 240},
+            "calories from fat": {"value": 90},
+            "total fat": {"value": 10, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 1, "unit": "g"},
+            "polyunsaturated fat": {"value": 1, "unit": "g"},
+            "monounsaturated fat": {"value": 3.5, "unit": "g"},
+            "cholesterol": {"value": 40, "unit": "mg"},
+            "sodium": {"value": 470, "unit": "mg"},
+            "potassium": {"value": 190, "unit": "mg"},
+            "carbohydrates": {"value": 25, "unit": "g"},
+            "sugar": {"value": 5, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 4, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "wheat"
+        ],
+        "may contain": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+            "Ketchup": ["Tomato Concentrate From Red Ripe Tomatoes", "Distilled Vinegar", "High Fructose Corn Syrup", "Corn Syrup", "Salt", "Spice", "Onion Powder", "Natural Flavoring"],
+            "Mustard": ["Water", "Distilled Vinegar", "Mustard Seed", "Salt", "Turmeric (color)", "Paprika", "Spice"],
+            "Sweet Onion": ["Onion"],
+            "Crinkle Cut Pickles": ["Cucumbers", "Water", "Salt", "Vinegar", "Lactic Acid", "Sodium Benzoate (Preservative)", "Natural Flavors", "Polysorbate 80", "Turmeric (Color)"],
+            "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
+        }
+    }
+}

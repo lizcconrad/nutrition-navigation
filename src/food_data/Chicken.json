@@ -1,0 +1,653 @@
+{ 
+    "Spicy Chicken Sandwich": {
+        "description": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, cooled down with crisp lettuce, tomato, and mayo. It’s the original spicy chicken sandwich, and the one you crave.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/119_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 510},
+            "calories from fat": {"value": 180},
+            "total fat": {"value": 20, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 7, "unit": "g"},
+            "monounsaturated fat": {"value": 3.5, "unit": "g"},
+            "cholesterol": {"value": 65, "unit": "mg"},
+            "sodium": {"value": 1030, "unit": "mg"},
+            "potassium": {"value": 490, "unit": "mg"},
+            "carbohydrates": {"value": 54, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 6, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "wheat"
+        ],
+        "may contain": [
+            "soy", "milk", "fish"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Tomato": ["Tomato"],
+            "Spicy Chicken Breast": ["Chicken Breast", "Seasoning [Salt, Spice, Sodium Phosphate (Sodium Tripolyphosphate, Sodium Polyphosphates), Modified Corn Starch, Paprika, Spice Extractives, Extractives Of Paprika, And Extractives Of Turmeric]", 
+                "Wheat Flour", "Water", "Modified Corn Starch", "Salt", "Lentil Flour", "Wheat Gluten", "Spice", "Gum Arabic", "Yellow Corn Flour", "Spice Extractives", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "Homestyle Chicken Sandwich": {
+        "description": "A juicy, lightly-breaded chicken breast, crisp lettuce and tomato, and just enough mayo, all on a toasted bun. It’s extra comfy comfort food.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/118_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 510},
+            "calories from fat": {"value": 200},
+            "total fat": {"value": 22, "unit": "g"},
+            "saturated fat": {"value": 4, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 8, "unit": "g"},
+            "monounsaturated fat": {"value": 3.5, "unit": "g"},
+            "cholesterol": {"value": 75, "unit": "mg"},
+            "sodium": {"value": 1050, "unit": "mg"},
+            "potassium": {"value": 460, "unit": "mg"},
+            "carbohydrates": {"value": 51, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 6, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 6, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "wheat"
+        ],
+        "may contain": [
+            "soy", "milk", "fish"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Tomato": ["Tomato"],
+            "Homestyle Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Autolyzed Yeast Extract, Natural Flavors, Sugar, Flavor, Chicken, Corn Syrup Solids, Maltodextrin, Gum Arabic, Silicon Dioxide, Lactic Acid, Sunflower Oil, Canola Oil, Dextrose, Spice, Medium Chain Triglycerides, Grill Flavor [From Canola Oil], Citric Acid)", 
+                "Modified Food Starch", "Sodium Phosphates", "Wheat Flour", "Water", "Sugar", "Salt", "Modified Corn Starch", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Spice", "Onion Powder", "Garlic Powder", "Autolyzed Yeast Extract", "Natural Flavor", 
+                "Lactic Acid", "Extractives Of Turmeric", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "Asiago Ranch Chicken Club": {
+        "description": "A juicy, lightly breaded chicken breast taken over the top with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. A club favorite that’s anything but boring.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/81_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 670},
+            "calories from fat": {"value": 310},
+            "total fat": {"value": 34, "unit": "g"},
+            "saturated fat": {"value": 9, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 14, "unit": "g"},
+            "monounsaturated fat": {"value": 10, "unit": "g"},
+            "cholesterol": {"value": 105, "unit": "mg"},
+            "sodium": {"value": 1550, "unit": "mg"},
+            "potassium": {"value": 560, "unit": "mg"},
+            "carbohydrates": {"value": 53, "unit": "g"},
+            "sugar": {"value": 7, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 20, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "wheat"
+        ],
+        "may contain": [
+            "soy", "fish"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Asiago Cheese": ["Pasteruized Milk", "Cheese Culture", "Salt", "Enzymes"],
+            "Ranch Sauce": ["Soybean Oil", "Buttermilk", "Water", "Distilled Vinegar", "Egg Yolk", "Asiago Cheese (Part Skim Milk Cheese Cultures, Salt, Enzymes)",
+                 "Sugar", "Granular", "Swiss And Parmesan Cheese (Milk, Cheese Cultures, Salt, Enzymes)", "Garlic Including Dehydrated", 
+                 "Seasoning (Salt, Dehydrated Garlic And Onion, Sour Cream Solids (Cream, Non Fat Milk, Cultures), Buttermilk Solids, Sugar, Spice, Whey Solids, Lactic And Citric Acids, Parsley)", 
+                 "Salt", "Dehydrated Onion", "Xanthan Gum", "Dehydrated Egg Whites", "Natural Flavors", "Spices", "Dry Skim Milk", "Citric Acid", "Butter (Cream, Salt)", "Whey", "Lactic Acid"],
+            "Lettuce": ["Lettuce"],
+            "Tomato": ["Tomato"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Homestyle Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Autolyzed Yeast Extract, Natural Flavors, Sugar, Flavor, Chicken, Corn Syrup Solids, Maltodextrin, Gum Arabic, Silicon Dioxide, Lactic Acid, Sunflower Oil, Canola Oil, Dextrose, Spice, Medium Chain Triglycerides, Grill Flavor [From Canola Oil], Citric Acid)", 
+                "Modified Food Starch", "Sodium Phosphates", "Wheat Flour", "Water", "Sugar", "Salt", "Modified Corn Starch", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Spice", "Onion Powder", "Garlic Powder", "Autolyzed Yeast Extract", "Natural Flavor", 
+                "Lactic Acid", "Extractives Of Turmeric", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "Spicy Asiago Ranch Chicken Club": {
+        "description": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, topped with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. So hot you’ll wanna give your mouth a heads up.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2230_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 670},
+            "calories from fat": {"value": 290},
+            "total fat": {"value": 32, "unit": "g"},
+            "saturated fat": {"value": 9, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 12, "unit": "g"},
+            "monounsaturated fat": {"value": 9, "unit": "g"},
+            "cholesterol": {"value": 100, "unit": "mg"},
+            "sodium": {"value": 1530, "unit": "mg"},
+            "potassium": {"value": 580, "unit": "mg"},
+            "carbohydrates": {"value": 55, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 20, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "wheat"
+        ],
+        "may contain": [
+            "soy", "fish"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Asiago Cheese": ["Pasteruized Milk", "Cheese Culture", "Salt", "Enzymes"],
+            "Ranch Sauce": ["Soybean Oil", "Buttermilk", "Water", "Distilled Vinegar", "Egg Yolk", "Asiago Cheese (Part Skim Milk Cheese Cultures, Salt, Enzymes)",
+                 "Sugar", "Granular", "Swiss And Parmesan Cheese (Milk, Cheese Cultures, Salt, Enzymes)", "Garlic Including Dehydrated", 
+                 "Seasoning (Salt, Dehydrated Garlic And Onion, Sour Cream Solids (Cream, Non Fat Milk, Cultures), Buttermilk Solids, Sugar, Spice, Whey Solids, Lactic And Citric Acids, Parsley)", 
+                 "Salt", "Dehydrated Onion", "Xanthan Gum", "Dehydrated Egg Whites", "Natural Flavors", "Spices", "Dry Skim Milk", "Citric Acid", "Butter (Cream, Salt)", "Whey", "Lactic Acid"],
+            "Lettuce": ["Lettuce"],
+            "Tomato": ["Tomato"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Spicy Chicken Breast": ["Chicken Breast", "Seasoning [Salt, Spice, Sodium Phosphate (Sodium Tripolyphosphate, Sodium Polyphosphates), Modified Corn Starch, Paprika, Spice Extractives, Extractives Of Paprika, And Extractives Of Turmeric]", 
+                "Wheat Flour", "Water", "Modified Corn Starch", "Salt", "Lentil Flour", "Wheat Gluten", "Spice", "Gum Arabic", "Yellow Corn Flour", "Spice Extractives", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "Grilled Asiago Ranch Chicken Club": {
+        "description": "A sizzling chicken breast grilled to perfection, with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. Go grilled. Go home happy.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2224_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 530},
+            "calories from fat": {"value": 210},
+            "total fat": {"value": 23, "unit": "g"},
+            "saturated fat": {"value": 7, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 8, "unit": "g"},
+            "monounsaturated fat": {"value": 7, "unit": "g"},
+            "cholesterol": {"value": 120, "unit": "mg"},
+            "sodium": {"value": 1220, "unit": "mg"},
+            "potassium": {"value": 540, "unit": "mg"},
+            "carbohydrates": {"value": 36, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Asiago Cheese": ["Pasteruized Milk", "Cheese Culture", "Salt", "Enzymes"],
+            "Ranch Sauce": ["Soybean Oil", "Buttermilk", "Water", "Distilled Vinegar", "Egg Yolk", "Asiago Cheese (Part Skim Milk Cheese Cultures, Salt, Enzymes)",
+                 "Sugar", "Granular", "Swiss And Parmesan Cheese (Milk, Cheese Cultures, Salt, Enzymes)", "Garlic Including Dehydrated", 
+                 "Seasoning (Salt, Dehydrated Garlic And Onion, Sour Cream Solids (Cream, Non Fat Milk, Cultures), Buttermilk Solids, Sugar, Spice, Whey Solids, Lactic And Citric Acids, Parsley)", 
+                 "Salt", "Dehydrated Onion", "Xanthan Gum", "Dehydrated Egg Whites", "Natural Flavors", "Spices", "Dry Skim Milk", "Citric Acid", "Butter (Cream, Salt)", "Whey", "Lactic Acid"],
+            "Lettuce": ["Lettuce"],
+            "Tomato": ["Tomato"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
+        }
+    },
+    "Grilled Chicken Sandwich": {
+        "description": "Herb-marinated grilled chicken breast topped with smoky honey mustard, crisp spring mix, and tomato, served on a warm toasted bun. See if it isn’t the best chicken sandwich you’ve ever had.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2587_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 370},
+            "calories from fat": {"value": 90},
+            "total fat": {"value": 10, "unit": "g"},
+            "saturated fat": {"value": 2, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 5, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 90, "unit": "mg"},
+            "sodium": {"value": 830, "unit": "mg"},
+            "potassium": {"value": 480, "unit": "mg"},
+            "carbohydrates": {"value": 38, "unit": "g"},
+            "sugar": {"value": 8, "unit": "g"},
+            "vitamin A": {"value": 15, "unit": "%DV"},
+            "vitamin C": {"value": 6, "unit": "%DV"},
+            "calcium": {"value": 6, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "soy", "wheat"
+        ],
+        "may contain": [
+            "milk", "fish"
+        ],
+        "ingredients": {
+            "Premium Bun": ["Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", 
+                "High Fructose Corn Syrup", "Yeast", "Soybean Oil", "Salt", "Wheat Gluten", 
+                "Dough Conditioners (Calcium Sulfate, Ascorbic Acid, Sodium Stearoyl Lactylate, Monocalcium Phosphate, Mono- And Diglycerides, Enzymes, Calcium Peroxide, Ammonium Sulfate)", 
+                "Canola Or Sunflower Oil", "Vegetable Proteins (Pea, Potato, Rice)", "Dextrose", "Maltodextrins", "Corn", "Wheat And/Or Modified Food Starch", 
+                "Calcium Propionate", "Citric Acid", "Microcrystalline Cellulose"],
+            "Smoky Honey Mustard": ["Oil", "Dijon Mustard (Water, Vinegar, Mustard Seed, Salt, White Wine, Fruit Pectin, Tartaric Acid, Citric Acid, Sugar, Spice)", 
+                "Water", "Sugar", "Honey", "Tomato Paste", "Brown Sugar", "Apple Cider Vinegar", "Egg Yolk", "Distilled Vinegar", "Salt", "Mustard Seed", "Corn Syrup", 
+                "Dehydrated Garlic", "Natural Smoke Flavor", "Xanthan Gum", "Dehydrated Onion", "Oleoresin Rosemary", "Soy Lecithin", "Natural Flavor", "Spice", "Tamarind",
+                "Oleoresin Turmeric"],
+            "Spring Mix": ["Baby Lettuces (Red & Green Romaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango)", "Spinach", "Mizuna", "Arugula", "Tatsoi", "Red Chard", "Green Chard"],
+            "Tomato": ["Tomato"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
+        }
+    },
+    "10PC Crispy Chicken Nuggets": {
+
+        "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/248_large_US_en.jpg",
+        "size": "10 piece",
+        "metrics": {
+            "calories": {"value": 420},
+            "calories from fat": {"value": 240},
+            "total fat": {"value": 27, "unit": "g"},
+            "saturated fat": {"value": 5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 11, "unit": "g"},
+            "monounsaturated fat": {"value": 8, "unit": "g"},
+            "cholesterol": {"value": 80, "unit": "mg"},
+            "sodium": {"value": 850, "unit": "mg"},
+            "potassium": {"value": 290, "unit": "mg"},
+            "carbohydrates": {"value": 24, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 2, "unit": "%DV"},
+            "vitamin C": {"value": 6, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 4, "unit": "%DV"}
+        },
+        "allergens": [
+            "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Chicken Nugget": ["Chicken Breast With Rib Meat", "Water", "Sodium Phosphates", "Salt", "Wheat Flour", "Bleached Wheat Flour", "Modified Corn Starch", "Spices",
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate)", "Dextrose", "Yellow Corn Flour", "Garlic Powder",
+                "Citric Acid", "Yeast", "Spice Extractives", "Xanthan Gum", "Soybean Or Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "6PC Crispy Chicken Nuggets": {
+        "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/33_large_US_en.jpg",
+        "size": "6 piece",
+        "metrics": {
+            "calories": {"value": 250},
+            "calories from fat": {"value": 140},
+            "total fat": {"value": 16, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 7, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 50, "unit": "mg"},
+            "sodium": {"value": 510, "unit": "mg"},
+            "potassium": {"value": 170, "unit": "mg"},
+            "carbohydrates": {"value": 14, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 4, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 2, "unit": "%DV"}
+        },
+        "allergens": [
+            "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Chicken Nugget": ["Chicken Breast With Rib Meat", "Water", "Sodium Phosphates", "Salt", "Wheat Flour", "Bleached Wheat Flour", "Modified Corn Starch", "Spices",
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate)", "Dextrose", "Yellow Corn Flour", "Garlic Powder",
+                "Citric Acid", "Yeast", "Spice Extractives", "Xanthan Gum", "Soybean Or Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "4PC Crispy Chicken Nuggets": {
+        "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/35_large_US_en.jpg",
+        "size": "4 piece",
+        "metrics": {
+            "calories": {"value": 170},
+            "calories from fat": {"value": 100},
+            "total fat": {"value": 11, "unit": "g"},
+            "saturated fat": {"value": 2, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 4.5, "unit": "g"},
+            "monounsaturated fat": {"value": 3.5, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 340, "unit": "mg"},
+            "potassium": {"value": 115, "unit": "mg"},
+            "carbohydrates": {"value": 10, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 2, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 0, "unit": "%DV"}
+        },
+        "allergens": [
+            "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Chicken Nugget": ["Chicken Breast With Rib Meat", "Water", "Sodium Phosphates", "Salt", "Wheat Flour", "Bleached Wheat Flour", "Modified Corn Starch", "Spices",
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate)", "Dextrose", "Yellow Corn Flour", "Garlic Powder",
+                "Citric Acid", "Yeast", "Spice Extractives", "Xanthan Gum", "Soybean Or Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "6PC Chicken Tenders": {
+        "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2588_large_US_en.jpg",
+        "size": "6 piece",
+        "metrics": {
+            "calories": {"value": 650},
+            "calories from fat": {"value": 290},
+            "total fat": {"value": 32, "unit": "g"},
+            "saturated fat": {"value": 5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 15, "unit": "g"},
+            "monounsaturated fat": {"value": 8, "unit": "g"},
+            "cholesterol": {"value": 150, "unit": "mg"},
+            "sodium": {"value": 2020, "unit": "mg"},
+            "potassium": {"value": 970, "unit": "mg"},
+            "carbohydrates": {"value": 43, "unit": "g"},
+            "sugar": {"value": 1, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 8, "unit": "%DV"},
+            "calcium": {"value": 2, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Chicken Tender": ["Chicken Breast Tenders With Rib Meat", "Water", "Food Starch", "Seasoning [Yeast Extract, Citrus Extract (Lemon, Lime and Orange)]", "Salt",
+             "Wheat Flour", "Water", "Salt", "Rice Flour", "Modified Corn Starch", "Sugar", "Spices", "Leavening (Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Sodium Bicarbonate)", 
+             "Dextrose", "Onion Powder", "Garlic Powder", "Chicken Broth", "Yeast Extract", "Natural Flavor", "Extractives of Paprika", "Vegetable Oil", 
+             "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "4PC Chicken Tenders": {
+        "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2580_large_US_en.jpg",
+        "size": "4 piece",
+        "metrics": {
+            "calories": {"value": 430},
+            "calories from fat": {"value": 190},
+            "total fat": {"value": 21, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 10, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 100, "unit": "mg"},
+            "sodium": {"value": 1350, "unit": "mg"},
+            "potassium": {"value": 640, "unit": "mg"},
+            "carbohydrates": {"value": 29, "unit": "g"},
+            "sugar": {"value": 1, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 6, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 8, "unit": "%DV"}
+        },
+        "allergens": [
+            "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Chicken Tender": ["Chicken Breast Tenders With Rib Meat", "Water", "Food Starch", "Seasoning [Yeast Extract, Citrus Extract (Lemon, Lime and Orange)]", "Salt",
+             "Wheat Flour", "Water", "Salt", "Rice Flour", "Modified Corn Starch", "Sugar", "Spices", "Leavening (Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Sodium Bicarbonate)", 
+             "Dextrose", "Onion Powder", "Garlic Powder", "Chicken Broth", "Yeast Extract", "Natural Flavor", "Extractives of Paprika", "Vegetable Oil", 
+             "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "3PC Chicken Tenders": {
+        "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2579_large_US_en.jpg",
+        "size": "6 piece",
+        "metrics": {
+            "calories": {"value": 330},
+            "calories from fat": {"value": 140},
+            "total fat": {"value": 16, "unit": "g"},
+            "saturated fat": {"value": 2.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 8, "unit": "g"},
+            "monounsaturated fat": {"value": 4, "unit": "g"},
+            "cholesterol": {"value": 75, "unit": "mg"},
+            "sodium": {"value": 1010, "unit": "mg"},
+            "potassium": {"value": 480, "unit": "mg"},
+            "carbohydrates": {"value": 22, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 4, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Chicken Tender": ["Chicken Breast Tenders With Rib Meat", "Water", "Food Starch", "Seasoning [Yeast Extract, Citrus Extract (Lemon, Lime and Orange)]", "Salt",
+             "Wheat Flour", "Water", "Salt", "Rice Flour", "Modified Corn Starch", "Sugar", "Spices", "Leavening (Sodium Acid Pyrophosphate, Sodium Aluminum Phosphate, Sodium Bicarbonate)", 
+             "Dextrose", "Onion Powder", "Garlic Powder", "Chicken Broth", "Yeast Extract", "Natural Flavor", "Extractives of Paprika", "Vegetable Oil", 
+             "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+        }
+    },
+    "Crispy Chicken BLT": {
+        "description": "Juicy white meat, lightly breaded and seasoned, topped with Applewood smoked bacon, crisp lettuce, tomato, cheese, and mayo. A classic taste, perfectly reinvented.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2198_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 420},
+            "calories from fat": {"value": 210},
+            "total fat": {"value": 23, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 6, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 50, "unit": "mg"},
+            "sodium": {"value": 950, "unit": "mg"},
+            "potassium": {"value": 310, "unit": "mg"},
+            "carbohydrates": {"value": 35, "unit": "g"},
+            "sugar": {"value": 5, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 10, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+                "American Cheese": ["Milk", "Water", "Citric Acid", "APO Carotenal and Beta Carotene (Color)", "Cream", "Cheese Culture", "Enzymes", "Salt", 
+                    "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"],
+                "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+                "Lettuce": ["Lettuce"],
+                "Tomato": ["Tomato"],
+                "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+                "Crispy Chicken Patty": ["Chicken Breast With Rib Meat", "Water", "Salt", "Sodium Phosphates", "Wheat Flour", "Bleached Wheat Flour", "Rice Flour", 
+                    "Modified Corn Starch", "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate)", "Spices", 
+                    "Garlic Powder", "Onion Powder", "Yeast", "Spice Extractives", "Extractives Of Paprika", "Extractives Of Celery", "Vegetable Oil", 
+                    "Vegetable Oil (Soybean, Canola, Corn Or Cottonseed), Hydrogenated Soybean Oil And Dimethylpolysiloxane (Anti-Foaming Agent)"]
+        }
+    },
+    "Crispy Chicken Sandwich": {
+        "description": "Juicy white meat, lightly breaded and seasoned, topped with crisp lettuce, tomato and mayo. More than delicious, and just the right size.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/267_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 330},
+            "calories from fat": {"value": 140},
+            "total fat": {"value": 16, "unit": "g"},
+            "saturated fat": {"value": 3, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 5, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 30, "unit": "mg"},
+            "sodium": {"value": 600, "unit": "mg"},
+            "potassium": {"value": 190, "unit": "mg"},
+            "carbohydrates": {"value": 33, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 2, "unit": "%DV"},
+            "calcium": {"value": 4, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Sandwich Bun": ["Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thimain Mononitrate, Riboflavin, Folic Acid)", "Water", "High Fructose Corn Syrup", 
+                "Yeast", "Soybean Oil", "Salt (May Contain Yellow Prussiate Of Soda For Anticaking)", "Wheat Gluten", 
+                "Dough Conditioners (Wheat Or Corn Starch, Calcium Sulfate, Ascorbic Acid, Datem, Mono- And Di-Glycerides (May Be Ethoxylated), Calcium Peroxide, Sodium Stearoyl Lactylate, Calcium Stearoyl Lactylate, Calcium Iodate, Enzymes (Sorbitol, Microcrystalline Cellulose))", 
+                "Whole Grain Corn Flour", "Annatto And Turmeric Extracts (Impart Color)", "Calcium Propionate", "Citric Acid", 
+                "Yeast Food (Calcium Carbonate, Ammonium Sulfate, Monocalcium Phosphate)"],
+            "Mayonnaise": ["Soybean Oil", "Water", "Egg Yolks", "Corn Syrup", "Distilled Vinegar", "Salt", "Mustard Seed", "Calcium Disodium Edta (To Protect Flavor)"],
+            "Lettuce": ["Lettuce"],
+            "Crispy Chicken Patty": ["Chicken Breast With Rib Meat", "Water", "Salt", "Sodium Phosphates", "Wheat Flour", "Bleached Wheat Flour", "Rice Flour", 
+                "Modified Corn Starch", "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate, Sodium Aluminum Phosphate)", "Spices", 
+                "Garlic Powder", "Onion Powder", "Yeast", "Spice Extractives", "Extractives Of Paprika", "Extractives Of Celery", "Vegetable Oil", 
+                "Vegetable Oil (Soybean, Canola, Corn Or Cottonseed), Hydrogenated Soybean Oil And Dimethylpolysiloxane (Anti-Foaming Agent)"]
+        }
+    },
+    "Grilled Chicken Wrap": {
+        "description": "Herb-marinated grilled chicken breast wrapped in a flour tortilla with crisp spring mix, shredded cheddar cheese, and smoky honey mustard. It’s a handful of flavor.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/299_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 270},
+            "calories from fat": {"value": 90},
+            "total fat": {"value": 10, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 3.5, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 55, "unit": "mg"},
+            "sodium": {"value": 640, "unit": "mg"},
+            "potassium": {"value": 230, "unit": "mg"},
+            "carbohydrates": {"value": 24, "unit": "g"},
+            "sugar": {"value": 3, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Tortilla": ["Bleached Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", "Soybean Oil", 
+                "Hydrogenated Vegetable Oil (Contains One Of More Of The Following: Cottonseed Oil, Soybean Oil) With Mono - And Diglycerides And/Or Citric Acid", 
+                "Potato Starch With Monoglycerides", "Leavening (Sodium Bicarbonate, Sodium Acid Pyrophosphate, Corn Starch, Monocalcium Phosphate)", "Salt", "Vital Wheat Gluten", 
+                "Calcium Propionate (Preservative)", "Fumaric Acid", "L-Cysteine (Dough Conditioner)"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Smoky Honey Mustard": ["Oil", "Dijon Mustard (Water, Vinegar, Mustard Seed, Salt, White Wine, Fruit Pectin, Tartaric Acid, Citric Acid, Sugar, Spice)", 
+                "Water", "Sugar", "Honey", "Tomato Paste", "Brown Sugar", "Apple Cider Vinegar", "Egg Yolk", "Distilled Vinegar", "Salt", "Mustard Seed", "Corn Syrup", 
+                "Dehydrated Garlic", "Natural Smoke Flavor", "Xanthan Gum", "Dehydrated Onion", "Oleoresin Rosemary", "Soy Lecithin", "Natural Flavor", "Spice", "Tamarind",
+                "Oleoresin Turmeric"],
+            "Icerberg/Romaine Lettuce Blend": ["Iceburg Lettuce", "Romaince Lettuce"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
+        }
+    },
+    "Spicy Chicken Wrap": {
+        "description": "Juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, wrapped in a tortilla with crisp lettuce, shredded cheddar cheese, and ranch sauce. It’s a whole handful of hot.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/301_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 370},
+            "calories from fat": {"value": 180},
+            "total fat": {"value": 20, "unit": "g"},
+            "saturated fat": {"value": 5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 9, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 50, "unit": "mg"},
+            "sodium": {"value": 850, "unit": "mg"},
+            "potassium": {"value": 250, "unit": "mg"},
+            "carbohydrates": {"value": 30, "unit": "g"},
+            "sugar": {"value": 2, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "wheat"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Tortilla": ["Bleached Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Water", "Soybean Oil", 
+                "Hydrogenated Vegetable Oil (Contains One Of More Of The Following: Cottonseed Oil, Soybean Oil) With Mono - And Diglycerides And/Or Citric Acid", 
+                "Potato Starch With Monoglycerides", "Leavening (Sodium Bicarbonate, Sodium Acid Pyrophosphate, Corn Starch, Monocalcium Phosphate)", "Salt", "Vital Wheat Gluten", 
+                "Calcium Propionate (Preservative)", "Fumaric Acid", "L-Cysteine (Dough Conditioner)"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Ranch Sauce": ["Soybean Oil", "Buttermilk", "Water", "Distilled Vinegar", "Egg Yolk", "Asiago Cheese (Part Skim Milk Cheese Cultures, Salt, Enzymes)",
+                "Sugar", "Granular", "Swiss And Parmesan Cheese (Milk, Cheese Cultures, Salt, Enzymes)", "Garlic Including Dehydrated", 
+                "Seasoning (Salt, Dehydrated Garlic And Onion, Sour Cream Solids (Cream, Non Fat Milk, Cultures), Buttermilk Solids, Sugar, Spice, Whey Solids, Lactic And Citric Acids, Parsley)", 
+                "Salt", "Dehydrated Onion", "Xanthan Gum", "Dehydrated Egg Whites", "Natural Flavors", "Spices", "Dry Skim Milk", "Citric Acid", "Butter (Cream, Salt)", "Whey", "Lactic Acid"],
+            "Icerberg/Romaine Lettuce Blend": ["Iceburg Lettuce", "Romaince Lettuce"],
+            "Spicy Chicken Breast": ["Chicken Breast", "Seasoning [Salt, Spice, Sodium Phosphate (Sodium Tripolyphosphate, Sodium Polyphosphates), Modified Corn Starch, Paprika, Spice Extractives, Extractives Of Paprika, And Extractives Of Turmeric]", 
+                "Wheat Flour", "Water", "Modified Corn Starch", "Salt", "Lentil Flour", "Wheat Gluten", "Spice", "Gum Arabic", "Yellow Corn Flour", "Spice Extractives", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
+
+        }
+    }
+}
