@@ -1,0 +1,266 @@
+{ 
+    "Junior Classic Chocolate Frosty®": {
+        "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/37_large_US_en.jpg",
+        "size": "Junior",
+        "flavor": "Chocolate Frosty®",
+        "metrics": {
+            "calories": {"value": 200},
+            "calories from fat": {"value": 45},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 5, "unit": "g"},
+            "total fat": {"value": 5, "unit": "g"},
+            "saturated fat": {"value": 3, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 1, "unit": "g"},
+            "cholesterol": {"value": 20, "unit": "mg"},
+            "sodium": {"value": 90, "unit": "mg"},
+            "potassium": {"value": 360, "unit": "mg"},
+            "carbohydrates": {"value": 33, "unit": "g"},
+            "sugar": {"value": 27, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Chocolate Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Whey", "Nonfat Dry Milk", "Cocoa (Processed with Alkali)", "Guar Gum", "Mono and Diglycerides", 
+                "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
+        }
+    },
+    "Small Classic Chocolate Frosty®": {
+        "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/38_large_US_en.jpg",
+        "size": "Small",
+        "flavor": "Chocolate Frosty®",
+        "metrics": {
+            "calories": {"value": 350},
+            "calories from fat": {"value": 80},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 10, "unit": "g"},
+            "total fat": {"value": 9, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 2, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 150, "unit": "mg"},
+            "potassium": {"value": 610, "unit": "mg"},
+            "carbohydrates": {"value": 58, "unit": "g"},
+            "sugar": {"value": 47, "unit": "g"},
+            "vitamin A": {"value": 20, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 35, "unit": "%DV"},
+            "iron": {"value": 8, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Chocolate Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Whey", "Nonfat Dry Milk", "Cocoa (Processed with Alkali)", "Guar Gum", "Mono and Diglycerides", 
+                "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
+        }
+    },
+    "Medium Classic Chocolate Frosty®": {
+        "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/38_large_US_en.jpg",
+        "size": "Medium",
+        "flavor": "Chocolate Frosty®",
+        "metrics": {
+            "calories": {"value": 470},
+            "calories from fat": {"value": 110},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 13, "unit": "g"},
+            "total fat": {"value": 12, "unit": "g"},
+            "saturated fat": {"value": 8, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 2.5, "unit": "g"},
+            "cholesterol": {"value": 50, "unit": "mg"},
+            "sodium": {"value": 210, "unit": "mg"},
+            "potassium": {"value": 840, "unit": "mg"},
+            "carbohydrates": {"value": 79, "unit": "g"},
+            "sugar": {"value": 65, "unit": "g"},
+            "vitamin A": {"value": 25, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 45, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Chocolate Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Whey", "Nonfat Dry Milk", "Cocoa (Processed with Alkali)", "Guar Gum", "Mono and Diglycerides", 
+                "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
+        }
+    },
+    "Large Classic Chocolate Frosty®": {
+        "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/40_large_US_en.jpg",
+        "size": "Large",
+        "flavor": "Chocolate Frosty®",
+        "metrics": {
+            "calories": {"value": 590},
+            "calories from fat": {"value": 130},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 17, "unit": "g"},
+            "total fat": {"value": 15, "unit": "g"},
+            "saturated fat": {"value": 10, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 3.5, "unit": "g"},
+            "cholesterol": {"value": 60, "unit": "mg"},
+            "sodium": {"value": 260, "unit": "mg"},
+            "potassium": {"value": 1060, "unit": "mg"},
+            "carbohydrates": {"value": 99, "unit": "g"},
+            "sugar": {"value": 81, "unit": "g"},
+            "vitamin A": {"value": 30, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 60, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Chocolate Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Whey", "Nonfat Dry Milk", "Cocoa (Processed with Alkali)", "Guar Gum", "Mono and Diglycerides", 
+                "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
+        }
+    },
+    "Junior Vanilla Frosty®": {
+        "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/276_large_US_en.jpg",
+        "size": "Junior",
+        "flavor": "Vanilla Frosty®",
+        "metrics": {
+            "calories": {"value": 190},
+            "calories from fat": {"value": 45},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 5, "unit": "g"},
+            "total fat": {"value": 5, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 1, "unit": "g"},
+            "cholesterol": {"value": 25, "unit": "mg"},
+            "sodium": {"value": 90, "unit": "mg"},
+            "potassium": {"value": 310, "unit": "mg"},
+            "carbohydrates": {"value": 32, "unit": "g"},
+            "sugar": {"value": 27, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 0, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Vanilla Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Nonfat Dry Milk", "Whey", "Guar Gum", "Mono and Diglycerides", "Cellulose Gum", "Carrageenan", "Calcium Sulfate",
+                "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
+        }
+    },
+    "Small Vanilla Frosty®": {
+        "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/279_large_US_en.jpg",
+        "size": "Small",
+        "flavor": "Vanilla Frosty®",
+        "metrics": {
+            "calories": {"value": 340},
+            "calories from fat": {"value": 80},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 9, "unit": "g"},
+            "total fat": {"value": 9, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 2, "unit": "g"},
+            "cholesterol": {"value": 45, "unit": "mg"},
+            "sodium": {"value": 160, "unit": "mg"},
+            "potassium": {"value": 540, "unit": "mg"},
+            "carbohydrates": {"value": 56, "unit": "g"},
+            "sugar": {"value": 47, "unit": "g"},
+            "vitamin A": {"value": 15, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 35, "unit": "%DV"},
+            "iron": {"value": 0, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Vanilla Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Nonfat Dry Milk", "Whey", "Guar Gum", "Mono and Diglycerides", "Cellulose Gum", "Carrageenan", "Calcium Sulfate",
+                "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
+        }
+    },
+    "Medium Vanilla Frosty®": {
+        "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/278_large_US_en.jpg",
+        "size": "Medium",
+        "flavor": "Vanilla Frosty®",
+        "metrics": {
+            "calories": {"value": 450},
+            "calories from fat": {"value": 110},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 12, "unit": "g"},
+            "total fat": {"value": 8, "unit": "g"},
+            "saturated fat": {"value": 0.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 2.5, "unit": "g"},
+            "cholesterol": {"value": 55, "unit": "mg"},
+            "sodium": {"value": 210, "unit": "mg"},
+            "potassium": {"value": 730, "unit": "mg"},
+            "carbohydrates": {"value": 75, "unit": "g"},
+            "sugar": {"value": 63, "unit": "g"},
+            "vitamin A": {"value": 25, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 45, "unit": "%DV"},
+            "iron": {"value": 0, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Vanilla Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Nonfat Dry Milk", "Whey", "Guar Gum", "Mono and Diglycerides", "Cellulose Gum", "Carrageenan", "Calcium Sulfate",
+                "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
+        }
+    },
+    "Large Vanilla Frosty®": {
+        "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/277_large_US_en.jpg",
+        "size": "Large",
+        "flavor": "Vanilla Frosty®",
+        "metrics": {
+            "calories": {"value": 570},
+            "calories from fat": {"value": 130},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 15, "unit": "g"},
+            "total fat": {"value": 15, "unit": "g"},
+            "saturated fat": {"value": 10, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 70, "unit": "mg"},
+            "sodium": {"value": 260, "unit": "mg"},
+            "potassium": {"value": 910, "unit": "mg"},
+            "carbohydrates": {"value": 94, "unit": "g"},
+            "sugar": {"value": 78, "unit": "g"},
+            "vitamin A": {"value": 30, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 60, "unit": "%DV"},
+            "iron": {"value": 0, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Vanilla Frosty®": ["Milk", "Sugar", "Corn Syrup", "Cream", "Nonfat Dry Milk", "Whey", "Guar Gum", "Mono and Diglycerides", "Cellulose Gum", "Carrageenan", "Calcium Sulfate",
+                "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "Chocolate Chunk Cookie": {
+        "description": "A rich, soft, fresh-baked cookie full of semi-sweet chunks of chocolate, baked in-house. Grandma would love them.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2727_large_US_en.jpg",
+        "flavor": "Chocolate Chunk Cookie",
+        "metrics": {
+            "calories": {"value": 310},
+            "calories from fat": {"value": 140},
+            "fiber": {"value": 2, "unit": "g"},
+            "protein": {"value": 3, "unit": "g"},
+            "total fat": {"value": 16, "unit": "g"},
+            "saturated fat": {"value": 8, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 1.5, "unit": "g"},
+            "monounsaturated fat": {"value": 6, "unit": "g"},
+            "cholesterol": {"value": 20, "unit": "mg"},
+            "sodium": {"value": 210, "unit": "mg"},
+            "potassium": {"value": 90, "unit": "mg"},
+            "carbohydrates": {"value": 40, "unit": "g"},
+            "sugar": {"value": 24, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Chocolate Chunk Cookie": ["Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid)", 
+                "Sugar", "Dark Chocolate Chunks (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Vanilla Extract, Salt, Milk)", "Palm Oil", "Eggs", "Molasses", 
+                "Cultured Butter (Cream [Milk], Lactic Acid)", "Baking Soda", "Salt", "Natural Flavor"]
+        }
+    },
+    "Double Chocolate Chunk": {
+        "description": "A soft, fresh-baked chocolate cookie with chocolate chunks, baked in-house. Chocolate and chocolate, together at last.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2728_large_US_en.jpg",
+        "flavor": "Double Chocolate Chunk",
+        "metrics": {
+            "calories": {"value": 290},
+            "calories from fat": {"value": 120},
+            "fiber": {"value": 4, "unit": "g"},
+            "protein": {"value": 4, "unit": "g"},
+            "total fat": {"value": 14, "unit": "g"},
+            "saturated fat": {"value": 7, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 1, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 20, "unit": "mg"},
+            "sodium": {"value": 230, "unit": "mg"},
+            "potassium": {"value": 190, "unit": "mg"},
+            "carbohydrates": {"value": 39, "unit": "g"},
+            "sugar": {"value": 21, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy", "wheat"
+        ],
+        "ingredients": {
+            "Double Chocolate Chip Cookie": ["Whole Wheat Flour", "Sugar", "Palm Oil", "Dark Chocolate Chunks (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Vanilla Extract, Salt, Milk)", 
+                "Dark Chocolate Chips (Sugar, Unsweetened Chocolate, Cocoa Butter, Soy Lecithin, Natural Flavor, Milk)", "Eggs", "Cocoa (Processed With Alkali)", "Corn Syrup", "Water", 
+                "Butter (Cream [Milk], Salt)", "Molasses", "Salt", "Modified Corn Starch", "Baking Soda", "Natural Flavors", "Mono and Diglycerides", "Citric Acid", "Beta Carotene", 
+                "Vitamin A Palmitate"]
+        }
+    },
+    "Sugar Cookie": {
+        "description": "The traditional favorite. Soft, fresh-baked, simple, and perfect.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2726_large_US_en.jpg",
+        "flavor": "Sugar Cookie",
+        "metrics": {
+            "calories": {"value": 330},
+            "calories from fat": {"value": 140},
+            "fiber": {"value": 1, "unit": "g"},
+            "protein": {"value": 3, "unit": "g"},
+            "total fat": {"value": 16, "unit": "g"},
+            "saturated fat": {"value": 8, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 1.5, "unit": "g"},
+            "monounsaturated fat": {"value": 6, "unit": "g"},
+            "cholesterol": {"value": 25, "unit": "mg"},
+            "sodium": {"value": 300, "unit": "mg"},
+            "potassium": {"value": 30, "unit": "mg"},
+            "carbohydrates": {"value": 43, "unit": "g"},
+            "sugar": {"value": 24, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "wheat"
+        ],
+        "ingredients": {
+            "Sugar Cookie": ["Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid)", "Sugar", "Palm Oil", 
+                "Eggs", "Cultured Butter (Cream [Milk], Lactic Acid)", "Baking Soda", "Salt", "Natural Flavor", "Annatto (Color)"]
+        }
+    }
+}

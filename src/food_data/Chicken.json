@@ -5,6 +5,8 @@
         "metrics": {
             "calories": {"value": 510},
             "calories from fat": {"value": 180},
+            "fiber": {"value": 4, "unit": "g"},
+            "protein": {"value": 29, "unit": "g"},
             "total fat": {"value": 20, "unit": "g"},
             "saturated fat": {"value": 3.5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -47,6 +49,8 @@
         "metrics": {
             "calories": {"value": 510},
             "calories from fat": {"value": 200},
+            "fiber": {"value": 3, "unit": "g"},
+            "protein": {"value": 28, "unit": "g"},
             "total fat": {"value": 22, "unit": "g"},
             "saturated fat": {"value": 4, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -90,6 +94,8 @@
         "metrics": {
             "calories": {"value": 670},
             "calories from fat": {"value": 310},
+            "fiber": {"value": 3, "unit": "g"},
+            "protein": {"value": 37, "unit": "g"},
             "total fat": {"value": 34, "unit": "g"},
             "saturated fat": {"value": 9, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -138,6 +144,8 @@
         "metrics": {
             "calories": {"value": 670},
             "calories from fat": {"value": 290},
+            "fiber": {"value": 4, "unit": "g"},
+            "protein": {"value": 38, "unit": "g"},
             "total fat": {"value": 32, "unit": "g"},
             "saturated fat": {"value": 9, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -185,6 +193,8 @@
         "metrics": {
             "calories": {"value": 530},
             "calories from fat": {"value": 210},
+            "fiber": {"value": 3, "unit": "g"},
+            "protein": {"value": 43, "unit": "g"},
             "total fat": {"value": 23, "unit": "g"},
             "saturated fat": {"value": 7, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -230,6 +240,8 @@
         "metrics": {
             "calories": {"value": 370},
             "calories from fat": {"value": 90},
+            "fiber": {"value": 3, "unit": "g"},
+            "protein": {"value": 34, "unit": "g"},
             "total fat": {"value": 10, "unit": "g"},
             "saturated fat": {"value": 2, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -275,6 +287,8 @@
         "metrics": {
             "calories": {"value": 420},
             "calories from fat": {"value": 240},
+            "fiber": {"value": 1, "unit": "g"},
+            "protein": {"value": 22, "unit": "g"},
             "total fat": {"value": 27, "unit": "g"},
             "saturated fat": {"value": 5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -309,6 +323,8 @@
         "metrics": {
             "calories": {"value": 250},
             "calories from fat": {"value": 140},
+            "fiber": {"value": 1, "unit": "g"},
+            "protein": {"value": 13, "unit": "g"},
             "total fat": {"value": 16, "unit": "g"},
             "saturated fat": {"value": 3.5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -343,6 +359,8 @@
         "metrics": {
             "calories": {"value": 170},
             "calories from fat": {"value": 100},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 9, "unit": "g"},
             "total fat": {"value": 11, "unit": "g"},
             "saturated fat": {"value": 2, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -377,6 +395,8 @@
         "metrics": {
             "calories": {"value": 650},
             "calories from fat": {"value": 290},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 48, "unit": "g"},
             "total fat": {"value": 32, "unit": "g"},
             "saturated fat": {"value": 5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -412,6 +432,8 @@
         "metrics": {
             "calories": {"value": 430},
             "calories from fat": {"value": 190},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 32, "unit": "g"},
             "total fat": {"value": 21, "unit": "g"},
             "saturated fat": {"value": 3.5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -447,6 +469,8 @@
         "metrics": {
             "calories": {"value": 330},
             "calories from fat": {"value": 140},
+            "fiber": {"value": 0, "unit": "g"},
+            "protein": {"value": 24, "unit": "g"},
             "total fat": {"value": 16, "unit": "g"},
             "saturated fat": {"value": 2.5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -481,6 +505,8 @@
         "metrics": {
             "calories": {"value": 420},
             "calories from fat": {"value": 210},
+            "fiber": {"value": 2, "unit": "g"},
+            "protein": {"value": 20, "unit": "g"},
             "total fat": {"value": 23, "unit": "g"},
             "saturated fat": {"value": 6, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -526,6 +552,8 @@
         "metrics": {
             "calories": {"value": 330},
             "calories from fat": {"value": 140},
+            "fiber": {"value": 2, "unit": "g"},
+            "protein": {"value": 14, "unit": "g"},
             "total fat": {"value": 16, "unit": "g"},
             "saturated fat": {"value": 3, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -567,6 +595,8 @@
         "metrics": {
             "calories": {"value": 270},
             "calories from fat": {"value": 90},
+            "fiber": {"value": 2, "unit": "g"},
+            "protein": {"value": 20, "unit": "g"},
             "total fat": {"value": 10, "unit": "g"},
             "saturated fat": {"value": 3.5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
@@ -610,6 +640,8 @@
         "metrics": {
             "calories": {"value": 370},
             "calories from fat": {"value": 180},
+            "fiber": {"value": 2, "unit": "g"},
+            "protein": {"value": 18, "unit": "g"},
             "total fat": {"value": 20, "unit": "g"},
             "saturated fat": {"value": 5, "unit": "g"},
             "trans fat": {"value": 0, "unit": "g"},
