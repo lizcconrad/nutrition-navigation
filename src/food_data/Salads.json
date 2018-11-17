@@ -1,0 +1,493 @@
+{
+    "Harvest Chicken Salad Full": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, diced red and green apples, dried cranberries, feta cheese, brown sugar walnuts, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Apple Cider Vinaigrette. It’s one bountiful Harvest.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2704_large_US_en.jpg",
+        "size": "Full",
+        "metrics": {
+            "calories": {"value": 570},
+            "calories from fat": {"value": 210},
+            "total fat": {"value": 23, "unit": "g"},
+            "saturated fat": {"value": 7, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 9, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 115, "unit": "mg"},
+            "sodium": {"value": 1300, "unit": "mg"},
+            "potassium": {"value": 820, "unit": "mg"},
+            "carbohydrates": {"value": 47, "unit": "g"},
+            "sugar": {"value": 37, "unit": "g"},
+            "vitamin A": {"value": 90, "unit": "%DV"},
+            "vitamin C": {"value": 150, "unit": "%DV"},
+            "calcium": {"value": 25, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy", "treenut"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Salad Blend": ["Iceberg Lettuce", "Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness and Color])", 
+                "Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Potato Starch [Added to Prevent Caking])", "Romaine Lettuce", 
+                "Spring Mix (Baby Lettuces [Red and Green Romaine, Red and Green Oak, Red and Green Leaf, Lolla Rosa, Tango], Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard)", 
+                "Dried Cranberries (Cranberries, Sugar, Sunflower Oil)"],
+            "Apple Cider Vinaigrette": ["Water", "Sugar", "Apple Cider Vinegar", "Apple Juice Concentrate", "Soybean Oil", "Brown Sugar", "Balsamic Vinegar", "Shallots", "Salt", 
+                "Onion Juice", "Distilled Vinegar", "Mustard Seed", "Xanthan Gum", "Spice", "White Wine", "Natural Flavor", "Citric Acid", "Tartaric Acid"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Roasted Walnuts": ["Walnuts", "Sugar", "Honey", "Corn Starch", "Maltodextrin", "Soy Lecithin", "Brown Sugar", "Soybean Oil", "Lactose", "Xanthan Gum", "Maple Syrup", "Salt",
+                 "Natural Flavor", "Molasses"]
+
+        }
+    },
+    "Harvest Chicken Salad Half": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, diced red and green apples, dried cranberries, feta cheese, brown sugar walnuts, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Apple Cider Vinaigrette. It’s one bountiful Harvest.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2705_large_US_en.jpg",
+        "size": "Half",
+        "metrics": {
+            "calories": {"value": 320},
+            "calories from fat": {"value": 140},
+            "total fat": {"value": 15, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 7, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 60, "unit": "mg"},
+            "sodium": {"value": 660, "unit": "mg"},
+            "potassium": {"value": 470, "unit": "mg"},
+            "carbohydrates": {"value": 25, "unit": "g"},
+            "sugar": {"value": 19, "unit": "g"},
+            "vitamin A": {"value": 60, "unit": "%DV"},
+            "vitamin C": {"value": 70, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 8, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy", "treenut"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Salad Blend": ["Iceberg Lettuce", "Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness and Color])", 
+                "Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Potato Starch [Added to Prevent Caking])", "Romaine Lettuce", 
+                "Spring Mix (Baby Lettuces [Red and Green Romaine, Red and Green Oak, Red and Green Leaf, Lolla Rosa, Tango], Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard)", 
+                "Dried Cranberries (Cranberries, Sugar, Sunflower Oil)"],
+            "Apple Cider Vinaigrette": ["Water", "Sugar", "Apple Cider Vinegar", "Apple Juice Concentrate", "Soybean Oil", "Brown Sugar", "Balsamic Vinegar", "Shallots", "Salt", 
+                "Onion Juice", "Distilled Vinegar", "Mustard Seed", "Xanthan Gum", "Spice", "White Wine", "Natural Flavor", "Citric Acid", "Tartaric Acid"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Roasted Walnuts": ["Walnuts", "Sugar", "Honey", "Corn Starch", "Maltodextrin", "Soy Lecithin", "Brown Sugar", "Soybean Oil", "Lactose", "Xanthan Gum", "Maple Syrup", "Salt",
+                 "Natural Flavor", "Molasses"]
+
+        }
+    },
+    "Southwest Avocado Chicken Salad Full": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, pepper jack cheese, diced tomatoes, cool, creamy avocado, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Southwest Ranch Dressing. It’s zesty and Southwesty!",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2619_large_US_en.jpg",
+        "size": "Full",
+        "metrics": {
+            "calories": {"value": 600},
+            "calories from fat": {"value": 370},
+            "total fat": {"value": 41, "unit": "g"},
+            "saturated fat": {"value": 11, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 11, "unit": "g"},
+            "monounsaturated fat": {"value": 17, "unit": "g"},
+            "cholesterol": {"value": 135, "unit": "mg"},
+            "sodium": {"value": 1220, "unit": "mg"},
+            "potassium": {"value": 1120, "unit": "mg"},
+            "carbohydrates": {"value": 18, "unit": "g"},
+            "sugar": {"value": 7, "unit": "g"},
+            "vitamin A": {"value": 100, "unit": "%DV"},
+            "vitamin C": {"value": 30, "unit": "%DV"},
+            "calcium": {"value": 30, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Salad Blend": ["Iceberg Lettuce", "Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness and Color])", 
+                "Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Potato Starch [Added to Prevent Caking])", "Romaine Lettuce", 
+                "Spring Mix (Baby Lettuces [Red and Green Romaine, Red and Green Oak, Red and Green Leaf, Lolla Rosa, Tango], Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard)", 
+                "Dried Cranberries (Cranberries, Sugar, Sunflower Oil)"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"],
+            "Avocado": ["Hass Avocados", "Lime Juice", "Salt"],
+            "Southwest Ranch Dressing": ["Buttermilk", "Soybean Oil", "Water", "Apple Cider Vinegar", "Lime Juice (Water, Lime Juice Concentrate, Lime Oil)", "Distilled Vinegar", 
+                "Sugar", "Extra Virgin Olive Oil", "Garlic Juice", "Egg Yolk", "Red Chili Pepper", "Salt", "Chili Powder (Chili Pepper, Spices, Dehydrated Garlic)", 
+                "Dehydrated Chili Pepper", "Dehydrated Garlic", "Dehydrated Onion", "Chipotle Peppers", "Xanthan Gum", "Spice", "Natural Flavor (Including Smoke Flavor)"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"]
+        }
+    },
+    "Southwest Avocado Chicken Salad Half": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, pepper jack cheese, diced tomatoes, cool, creamy avocado, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Southwest Ranch Dressing. It’s zesty and Southwesty!",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2620_large_US_en.jpg",
+        "size": "Half",
+        "metrics": {
+            "calories": {"value": 300},
+            "calories from fat": {"value": 180},
+            "total fat": {"value": 20, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 5, "unit": "g"},
+            "monounsaturated fat": {"value": 9, "unit": "g"},
+            "cholesterol": {"value": 70, "unit": "mg"},
+            "sodium": {"value": 620, "unit": "mg"},
+            "potassium": {"value": 600, "unit": "mg"},
+            "carbohydrates": {"value": 10, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 60, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Salad Blend": ["Iceberg Lettuce", "Apple Chunks (Apples, Calcium Ascorbate [To Maintain Freshness and Color])", 
+                "Feta Cheese Crumbles (Pasteurized Milk, Salt, Cheese Culture, Enzymes, Potato Starch [Added to Prevent Caking])", "Romaine Lettuce", 
+                "Spring Mix (Baby Lettuces [Red and Green Romaine, Red and Green Oak, Red and Green Leaf, Lolla Rosa, Tango], Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard)", 
+                "Dried Cranberries (Cranberries, Sugar, Sunflower Oil)"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"],
+            "Avocado": ["Hass Avocados", "Lime Juice", "Salt"],
+            "Southwest Ranch Dressing": ["Buttermilk", "Soybean Oil", "Water", "Apple Cider Vinegar", "Lime Juice (Water, Lime Juice Concentrate, Lime Oil)", "Distilled Vinegar", 
+                "Sugar", "Extra Virgin Olive Oil", "Garlic Juice", "Egg Yolk", "Red Chili Pepper", "Salt", "Chili Powder (Chili Pepper, Spices, Dehydrated Garlic)", 
+                "Dehydrated Chili Pepper", "Dehydrated Garlic", "Dehydrated Onion", "Chipotle Peppers", "Xanthan Gum", "Spice", "Natural Flavor (Including Smoke Flavor)"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"]
+        }
+    },
+    "Taco Salad Full": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, shredded cheddar cheese, diced tomatoes, salsa, sour cream, tortilla chips, and our famous, hearty chili. A fresh twist on Taco Tuesday (or any other day for that matter).",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2284_large_US_en.jpg",
+        "size": "Full",
+        "metrics": {
+            "calories": {"value": 660},
+            "calories from fat": {"value": 290},
+            "total fat": {"value": 32, "unit": "g"},
+            "saturated fat": {"value": 13, "unit": "g"},
+            "trans fat": {"value": 1, "unit": "g"},
+            "polyunsaturated fat": {"value": 6, "unit": "g"},
+            "monounsaturated fat": {"value": 8, "unit": "g"},
+            "cholesterol": {"value": 85, "unit": "mg"},
+            "sodium": {"value": 1820, "unit": "mg"},
+            "potassium": {"value": 1120, "unit": "mg"},
+            "carbohydrates": {"value": 63, "unit": "g"},
+            "sugar": {"value": 18, "unit": "g"},
+            "vitamin A": {"value": 110, "unit": "%DV"},
+            "vitamin C": {"value": 30, "unit": "%DV"},
+            "calcium": {"value": 50, "unit": "%DV"},
+            "iron": {"value": 25, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Salad Blend, Taco": ["Iceberg Lettuce", "Tomatoes", "Romaine Lettuce", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color), Potato Starch And Powdered Cellulose (To Prevent Caking), Natamycin (Natural Mold Inhibitor))"],
+            "Light Sour Cream": ["Cultured Milk And Cream", "Corn Starch", "Xanthan Gum", "Potassium Sorbate (Preservative)", "Vitamin A Palmitate"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Chili": ["Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes {Tomatoes, Tomato Juice, Calcium Chloride}, Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer {Dextrose, Salt, Yeast Extract, Modified Corn Starch}, Citric Acid, Garlic Powder, Disodium Inosinate, Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers)", 
+                "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"],
+            "Roasted Tomato Salsa": ["Tomatoes (Tomatoes, Tomato Juice, Citric Acid, Calcium Chloride)", "Roasted Tomatoes", "Water", "Tomato Paste", "Onion", "Distilled Vinegar",
+                "Lime Juice From Concentrate (Water, Concentrated Lime Juice, Lime Oil)", "Sugar", "Salt", "Jalapeno Pepper", "Roasted Garlic", "Dehydrated Garlic", "Cilantro", 
+                "Dehydrated Ancho Chili Pepper Seasoning", "Spices", "Natural Flavor", "Citric Acid", "Acetic Acid"],
+            "Taco Chips": ["Corn", "Vegetable Oil (Canola, Corn, Cottonseed, Soybean Or Sunflower Oil)", "Salt"]
+        }
+    },
+    "Taco Salad Half": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, shredded cheddar cheese, diced tomatoes, salsa, sour cream, tortilla chips, and our famous, hearty chili. A fresh twist on Taco Tuesday (or any other day for that matter).",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2285_large_US_en.jpg",
+        "size": "Half",
+        "metrics": {
+            "calories": {"value": 470},
+            "calories from fat": {"value": 210},
+            "total fat": {"value": 23, "unit": "g"},
+            "saturated fat": {"value": 8, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 6, "unit": "g"},
+            "monounsaturated fat": {"value": 6, "unit": "g"},
+            "cholesterol": {"value": 45, "unit": "mg"},
+            "sodium": {"value": 1320, "unit": "mg"},
+            "potassium": {"value": 680, "unit": "mg"},
+            "carbohydrates": {"value": 49, "unit": "g"},
+            "sugar": {"value": 12, "unit": "g"},
+            "vitamin A": {"value": 70, "unit": "%DV"},
+            "vitamin C": {"value": 20, "unit": "%DV"},
+            "calcium": {"value": 30, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Salad Blend, Taco": ["Iceberg Lettuce", "Tomatoes", "Romaine Lettuce", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (Vegetable Color), Potato Starch And Powdered Cellulose (To Prevent Caking), Natamycin (Natural Mold Inhibitor))"],
+            "Light Sour Cream": ["Cultured Milk And Cream", "Corn Starch", "Xanthan Gum", "Potassium Sorbate (Preservative)", "Vitamin A Palmitate"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Chili": ["Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes {Tomatoes, Tomato Juice, Calcium Chloride}, Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer {Dextrose, Salt, Yeast Extract, Modified Corn Starch}, Citric Acid, Garlic Powder, Disodium Inosinate, Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers)", 
+                "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"],
+            "Roasted Tomato Salsa": ["Tomatoes (Tomatoes, Tomato Juice, Citric Acid, Calcium Chloride)", "Roasted Tomatoes", "Water", "Tomato Paste", "Onion", "Distilled Vinegar",
+                "Lime Juice From Concentrate (Water, Concentrated Lime Juice, Lime Oil)", "Sugar", "Salt", "Jalapeno Pepper", "Roasted Garlic", "Dehydrated Garlic", "Cilantro", 
+                "Dehydrated Ancho Chili Pepper Seasoning", "Spices", "Natural Flavor", "Citric Acid", "Acetic Acid"],
+            "Taco Chips": ["Corn", "Vegetable Oil (Canola, Corn, Cottonseed, Soybean Or Sunflower Oil)", "Salt"]
+        }
+    },
+    "Apple Pecan Chicken Salad Full": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, crisp red and green apples, dried cranberries, roasted pecans, crumbled blue cheese, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Pomegranate Vinaigrette. An unbeatable pick.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/391_large_US_en.jpg",
+        "size": "Full",
+        "metrics": {
+            "calories": {"value": 560},
+            "calories from fat": {"value": 220},
+            "total fat": {"value": 24, "unit": "g"},
+            "saturated fat": {"value": 7, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 6, "unit": "g"},
+            "monounsaturated fat": {"value": 9, "unit": "g"},
+            "cholesterol": {"value": 115, "unit": "mg"},
+            "sodium": {"value": 1020, "unit": "mg"},
+            "potassium": {"value": 830, "unit": "mg"},
+            "carbohydrates": {"value": 52, "unit": "g"},
+            "sugar": {"value": 40, "unit": "g"},
+            "vitamin A": {"value": 100, "unit": "%DV"},
+            "vitamin C": {"value": 90, "unit": "%DV"},
+            "calcium": {"value": 25, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy", "treenut"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Pomegranate Vinaigrette Dressing": ["Water", "Sugar", "Pomegranate Juice Concentrate", "White Wine Vinegar", "Soybean Oil", "Orange Juice Concentrate", "Balsamic Vinegar", 
+                "Distilled Vinegar", "Sea Salt", "Extra Virgin Olive Oil", "Orange Flavedo (Orange Peel, Sugar, Orange Oil)", "Shallots", "Xanthan Gum", "Natural Flavor", "Spice"],
+            "Blue Cheese Crumbles": ["Blue Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes, Penicillium Roqueforti)", "Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (To Protect Flavor)"],
+            "Roasted Pecans": ["Pecans", "Sugar", "Honey", "Corn Starch", "Calcium Stearate (Anti-Caking Agent)", "Soy Lecithin", "Maltodextrin", "Lactose (From Milk)", "Xanthan Gum", "Soybean Oil",
+                 "Sea Salt", "Cayenne Pepper"],
+            "Apple Pecan Salad Base Blend": ["Iceberg Lettuce", "Apple Chunks (Apples, Calcium Ascorbate (To Maintain Freshness And Color))", 
+                "Spring Mix (Baby Lettuces (Red & Green Romaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango), Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard)", 
+                "Romaine Lettuce", "Dried Cranberries (Cranberries, Sugar, Sunflower Oil)"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
+        }
+    },
+    "Apple Pecan Chicken Salad Half": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, crisp red and green apples, dried cranberries, roasted pecans, crumbled blue cheese, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Pomegranate Vinaigrette. An unbeatable pick.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/398_large_US_en.jpg",
+        "size": "Half",
+        "metrics": {
+            "calories": {"value": 340},
+            "calories from fat": {"value": 150},
+            "total fat": {"value": 17, "unit": "g"},
+            "saturated fat": {"value": 4, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 4.5, "unit": "g"},
+            "monounsaturated fat": {"value": 7, "unit": "g"},
+            "cholesterol": {"value": 55, "unit": "mg"},
+            "sodium": {"value": 550, "unit": "mg"},
+            "potassium": {"value": 480, "unit": "mg"},
+            "carbohydrates": {"value": 29, "unit": "g"},
+            "sugar": {"value": 22, "unit": "g"},
+            "vitamin A": {"value": 60, "unit": "%DV"},
+            "vitamin C": {"value": 45, "unit": "%DV"},
+            "calcium": {"value": 10, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy", "treenut"
+        ],
+        "may contain": [
+            "fish"
+        ],
+        "ingredients": {
+            "Pomegranate Vinaigrette Dressing": ["Water", "Sugar", "Pomegranate Juice Concentrate", "White Wine Vinegar", "Soybean Oil", "Orange Juice Concentrate", "Balsamic Vinegar", 
+                "Distilled Vinegar", "Sea Salt", "Extra Virgin Olive Oil", "Orange Flavedo (Orange Peel, Sugar, Orange Oil)", "Shallots", "Xanthan Gum", "Natural Flavor", "Spice"],
+            "Blue Cheese Crumbles": ["Blue Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes, Penicillium Roqueforti)", "Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (To Protect Flavor)"],
+            "Roasted Pecans": ["Pecans", "Sugar", "Honey", "Corn Starch", "Calcium Stearate (Anti-Caking Agent)", "Soy Lecithin", "Maltodextrin", "Lactose (From Milk)", "Xanthan Gum", "Soybean Oil",
+                 "Sea Salt", "Cayenne Pepper"],
+            "Apple Pecan Salad Base Blend": ["Iceberg Lettuce", "Apple Chunks (Apples, Calcium Ascorbate (To Maintain Freshness And Color))", 
+                "Spring Mix (Baby Lettuces (Red & Green Romaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango), Spinach, Mizuna, Arugula, Tatsoi, Red Chard, Green Chard)", 
+                "Romaine Lettuce", "Dried Cranberries (Cranberries, Sugar, Sunflower Oil)"],
+            "Grilled Chicken Breast": ["Chicken Breast", "Water", "Seasoning (Salt, Natural Flavors, Corn Maltodextrin, Dextrose, Spices, Dehydrated Garlic Powder, Dehydrated Onion Powder, Paprika, Gum Arabic, Yeast Extract, Canola Oil, Sodium Citrate, Sugar)", 
+                "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
+        }
+    },
+    "Spicy Caesar Chicken Salad Full": {
+        "description": "Made fresh daily with hand-chopped romaine lettuce, grape tomatoes, a three cheese blend of Parmesan, Asiago, and Romano, croutons, and crispy, spicy chicken breast, all topped with creamy Marzetti® Simply Dressed® Caesar dressing. Hot is cool again.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2238_large_US_en.jpg",
+        "size": "Full",
+        "metrics": {
+            "calories": {"value": 720},
+            "calories from fat": {"value": 380},
+            "total fat": {"value": 42, "unit": "g"},
+            "saturated fat": {"value": 12, "unit": "g"},
+            "trans fat": {"value": 1, "unit": "g"},
+            "polyunsaturated fat": {"value": 14, "unit": "g"},
+            "monounsaturated fat": {"value": 11, "unit": "g"},
+            "cholesterol": {"value": 150, "unit": "mg"},
+            "sodium": {"value": 1680, "unit": "mg"},
+            "potassium": {"value": 980, "unit": "mg"},
+            "carbohydrates": {"value": 44, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 290, "unit": "%DV"},
+            "vitamin C": {"value": 40, "unit": "%DV"},
+            "calcium": {"value": 50, "unit": "%DV"},
+            "iron": {"value": 20, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "fish", "milk", "wheat"
+        ],
+        "ingredients": {
+            "Spicy Caesar Salad Blend": ["Romaine Lettuce", "Cherry Tomatoes", "Three Cheese Italian Blend (Parmesan, Asiago And Romano Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Powdered Cellulose (To Prevent Caking))"],
+            "Caesar Dressing": ["Water", "Soybean Oil", "Red Wine Vinegar", "Extra Virgin Olive Oil", "Egg Yolk", "Parmesan Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes)",
+                "Romano Cheese (Cultured Milk, Salt, Enzymes)", "Sugar", "Distilled Vinegar", "Dehydrated Garlic", "Salt", "Spice", "Mustard Seed", "Xanthan Gum", "Natural Flavor",
+                "Anchovies"],
+            "Spicy Chicken Breast": ["Chicken Breast", "Seasoning [Salt, Spice, Sodium Phosphate (Sodium Tripolyphosphate, Sodium Polyphosphates), Modified Corn Starch, Paprika, Spice Extractives, Extractives Of Paprika, And Extractives Of Turmeric]", 
+                "Wheat Flour", "Water", "Modified Corn Starch", "Salt", "Lentil Flour", "Wheat Gluten", "Spice", "Gum Arabic", "Yellow Corn Flour", "Spice Extractives", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"],
+            "Gourmet Croutons": ["Enriched Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid)", 
+                "Sunflower Oil", "Canola Oil", "Seasoning (Sea Salt, Black Pepper, Natural Flavor)", "Salt", "Garlic (Dehydrated)", "Water", "Yeast", "Natural Butter Flavor",
+                "Malted Barley Flour", "Citric Acid", "Tocopherols"]
+        }
+    },
+    "Spicy Caesar Chicken Salad Half": {
+        "description": "Made fresh daily with hand-chopped romaine lettuce, grape tomatoes, a three cheese blend of Parmesan, Asiago, and Romano, croutons, and crispy, spicy chicken breast, all topped with creamy Marzetti® Simply Dressed® Caesar dressing. Hot is cool again.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2236_large_US_en.jpg",
+        "size": "Half",
+        "metrics": {
+            "calories": {"value": 410},
+            "calories from fat": {"value": 200},
+            "total fat": {"value": 23, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 7, "unit": "g"},
+            "monounsaturated fat": {"value": 7, "unit": "g"},
+            "cholesterol": {"value": 75, "unit": "mg"},
+            "sodium": {"value": 930, "unit": "mg"},
+            "potassium": {"value": 650, "unit": "mg"},
+            "carbohydrates": {"value": 30, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 210, "unit": "%DV"},
+            "vitamin C": {"value": 30, "unit": "%DV"},
+            "calcium": {"value": 25, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "fish", "milk", "wheat"
+        ],
+        "ingredients": {
+            "Spicy Caesar Salad Blend": ["Romaine Lettuce", "Cherry Tomatoes", "Three Cheese Italian Blend (Parmesan, Asiago And Romano Cheese (Pasteurized Milk, Cheese Cultures, Salt, Enzymes), Powdered Cellulose (To Prevent Caking))"],
+            "Caesar Dressing": ["Water", "Soybean Oil", "Red Wine Vinegar", "Extra Virgin Olive Oil", "Egg Yolk", "Parmesan Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes)",
+                "Romano Cheese (Cultured Milk, Salt, Enzymes)", "Sugar", "Distilled Vinegar", "Dehydrated Garlic", "Salt", "Spice", "Mustard Seed", "Xanthan Gum", "Natural Flavor",
+                "Anchovies"],
+            "Spicy Chicken Breast": ["Chicken Breast", "Seasoning [Salt, Spice, Sodium Phosphate (Sodium Tripolyphosphate, Sodium Polyphosphates), Modified Corn Starch, Paprika, Spice Extractives, Extractives Of Paprika, And Extractives Of Turmeric]", 
+                "Wheat Flour", "Water", "Modified Corn Starch", "Salt", "Lentil Flour", "Wheat Gluten", "Spice", "Gum Arabic", "Yellow Corn Flour", "Spice Extractives", 
+                "Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Monocalcium Phosphate)", "Extractives Of Paprika", "Vegetable Oil", 
+                "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"],
+            "Gourmet Croutons": ["Enriched Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid)", 
+                "Sunflower Oil", "Canola Oil", "Seasoning (Sea Salt, Black Pepper, Natural Flavor)", "Salt", "Garlic (Dehydrated)", "Water", "Yeast", "Natural Butter Flavor",
+                "Malted Barley Flour", "Citric Acid", "Tocopherols"]
+        }
+    },
+    "Caesar Side Salad": {
+        "description": "Made fresh daily with hand-chopped romaine lettuce, grape tomatoes, a three cheese blend of Parmesan, Asiago, and Romano, and croutons, all topped with a creamy Marzetti® Simply Dressed® Caesar dressing. Just the right size to satisfy.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2235_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 240},
+            "calories from fat": {"value": 130},
+            "total fat": {"value": 15, "unit": "g"},
+            "saturated fat": {"value": 4, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 4.5, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 30, "unit": "mg"},
+            "sodium": {"value": 500, "unit": "mg"},
+            "potassium": {"value": 390, "unit": "mg"},
+            "carbohydrates": {"value": 19, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 140, "unit": "%DV"},
+            "vitamin C": {"value": 25, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 10, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "fish", "milk", "wheat"
+        ],
+        "ingredients": {
+            "Caesar Side Salad Blend": ["Romaine Lettuce", "Cherry Tomatoes", 
+                "Three Cheese Italian Blend (Parmesan, Asiago And Romano Cheese [Pasteurized Milk, Cheese Cultures, Salt, Enzymes], Powdered Cellulose [To Prevent Caking])"],
+            "Gourmet Croutons": ["Enriched Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid)", 
+                "Sunflower Oil", "Canola Oil", "Seasoning (Sea Salt, Black Pepper, Natural Flavor)", "Salt", "Garlic (Dehydrated)", "Water", "Yeast", "Natural Butter Flavor",
+                "Malted Barley Flour", "Citric Acid", "Tocopherols"],
+            "Caesar Dressing": ["Water", "Soybean Oil", "Red Wine Vinegar", "Extra Virgin Olive Oil", "Egg Yolk", "Parmesan Cheese (Part-Skim Milk, Cheese Culture, Salt, Enzymes)",
+                "Romano Cheese (Cultured Milk, Salt, Enzymes)", "Sugar", "Distilled Vinegar", "Dehydrated Garlic", "Salt", "Spice", "Mustard Seed", "Xanthan Gum", "Natural Flavor",
+                "Anchovies"]
+        }
+    },
+    "Garden Side Salad": {
+        "description": "Made fresh daily with Wendy’s signature lettuce blend, cheddar cheese, tomatoes, and croutons, all topped with Marzetti® Simply Dressed® Ranch dressing. It’s the salad that goes with anything.",
+        "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2232_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 250},
+            "calories from fat": {"value": 160},
+            "total fat": {"value": 18, "unit": "g"},
+            "saturated fat": {"value": 4, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 6, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 20, "unit": "mg"},
+            "sodium": {"value": 460, "unit": "mg"},
+            "potassium": {"value": 300, "unit": "mg"},
+            "carbohydrates": {"value": 18, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 50, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "wheat"
+        ],
+        "ingredients": {
+            "Salad Blend": ["Iceberg Lettuce", "Romaine Lettuce", "Spring Mix (Baby Lettuces [Red & Green Romaine, Red & Green Oak, Red & Green Leaf, Lolla Rosa, Tango], Spinach, Mizuna Arugula, Tatsoi, Red Chard, Green Chard)",
+                "Grape Tomatoes"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Ranch Dressing": ["Buttermilk", "Soybean Oil", "Water", "Distilled Vinegar", "Extra Virgin Olive Oil", "Egg Yolk", "Sugar", "Sea Salt", "Garlic", "Modified Cornstarch", 
+                "Yeast Extract", "Spice", "Salt", "Onion", "Natural Flavor", "Xanthan Gum", "Lactic Acid Dehydrated"],
+            "Gourmet Croutons": ["Enriched Wheat Flour (Wheat Flour, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid)", 
+                "Sunflower Oil", "Canola Oil", "Seasoning (Sea Salt, Black Pepper, Natural Flavor)", "Salt", "Garlic (Dehydrated)", "Water", "Yeast", "Natural Butter Flavor",
+                "Malted Barley Flour", "Citric Acid", "Tocopherols"]
+        }
+    }
+}

@@ -1,0 +1,498 @@
+{
+    "Junior Natural-Cut Fries": {
+        "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2546_large_US_en.jpg",
+        "size": "Junior",
+        "metrics": {
+            "calories": {"value": 230},
+            "calories from fat": {"value": 90},
+            "total fat": {"value": 10, "unit": "g"},
+            "saturated fat": {"value": 2, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 5, "unit": "g"},
+            "monounsaturated fat": {"value": 2.5, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 230, "unit": "mg"},
+            "potassium": {"value": 450, "unit": "mg"},
+            "carbohydrates": {"value": 30, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 8, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 4, "unit": "%DV"}
+        },
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"]
+        }
+    },
+    "Small Natural-Cut Fries": {
+        "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/21_large_US_en.jpg",
+        "size": "Small",
+        "metrics": {
+            "calories": {"value": 320},
+            "calories from fat": {"value": 130},
+            "total fat": {"value": 15, "unit": "g"},
+            "saturated fat": {"value": 2.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 8, "unit": "g"},
+            "monounsaturated fat": {"value": 4, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 320, "unit": "mg"},
+            "potassium": {"value": 630, "unit": "mg"},
+            "carbohydrates": {"value": 43, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 10, "unit": "%DV"},
+            "calcium": {"value": 0, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"]
+        }
+    },
+    "Medium Natural-Cut Fries": {
+        "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/22_large_US_en.jpg",
+        "size": "Medium",
+        "metrics": {
+            "calories": {"value": 420},
+            "calories from fat": {"value": 170},
+            "total fat": {"value": 19, "unit": "g"},
+            "saturated fat": {"value": 3.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 10, "unit": "g"},
+            "monounsaturated fat": {"value": 5, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 420, "unit": "mg"},
+            "potassium": {"value": 830, "unit": "mg"},
+            "carbohydrates": {"value": 56, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 2, "unit": "%DV"},
+            "iron": {"value": 8, "unit": "%DV"}
+        },
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"]
+        }
+    },
+    "Large Natural-Cut Fries": {
+        "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/23_large_US_en.jpg",
+        "size": "Large",
+        "metrics": {
+            "calories": {"value": 530},
+            "calories from fat": {"value": 220},
+            "total fat": {"value": 24, "unit": "g"},
+            "saturated fat": {"value": 4.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 12, "unit": "g"},
+            "monounsaturated fat": {"value": 6, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 520, "unit": "mg"},
+            "potassium": {"value": 1030, "unit": "mg"},
+            "carbohydrates": {"value": 70, "unit": "g"},
+            "sugar": {"value": 0, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 20, "unit": "%DV"},
+            "calcium": {"value": 4, "unit": "%DV"},
+            "iron": {"value": 8, "unit": "%DV"}
+        },
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"]
+        }
+    },
+    "S'Awesome Bacon Fries": {
+        "description": "Our natural-cut, skin-on, sea-salted fries topped with warm melted cheese sauce, Applewood smoked bacon pieces, and our signature sweet, smoky, tangy sauce? Oh yeah, it’s real. Real S’Awesome.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2710_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 550},
+            "calories from fat": {"value": 300},
+            "total fat": {"value": 33, "unit": "g"},
+            "saturated fat": {"value": 10, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 12, "unit": "g"},
+            "monounsaturated fat": {"value": 10, "unit": "g"},
+            "cholesterol": {"value": 40, "unit": "mg"},
+            "sodium": {"value": 970, "unit": "mg"},
+            "potassium": {"value": 790, "unit": "mg"},
+            "carbohydrates": {"value": 47, "unit": "g"},
+            "sugar": {"value": 3, "unit": "g"},
+            "vitamin A": {"value": 8, "unit": "%DV"},
+            "vitamin C": {"value": 20, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "egg", "milk", "soy"
+        ],
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"],
+            "Salt": ["Sea Salt"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Cheddar Cheese Sauce": ["Water", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)", "Milk", 
+                "Cream Cheese Spread (Pasteurized Milk And Cream, Cheese Culture, Salt, Carob Bean Gum)", "Modified Cornstarch", "Non-Fat Dry Milk", "Soybean Oil", "Palm Oil", "Whey", 
+                "Sodium Phosphate", "Cream", "Cheese Culture", "Milk Fat", "Sea Salt", "Salt", "Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzyme)",
+                "Butter", "Sodium Alginate", "Carob Bean Gum", "Mono & Diglycerides", "Annatto And Apocarotenal (For Color)", "Lactic Acid", "Soy Lecithin"],
+            "Side of S'Awesome™ Sauce": ["Soybean Oil", "Water", "Tomato Paste", "Sugar", "Corn Syrup", "Distilled Vinegar", "Egg Yolks",
+                "Hot Sauce (Peppers, Vinegar, Salt)", "Worcestershire Sauce (Distilled Vinegar, Corn Syrup, Water, Salt, Garlic Powder, Spices, Celery Seed, Tamarind, Natural Flavor)", 
+                "Sea Salt", "Cultured Dextrose", "Spices", "Ground Mustard Seed", "Paprika", "Apple Cider Vinegar", "Salt", "Onion Powder", "Garlic Powder", "Yeast Extract", 
+                "Natural Smoke Flavor", "Xanthan Gum", "Dried Chili Pepper", "Citric Acid", "Potassium Sorbate (Preservative)"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"]
+        }
+    },
+    "Baconator® Fries": {
+        "description": "Our natural-cut, skin-on, sea-salted fries topped with warm, creamy cheese sauce, shredded cheddar, and crispy Applewood smoked bacon. The only fries worthy of the Baconator name.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2143_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 490},
+            "calories from fat": {"value": 250},
+            "total fat": {"value": 28, "unit": "g"},
+            "saturated fat": {"value": 9, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 9, "unit": "g"},
+            "monounsaturated fat": {"value": 8, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 550, "unit": "mg"},
+            "potassium": {"value": 770, "unit": "mg"},
+            "carbohydrates": {"value": 45, "unit": "g"},
+            "sugar": {"value": 2, "unit": "g"},
+            "vitamin A": {"value": 6, "unit": "%DV"},
+            "vitamin C": {"value": 20, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 6, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"],
+            "Salt": ["Sea Salt"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"],
+            "Cheddar Cheese Sauce": ["Water", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)", "Milk", 
+                "Cream Cheese Spread (Pasteurized Milk And Cream, Cheese Culture, Salt, Carob Bean Gum)", "Modified Cornstarch", "Non-Fat Dry Milk", "Soybean Oil", "Palm Oil", "Whey", 
+                "Sodium Phosphate", "Cream", "Cheese Culture", "Milk Fat", "Sea Salt", "Salt", "Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzyme)",
+                "Butter", "Sodium Alginate", "Carob Bean Gum", "Mono & Diglycerides", "Annatto And Apocarotenal (For Color)", "Lactic Acid", "Soy Lecithin"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"]
+        }
+    },
+    "Chili Cheese Fries": {
+        "description": "Our natural-cut, skin-on, sea-salted fries topped with our hearty chili and rich, creamy cheese sauce. Easy to love. Hard to beat.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/435_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 500},
+            "calories from fat": {"value": 230},
+            "total fat": {"value": 25, "unit": "g"},
+            "saturated fat": {"value": 8, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 8, "unit": "g"},
+            "monounsaturated fat": {"value": 7, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 710, "unit": "mg"},
+            "potassium": {"value": 890, "unit": "mg"},
+            "carbohydrates": {"value": 53, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 6, "unit": "%DV"},
+            "vitamin C": {"value": 15, "unit": "%DV"},
+            "calcium": {"value": 15, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "may contain": [
+            "wheat", "fish"
+        ],
+        "ingredients": {
+            "French Fries": ["Potatoes", "Vegetable Oil (Contains One Or More Of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn)", "Dextrose",
+                "Sodium Acid Pyrophosphate (To Maintain Natural Color)", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent]", 
+                "Sea Salt"],
+            "Cheddar Cheese Sauce": ["Water", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)", "Milk", 
+                "Cream Cheese Spread (Pasteurized Milk And Cream, Cheese Culture, Salt, Carob Bean Gum)", "Modified Cornstarch", "Non-Fat Dry Milk", "Soybean Oil", "Palm Oil", "Whey", 
+                "Sodium Phosphate", "Cream", "Cheese Culture", "Milk Fat", "Sea Salt", "Salt", "Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzyme)",
+                "Butter", "Sodium Alginate", "Carob Bean Gum", "Mono & Diglycerides", "Annatto And Apocarotenal (For Color)", "Lactic Acid", "Soy Lecithin"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Chili": ["Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes {Tomatoes, Tomato Juice, Calcium Chloride}, Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer {Dextrose, Salt, Yeast Extract, Modified Corn Starch}, Citric Acid, Garlic Powder, Disodium Inosinate, Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers)", 
+                "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
+        }
+    },
+    "Small Chili": {
+        "description": "The only hearty chili made with our fresh, never frozen beef. Perfectly seasoned and positively irresistible. Red’s kind of our thing, you know.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/29_large_US_en.jpg",
+        "size": "Small",
+        "metrics": {
+            "calories": {"value": 170},
+            "calories from fat": {"value": 45},
+            "total fat": {"value": 5, "unit": "g"},
+            "saturated fat": {"value": 2, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 2, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 780, "unit": "mg"},
+            "potassium": {"value": 400, "unit": "mg"},
+            "carbohydrates": {"value": 16, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 4, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Chili": ["Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes {Tomatoes, Tomato Juice, Calcium Chloride}, Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer {Dextrose, Salt, Yeast Extract, Modified Corn Starch}, Citric Acid, Garlic Powder, Disodium Inosinate, Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers)", 
+                "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
+        }
+    },
+    "Large Chili": {
+        "description": "The only hearty chili made with our fresh, never frozen beef. Perfectly seasoned and positively irresistible. Red’s kind of our thing, you know.",
+        "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/30_large_US_en.jpg",
+        "size": "Large",
+        "metrics": {
+            "calories": {"value": 250},
+            "calories from fat": {"value": 60},
+            "total fat": {"value": 7, "unit": "g"},
+            "saturated fat": {"value": 3, "unit": "g"},
+            "trans fat": {"value": 0.5, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 50, "unit": "mg"},
+            "sodium": {"value": 1170, "unit": "mg"},
+            "potassium": {"value": 600, "unit": "mg"},
+            "carbohydrates": {"value": 23, "unit": "g"},
+            "sugar": {"value": 9, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 0, "unit": "%DV"},
+            "calcium": {"value": 8, "unit": "%DV"},
+            "iron": {"value": 20, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Chili": ["Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes {Tomatoes, Tomato Juice, Calcium Chloride}, Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer {Dextrose, Salt, Yeast Extract, Modified Corn Starch}, Citric Acid, Garlic Powder, Disodium Inosinate, Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers)", 
+                "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
+        }
+    },
+    "Sour Cream and Chive Baked Potato": {
+        "description": "A hot, fluffy potato topped with the classic combination of chives, and sour cream. It’s a side, it’s a meal, it’s a potato’s potato. Potato.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/25_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 310},
+            "calories from fat": {"value": 20},
+            "total fat": {"value": 2.5, "unit": "g"},
+            "saturated fat": {"value": 1.5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 0, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 35, "unit": "mg"},
+            "potassium": {"value": 1610, "unit": "mg"},
+            "carbohydrates": {"value": 63, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 8, "unit": "%DV"},
+            "vitamin C": {"value": 60, "unit": "%DV"},
+            "calcium": {"value": 8, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk"
+        ],
+        "ingredients": {
+            "Potato": ["Potato"],
+            "Chives": ["Freeze-Dried Chives"],
+            "Light Sour Cream": ["Cultured Milk And Cream", "Corn Starch", "Xanthan Gum", "Potassium Sorbate (Preservative)", "Vitamin A Palmitate"]
+        }
+    },
+    "Plain Baked Potato": {
+        "description": "The satisfying simplicity of good, honest, hot, fluffy baked potato perfection. Ingredients: Potato.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2163_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 270},
+            "calories from fat": {"value": 0},
+            "total fat": {"value": 0, "unit": "g"},
+            "saturated fat": {"value": 0, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 0, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 25, "unit": "mg"},
+            "potassium": {"value": 1560, "unit": "mg"},
+            "carbohydrates": {"value": 61, "unit": "g"},
+            "sugar": {"value": 3, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 60, "unit": "%DV"},
+            "calcium": {"value": 6, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "ingredients": {
+            "Potato": ["Potato"]
+        }
+    },
+    "Bacon Cheese Baked Potato": {
+        "description": "Hot and fluffy potato topped with rich, creamy cheese sauce and crisp Applewood smoked bacon. Because nothing goes with a potato like cheese and bacon.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/27_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 440},
+            "calories from fat": {"value": 120},
+            "total fat": {"value": 14, "unit": "g"},
+            "saturated fat": {"value": 6, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 1.5, "unit": "g"},
+            "monounsaturated fat": {"value": 4.5, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 550, "unit": "mg"},
+            "potassium": {"value": 1690, "unit": "mg"},
+            "carbohydrates": {"value": 64, "unit": "g"},
+            "sugar": {"value": 4, "unit": "g"},
+            "vitamin A": {"value": 8, "unit": "%DV"},
+            "vitamin C": {"value": 70, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 20, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Potato": ["Potato"],
+            "Cheddar Cheese Sauce": ["Water", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)", "Milk", 
+                "Cream Cheese Spread (Pasteurized Milk And Cream, Cheese Culture, Salt, Carob Bean Gum)", "Modified Cornstarch", "Non-Fat Dry Milk", "Soybean Oil", "Palm Oil", "Whey", 
+                "Sodium Phosphate", "Cream", "Cheese Culture", "Milk Fat", "Sea Salt", "Salt", "Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzyme)",
+                "Butter", "Sodium Alginate", "Carob Bean Gum", "Mono & Diglycerides", "Annatto And Apocarotenal (For Color)", "Lactic Acid", "Soy Lecithin"],
+            "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"]
+        }
+    },
+    "Chili & Cheese Baked Potato": {
+        "description": "Hot and fully potato topped with Wendy’s signature meaty, flavorful chili, rich, creamy cheese sauce, and shredded cheddar. This spud’s your best bud.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2165_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 460},
+            "calories from fat": {"value": 100},
+            "total fat": {"value": 11, "unit": "g"},
+            "saturated fat": {"value": 5, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 1, "unit": "g"},
+            "monounsaturated fat": {"value": 3, "unit": "g"},
+            "cholesterol": {"value": 35, "unit": "mg"},
+            "sodium": {"value": 710, "unit": "mg"},
+            "potassium": {"value": 1820, "unit": "mg"},
+            "carbohydrates": {"value": 71, "unit": "g"},
+            "sugar": {"value": 7, "unit": "g"},
+            "vitamin A": {"value": 8, "unit": "%DV"},
+            "vitamin C": {"value": 60, "unit": "%DV"},
+            "calcium": {"value": 20, "unit": "%DV"},
+            "iron": {"value": 25, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Potato": ["Potato"],
+            "Cheddar Cheese Sauce": ["Water", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)", "Milk", 
+                "Cream Cheese Spread (Pasteurized Milk And Cream, Cheese Culture, Salt, Carob Bean Gum)", "Modified Cornstarch", "Non-Fat Dry Milk", "Soybean Oil", "Palm Oil", "Whey", 
+                "Sodium Phosphate", "Cream", "Cheese Culture", "Milk Fat", "Sea Salt", "Salt", "Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzyme)",
+                "Butter", "Sodium Alginate", "Carob Bean Gum", "Mono & Diglycerides", "Annatto And Apocarotenal (For Color)", "Lactic Acid", "Soy Lecithin"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"],
+            "Chili": ["Chili Base (Chili Sauce [Water, Tomato Paste, Tomatoes {Tomatoes, Tomato Juice, Calcium Chloride}, Sugar, Modified Corn Starch, Salt, Chili Pepper, Spices, Flavor Enhancer {Dextrose, Salt, Yeast Extract, Modified Corn Starch}, Citric Acid, Garlic Powder, Disodium Inosinate, Disodium Guanylate, Onion Powder, Xanthan Gum], Onions, Celery, Green Peppers)", 
+                "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
+        }
+    },
+    "Cheese Baked Potato": {
+        "description": "Hot and fully potato with shredded cheddar cheese and rich, creamy cheese sauce on top. It’s savory and delicious no matter how you skin it.",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2164_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 430},
+            "calories from fat": {"value": 120},
+            "total fat": {"value": 13, "unit": "g"},
+            "saturated fat": {"value": 7, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 1.5, "unit": "g"},
+            "monounsaturated fat": {"value": 3.5, "unit": "g"},
+            "cholesterol": {"value": 30, "unit": "mg"},
+            "sodium": {"value": 560, "unit": "mg"},
+            "potassium": {"value": 1680, "unit": "mg"},
+            "carbohydrates": {"value": 65, "unit": "g"},
+            "sugar": {"value": 5, "unit": "g"},
+            "vitamin A": {"value": 10, "unit": "%DV"},
+            "vitamin C": {"value": 60, "unit": "%DV"},
+            "calcium": {"value": 25, "unit": "%DV"},
+            "iron": {"value": 15, "unit": "%DV"}
+        },
+        "allergens": [
+            "milk", "soy"
+        ],
+        "ingredients": {
+            "Potato": ["Potato"],
+            "Cheddar Cheese Sauce": ["Water", "Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes)", "Milk", 
+                "Cream Cheese Spread (Pasteurized Milk And Cream, Cheese Culture, Salt, Carob Bean Gum)", "Modified Cornstarch", "Non-Fat Dry Milk", "Soybean Oil", "Palm Oil", "Whey", 
+                "Sodium Phosphate", "Cream", "Cheese Culture", "Milk Fat", "Sea Salt", "Salt", "Parmesan Cheese (Pasteurized Part-Skim Milk, Cheese Cultures, Salt, Enzyme)",
+                "Butter", "Sodium Alginate", "Carob Bean Gum", "Mono & Diglycerides", "Annatto And Apocarotenal (For Color)", "Lactic Acid", "Soy Lecithin"],
+            "Cheddar Cheese": ["Pasteurized Milk", "Cheese Culture", "Salt", "Enzymes", "Annatto (Vegetable Color)", "Potato Starch And Powdered Cellulose (To Prevent Caking)", 
+                "Natamycin (Natural Mold Inhibitor)"]
+        }
+    },
+    "Apple Bites": {
+        "description": "A selection of crisp, juicy sliced apple pieces, perfect as a snack or a side. Great pick!",
+        "img": "https://app.wendys.com/unified/assets/menu/cropped/2555_large_US_en.jpg",
+        "metrics": {
+            "calories": {"value": 35},
+            "calories from fat": {"value": 0},
+            "total fat": {"value": 0, "unit": "g"},
+            "saturated fat": {"value": 0, "unit": "g"},
+            "trans fat": {"value": 0, "unit": "g"},
+            "polyunsaturated fat": {"value": 0, "unit": "g"},
+            "monounsaturated fat": {"value": 0, "unit": "g"},
+            "cholesterol": {"value": 0, "unit": "mg"},
+            "sodium": {"value": 0, "unit": "mg"},
+            "potassium": {"value": 65, "unit": "mg"},
+            "carbohydrates": {"value": 8, "unit": "g"},
+            "sugar": {"value": 6, "unit": "g"},
+            "vitamin A": {"value": 0, "unit": "%DV"},
+            "vitamin C": {"value": 130, "unit": "%DV"},
+            "calcium": {"value": 4, "unit": "%DV"},
+            "iron": {"value": 0, "unit": "%DV"}
+        },
+        "ingredients": {
+            "Apple Bites": ["Apples", "Calcium Ascorbate (To Maintain Freshness And Color)"]
+        }
+    }
+}
