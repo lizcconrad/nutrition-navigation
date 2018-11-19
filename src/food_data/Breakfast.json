@@ -1,5 +1,6 @@
-{
-    "Fresh Baked Biscuit with Natural Sausage": {
+[
+    {
+        "item": "Fresh Baked Biscuit with Natural Sausage",
         "description": "Fresh-cracked grade A eggs on a butter-brushed buttermilk biscuit with grilled sausage and melted American cheese. Meet your new morning favorite.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2062_large_US_en.jpg",
         "metrics": {
@@ -35,7 +36,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Fresh-Baked Biscuit with Applewood Smoked Bacon": {
+    {
+        "item": "Fresh-Baked Biscuit with Applewood Smoked Bacon",
         "description": "Fresh-cracked grade A eggs on a butter-brushed buttermilk biscuit with Applewood smoked bacon and melted American cheese. Rise and shine with a hearty favorite.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2061_large_US_en.jpg",
         "metrics": {
@@ -71,7 +73,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Honey Butter Chicken Biscuit": {
+    {
+        "item": "Honey Butter Chicken Biscuit",
         "description": "A crispy, chicken fillet, perfectly seasoned and topped with real honey butter on a fluffy buttermilk biscuit. It’s sweet, it’s savory, and it’s a great reason to get out of bed in the morning.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2024_large_US_en.jpg",
         "metrics": {
@@ -113,7 +116,8 @@
                 "Lactic Acid", "Extractives Of Turmeric", "Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Classic  Sausage, Egg & Cheese Sandwich": {
+    {
+        "item": "Classic  Sausage, Egg & Cheese Sandwich",
         "description": "Fresh-cracked grade A eggs, grilled sausage and melted American cheese on a warm breakfast roll. It’s how mornings were meant to begin.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2743_large_US_en.jpg",
         "metrics": {
@@ -148,7 +152,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Classic Bacon, Egg & Cheese Sandwich": {
+    {
+        "item": "Classic Bacon, Egg & Cheese Sandwich",
         "description": "Fresh-cracked grade A eggs, Applewood-smoked bacon, and melted American cheese on a warm breakfast roll. A tried and true reason to rise.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2742_large_US_en.jpg",
         "metrics": {
@@ -183,7 +188,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Biggie Breakfast Sandwich": {
+    {
+        "item": "Biggie Breakfast Sandwich",
         "description": "Fresh-cracked grade A eggs, Applewood smoked bacon, sausage, and melted American cheese on a toasted bun. It’s a monument to Wendy’s best of breakfast.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2623_large_US_en.jpg",
         "metrics": {
@@ -222,7 +228,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Sausage Breakfast Bowl": {
+    {
+        "item": "Sausage Breakfast Bowl",
         "description": "Fresh-cracked grade A eggs mixed with crispy, perfectly-seasoned breakfast potatoes, sliced sausage, and melted cheddar cheese. It’s how good mornings get even better.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2626_large_US_en.jpg",
         "metrics": {
@@ -265,7 +272,8 @@
                 "Natamycin (Natural Mold Inhibitor)"]
         }
     },
-    "Bacon Breakfast Bowl": {
+    {
+        "item": "Bacon Breakfast Bowl",
         "description": "Fresh-cracked grade A eggs mixed with crispy, perfectly-seasoned homestyle breakfast potatoes, Applewood smoked bacon, and melted cheddar cheese. Nothing beats wakin’ up to bacon.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2627_large_US_en.jpg",
         "metrics": {
@@ -308,7 +316,8 @@
                 "Natamycin (Natural Mold Inhibitor)"]
         }
     },
-    "Small Breakfast Potatoes": {
+    {
+        "item": "Small Breakfast Potatoes",
         "description": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with natural sea salt, cracked black pepper, and garlic powder. Start your day with some seasoned satisfaction.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2036_large_US_en.jpg",
         "size": "Small",
@@ -341,7 +350,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Medium Breakfast Potatoes": {
+    {
+        "item": "Medium Breakfast Potatoes",
         "description": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with natural sea salt, cracked black pepper, and garlic powder. Start your day with some seasoned satisfaction.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2621_large_US_en.jpg",
         "size": "Medium",
@@ -374,7 +384,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Large Breakfast Potatoes": {
+    {
+        "item": "Large Breakfast Potatoes",
         "description": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with natural sea salt, cracked black pepper, and garlic powder. Start your day with some seasoned satisfaction.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2622_large_US_en.jpg",
         "size": "Large",
@@ -407,7 +418,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Fresh Baked Oatmeal Bar": {
+    {
+        "item": "Fresh Baked Oatmeal Bar",
         "description": "Give yourself a wholesome start to the day with our Fresh Baked Oatmeal Bar made with whole oats, sweet blueberries and tart cranberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2038_large_US_en.jpg",
         "metrics": {
@@ -440,7 +452,8 @@
                 "Honey", "Soy Lecithin", "Beta Carotene", "Vitamin A Palmitate"]
         }
     },
-    "Apple Bites": {
+    {
+        "item": "Apple Bites",
         "description": "A selection of crisp, juicy sliced apple pieces, perfect as a snack or a side. Great pick!",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2555_large_US_en.jpg",
         "metrics": {
@@ -467,7 +480,8 @@
             "Apple Bites": ["Apples", "Calcium Ascorbate (To Maintain Freshness And Color)"]
         }
     },
-    "Sausage and Egg Burrito": {
+    {
+        "item": "Sausage and Egg Burrito",
         "description": "Scrambled grade A eggs, melty cheese, and sliced, perfectly seasoned, breakfast sausage wrapped in a warm, soft, flour tortilla. Conveniently delicious, and deliciously convenient.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2031_large_US_en.jpg",
         "metrics": {
@@ -506,7 +520,8 @@
                 "Annatto", "APO Carotenal", "Beta Carotene", "Acetic Acid", "Enzymes", "Soy Lecithin"]
         }
     },
-    "Sausage Biscuit": {
+    {
+        "item": "Sausage Biscuit",
         "description": "Grilled, breakfast sausage on a soft, butter-brushed buttermilk biscuit. Simple breakfast perfection",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2032_large_US_en.jpg",
         "metrics": {
@@ -539,7 +554,8 @@
             "Sausage Patty": ["Pork", "Water", "Spices", "Salt", "Dextrose", "Sugar"]
         }
     },
-    "Sausage and Gravy Biscuit": {
+    {
+        "item": "Sausage and Gravy Biscuit",
         "description": "A fluffy buttermilk biscuit smothered in grilled, breakfast sausage and white pepper gravy. Enjoy a Southern-style classic anywhere.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2033_large_US_en.jpg",
         "metrics": {
@@ -573,7 +589,8 @@
                 "Pork Sausage (Pork, Water, Spices, Salt, Dextrose, Sugar)"]
         }
     },
-    "Cranberry Pecan Oatmeal": {
+    {
+        "item": "Cranberry Pecan Oatmeal",
         "description": "Natural oats cooked to perfection with your choice of sweet cranberries and roasted pecans.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2027_large_US_en.jpg",
         "metrics": {
@@ -607,7 +624,8 @@
             "Oatmeal": ["Water", "Quick Rolled Oats", "Quick Steel Cut Oats", "#5 Rolled Oats", "Cinnamon"]
         }
     },
-    "Plain Oatmeal": {
+    {
+        "item": "Plain Oatmeal",
         "description": "Natural oats cooked to perfection.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2026_large_US_en.jpg",
         "metrics": {
@@ -631,4 +649,4 @@
             "iron": {"value": 10, "unit": "%DV"}
         }
     }
-}
+]

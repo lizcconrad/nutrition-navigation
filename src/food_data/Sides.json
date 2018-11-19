@@ -1,5 +1,6 @@
-{
-    "Junior Natural-Cut Fries": {
+[
+    {
+        "item": "Junior Natural-Cut Fries",
         "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2546_large_US_en.jpg",
         "size": "Junior",
@@ -32,7 +33,8 @@
                 "Sea Salt"]
         }
     },
-    "Small Natural-Cut Fries": {
+    {
+        "item": "Small Natural-Cut Fries",
         "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/21_large_US_en.jpg",
         "size": "Small",
@@ -65,7 +67,8 @@
                 "Sea Salt"]
         }
     },
-    "Medium Natural-Cut Fries": {
+    {
+        "item": "Medium Natural-Cut Fries",
         "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/22_large_US_en.jpg",
         "size": "Medium",
@@ -98,7 +101,8 @@
                 "Sea Salt"]
         }
     },
-    "Large Natural-Cut Fries": {
+    {
+        "item": "Large Natural-Cut Fries",
         "description": "Natural-cut, skin-on, sea-salted fries served hot and crispy. The world loves them for a reason.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/23_large_US_en.jpg",
         "size": "Large",
@@ -131,7 +135,8 @@
                 "Sea Salt"]
         }
     },
-    "S'Awesome Bacon Fries": {
+    {
+        "item": "S'Awesome Bacon Fries",
         "description": "Our natural-cut, skin-on, sea-salted fries topped with warm melted cheese sauce, Applewood smoked bacon pieces, and our signature sweet, smoky, tangy sauce? Oh yeah, it’s real. Real S’Awesome.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2710_large_US_en.jpg",
         "metrics": {
@@ -178,7 +183,8 @@
                 "Natamycin (Natural Mold Inhibitor)"]
         }
     },
-    "Baconator® Fries": {
+    {
+        "item": "Baconator® Fries",
         "description": "Our natural-cut, skin-on, sea-salted fries topped with warm, creamy cheese sauce, shredded cheddar, and crispy Applewood smoked bacon. The only fries worthy of the Baconator name.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2143_large_US_en.jpg",
         "metrics": {
@@ -221,7 +227,8 @@
                 "Natamycin (Natural Mold Inhibitor)"]
         }
     },
-    "Chili Cheese Fries": {
+    {
+        "item": "Chili Cheese Fries",
         "description": "Our natural-cut, skin-on, sea-salted fries topped with our hearty chili and rich, creamy cheese sauce. Easy to love. Hard to beat.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/435_large_US_en.jpg",
         "metrics": {
@@ -264,7 +271,8 @@
                 "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
         }
     },
-    "Small Chili": {
+    {
+        "item": "Small Chili",
         "description": "The only hearty chili made with our fresh, never frozen beef. Perfectly seasoned and positively irresistible. Red’s kind of our thing, you know.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/29_large_US_en.jpg",
@@ -297,7 +305,8 @@
                 "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
         }
     },
-    "Large Chili": {
+    {
+        "item": "Large Chili",
         "description": "The only hearty chili made with our fresh, never frozen beef. Perfectly seasoned and positively irresistible. Red’s kind of our thing, you know.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/30_large_US_en.jpg",
@@ -330,7 +339,8 @@
                 "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
         }
     },
-    "Sour Cream and Chive Baked Potato": {
+    {
+        "item": "Sour Cream and Chive Baked Potato",
         "description": "A hot, fluffy potato topped with the classic combination of chives, and sour cream. It’s a side, it’s a meal, it’s a potato’s potato. Potato.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/25_large_US_en.jpg",
         "metrics": {
@@ -362,7 +372,8 @@
             "Light Sour Cream": ["Cultured Milk And Cream", "Corn Starch", "Xanthan Gum", "Potassium Sorbate (Preservative)", "Vitamin A Palmitate"]
         }
     },
-    "Plain Baked Potato": {
+    {
+        "item": "Plain Baked Potato",
         "description": "The satisfying simplicity of good, honest, hot, fluffy baked potato perfection. Ingredients: Potato.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2163_large_US_en.jpg",
         "metrics": {
@@ -389,7 +400,8 @@
             "Potato": ["Potato"]
         }
     },
-    "Bacon Cheese Baked Potato": {
+    {
+        "item": "Bacon Cheese Baked Potato",
         "description": "Hot and fluffy potato topped with rich, creamy cheese sauce and crisp Applewood smoked bacon. Because nothing goes with a potato like cheese and bacon.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/27_large_US_en.jpg",
         "metrics": {
@@ -424,7 +436,8 @@
             "Applewood Smoked Bacon": ["Bacon (Cured With Water, Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite)"]
         }
     },
-    "Chili & Cheese Baked Potato": {
+    {
+        "item": "Chili & Cheese Baked Potato",
         "description": "Hot and fully potato topped with Wendy’s signature meaty, flavorful chili, rich, creamy cheese sauce, and shredded cheddar. This spud’s your best bud.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2165_large_US_en.jpg",
         "metrics": {
@@ -462,7 +475,8 @@
                 "Water", "Ground Beef (Beef, Salt)", "Chili Beans (Prepared Pink Beans, Prepared Red Kidney Beans)", "Soy Lecithin"]
         }
     },
-    "Cheese Baked Potato": {
+    {
+        "item": "Cheese Baked Potato",
         "description": "Hot and fully potato with shredded cheddar cheese and rich, creamy cheese sauce on top. It’s savory and delicious no matter how you skin it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2164_large_US_en.jpg",
         "metrics": {
@@ -498,7 +512,8 @@
                 "Natamycin (Natural Mold Inhibitor)"]
         }
     },
-    "Apple Bites": {
+    {
+        "item": "Apple Bites",
         "description": "A selection of crisp, juicy sliced apple pieces, perfect as a snack or a side. Great pick!",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2555_large_US_en.jpg",
         "metrics": {
@@ -525,4 +540,4 @@
             "Apple Bites": ["Apples", "Calcium Ascorbate (To Maintain Freshness And Color)"]
         }
     }
-}
+]

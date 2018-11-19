@@ -1,5 +1,6 @@
-{ 
-    "Small Apple Kiwi Fruit Tea": {
+[ 
+    {
+        "item": "Small Apple Kiwi Fruit Tea",
         "description": "Thirst-quenching apple juice and kiwifruit juice hand-shaken with Organic Honest® Tropical Green Tea. The best pick you’ll make today.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2692_large_US_en.jpg",
         "size": "Small",
@@ -29,7 +30,8 @@
                 "Apple Kiwi Concentrate (Water, Sugar, Apple Juice Concentrate, Banana Puree Concentrate, Clarified Kiwi Juice Concentrate, Apple Puree Concentrate, Less than 1%: Citric Acid [Provides Tartness], Natural Flavors, Vitamin C [Ascorbic Acid])"]
         }
     },
-    "Medium Apple Kiwi Fruit Tea": {
+    {
+        "item": "Medium Apple Kiwi Fruit Tea",
         "description": "Thirst-quenching apple juice and kiwifruit juice hand-shaken with Organic Honest® Tropical Green Tea. The best pick you’ll make today.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2693_large_US_en.jpg",
         "size": "Large",
@@ -59,7 +61,8 @@
                 "Apple Kiwi Concentrate (Water, Sugar, Apple Juice Concentrate, Banana Puree Concentrate, Clarified Kiwi Juice Concentrate, Apple Puree Concentrate, Less than 1%: Citric Acid [Provides Tartness], Natural Flavors, Vitamin C [Ascorbic Acid])"]
         }
     },
-    "Large Apple Kiwi Fruit Tea": {
+    {
+        "item": "Large Apple Kiwi Fruit Tea",
         "description": "Thirst-quenching apple juice and kiwifruit juice hand-shaken with Organic Honest® Tropical Green Tea. The best pick you’ll make today.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2694_large_US_en.jpg",
         "size": "Large",
@@ -89,7 +92,8 @@
                 "Apple Kiwi Concentrate (Water, Sugar, Apple Juice Concentrate, Banana Puree Concentrate, Clarified Kiwi Juice Concentrate, Apple Puree Concentrate, Less than 1%: Citric Acid [Provides Tartness], Natural Flavors, Vitamin C [Ascorbic Acid])"]
         }
     },
-    "Small Pear Berry Fruit Tea": {
+    {
+        "item": "Small Pear Berry Fruit Tea",
         "description": "Refreshingly crisp pear juice and blackberry and apple puree hand-shaken with Organic Honest® Tropical Green Tea. Pears with anything.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2695_large_US_en.jpg",
         "size": "Small",
@@ -119,7 +123,8 @@
                 "Pear Blackberry Ginger Concentrate (Water, Pear Juice Concentrate, Sugar, Blackberry Puree, Apple Puree Concentrate, Less than 1%: Malic and Citric Acids [Provide Tartness], Natural Flavors, Vitamin C [Ascorbic Acid], Ginger Extract)"]
         }
     },
-    "Medium Pear Berry Fruit Tea": {
+    {
+        "item": "Medium Pear Berry Fruit Tea",
         "description": "Refreshingly crisp pear juice and blackberry and apple puree hand-shaken with Organic Honest® Tropical Green Tea. Pears with anything.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2696_large_US_en.jpg",
         "size": "Medium",
@@ -149,7 +154,8 @@
                 "Pear Blackberry Ginger Concentrate (Water, Pear Juice Concentrate, Sugar, Blackberry Puree, Apple Puree Concentrate, Less than 1%: Malic and Citric Acids [Provide Tartness], Natural Flavors, Vitamin C [Ascorbic Acid], Ginger Extract)"]
         }
     },
-    "Large Pear Berry Fruit Tea": {
+    {
+        "item": "Large Pear Berry Fruit Tea",
         "description": "Refreshingly crisp pear juice and blackberry and apple puree hand-shaken with Organic Honest® Tropical Green Tea. Pears with anything.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2697_large_US_en.jpg",
         "size": "Large",
@@ -179,7 +185,8 @@
                 "Pear Blackberry Ginger Concentrate (Water, Pear Juice Concentrate, Sugar, Blackberry Puree, Apple Puree Concentrate, Less than 1%: Malic and Citric Acids [Provide Tartness], Natural Flavors, Vitamin C [Ascorbic Acid], Ginger Extract)"]
         }
     },
-    "Small Honest® Tropical Green Tea": {
+    {
+        "item": "Small Honest® Tropical Green Tea",
         "description": "Organic Honest® Green Tea, pure and simple, with natural flavors and real organic cane sugar.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2113_large_US_en.jpg",
         "size": "Small",
@@ -208,7 +215,8 @@
             "Tropical Green Tea": ["Organic Cane Cugar", "Fair Trade Organic Green Tea Leaves", "Natural Flavors"]
         }
     },
-    "Medium Honest® Tropical Green Tea": {
+    {
+        "item": "Medium Honest® Tropical Green Tea",
         "description": "Organic Honest® Green Tea, pure and simple, with natural flavors and real organic cane sugar.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2114_large_US_en.jpg",
         "size": "Medium",
@@ -237,7 +245,8 @@
             "Tropical Green Tea": ["Organic Cane Cugar", "Fair Trade Organic Green Tea Leaves", "Natural Flavors"]
         }
     },
-    "Large Honest® Tropical Green Tea": {
+    {
+        "item": "Large Honest® Tropical Green Tea",
         "description": "Organic Honest® Green Tea, pure and simple, with natural flavors and real organic cane sugar.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2115_large_US_en.jpg",
         "size": "Large",
@@ -266,7 +275,8 @@
             "Tropical Green Tea": ["Organic Cane Cugar", "Fair Trade Organic Green Tea Leaves", "Natural Flavors"]
         }
     },
-    "Small All-Natural Lemonade": {
+    {
+        "item": "Small All-Natural Lemonade",
         "description": "Real lemonade with no artificial ingredients or preservatives.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/420_large_US_en.jpg",
         "size": "Small",
@@ -295,7 +305,8 @@
             "Lemonade": ["Sugar", "Water", "Lemon Juice", "Lemon Pulp", "Lemon Juice Concentrate", "Natural Flavors"]
         }
     },
-    "Medium All-Natural Lemonade": {
+    {
+        "item": "Medium All-Natural Lemonade",
         "description": "Real lemonade with no artificial ingredients or preservatives.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/421_large_US_en.jpg",
         "size": "Medium",
@@ -324,7 +335,8 @@
             "Lemonade": ["Sugar", "Water", "Lemon Juice", "Lemon Pulp", "Lemon Juice Concentrate", "Natural Flavors"]
         }
     },
-    "Large All-Natural Lemonade": {
+    {
+        "item": "Large All-Natural Lemonade",
         "description": "Real lemonade with no artificial ingredients or preservatives.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/422_large_US_en.jpg",
         "size": "Large",
@@ -353,7 +365,8 @@
             "Lemonade": ["Sugar", "Water", "Lemon Juice", "Lemon Pulp", "Lemon Juice Concentrate", "Natural Flavors"]
         }
     },
-    "Small Strawberry Lemonade": {
+    {
+        "item": "Small Strawberry Lemonade",
         "description": "Our all-natural lemonade flavored with real strawberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2001_large_US_en.jpg",
         "size": "Small",
@@ -385,7 +398,8 @@
 
         }
     },
-    "Medium Strawberry Lemonade": {
+    {
+        "item": "Medium Strawberry Lemonade",
         "description": "Our all-natural lemonade flavored with real strawberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2002_large_US_en.jpg",
         "size": "Medium",
@@ -417,7 +431,8 @@
 
         }
     },
-    "Large Strawberry Lemonade": {
+    {
+        "item": "Large Strawberry Lemonade",
         "description": "Our all-natural lemonade flavored with real strawberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2003_large_US_en.jpg",
         "size": "Large",
@@ -450,7 +465,8 @@
 
         }
     },
-    "Small Limeade": {
+    {
+        "item": "Small Limeade",
         "description": "Our all-natural lemonade, flavored with a twist of lime.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2629_large_US_en.jpg",
         "size": "Small",
@@ -482,7 +498,8 @@
                 "Gum Arabic", "Sucrose Acetate Isobutyrate", "Natural Flavor"]
         }
     },
-    "Medium Limeade": {
+    {
+        "item": "Medium Limeade",
         "description": "Our all-natural lemonade, flavored with a twist of lime.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2630_large_US_en.jpg",
         "size": "Medium",
@@ -514,7 +531,8 @@
                 "Gum Arabic", "Sucrose Acetate Isobutyrate", "Natural Flavor"]
         }
     },
-    "Large Limeade": {
+    {
+        "item": "Large Limeade",
         "description": "Our all-natural lemonade, flavored with a twist of lime.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2631_large_US_en.jpg",
         "size": "Large",
@@ -546,7 +564,8 @@
                 "Gum Arabic", "Sucrose Acetate Isobutyrate", "Natural Flavor"]
         }
     },
-    "Small Coca-Cola®": {
+    {
+        "item": "Small Coca-Cola®",
         "description": "The cold, refreshing, sparkling classic that America loves.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/44_large_US_en.jpg",
         "size": "Small",
@@ -572,7 +591,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Coca-Cola®": {
+    {
+        "item": "Medium Coca-Cola®",
         "description": "The cold, refreshing, sparkling classic that America loves.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/45_large_US_en.jpg",
         "size": "Medium",
@@ -598,7 +618,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Coca-Cola®": {
+    {
+        "item": "Large Coca-Cola®",
         "description": "The cold, refreshing, sparkling classic that America loves.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/268_large_US_en.jpg",
         "size": "Large",
@@ -624,7 +645,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Coca-Cola® Zero Sugar": {
+    {
+        "item": "Small Coca-Cola® Zero Sugar",
         "description": "The same great taste as Coke Classic® but with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/349_large_US_en.jpg",
         "size": "Small",
@@ -650,7 +672,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Coca-Cola® Zero Sugar": {
+    {
+        "item": "Medium Coca-Cola® Zero Sugar",
         "description": "The same great taste as Coke Classic® but with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/350_large_US_en.jpg",
         "size": "Medium",
@@ -676,7 +699,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Coca-Cola® Zero Sugar": {
+    {
+        "item": "Large Coca-Cola® Zero Sugar",
         "description": "The same great taste as Coke Classic® but with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/351_large_US_en.jpg",
         "size": "Large",
@@ -702,7 +726,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Diet Coke®": {
+    {
+        "item": "Small Diet Coke®",
         "description": "The great taste of Coca-Cola® with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/49_large_US_en.jpg",
         "size": "Small",
@@ -728,7 +753,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Diet Coke®": {
+    {
+        "item": "Medium Diet Coke®",
         "description": "The great taste of Coca-Cola® with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/50_large_US_en.jpg",
         "size": "Medium",
@@ -754,7 +780,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Diet Coke®": {
+    {
+        "item": "Large Diet Coke®",
         "description": "The great taste of Coca-Cola® with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/269_large_US_en.jpg",
         "size": "Large",
@@ -780,7 +807,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Sprite®": {
+    {
+        "item": "Small Sprite®",
         "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/54_large_US_en.jpg",
         "size": "Small",
@@ -806,7 +834,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Sprite®": {
+    {
+        "item": "Medium Sprite®",
         "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/55_large_US_en.jpg",
         "size": "Medium",
@@ -832,7 +861,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Sprite®": {
+    {
+        "item": "Large Sprite®",
         "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/270_large_US_en.jpg",
         "size": "Large",
@@ -858,7 +888,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Dr Pepper®": {
+    {
+        "item": "Small Dr Pepper®",
         "description": "A signature blend of 23 flavors makes it truly unique.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/154_large_US_en.jpg",
         "size": "Small",
@@ -884,7 +915,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Dr Pepper®": {
+    {
+        "item": "Medium Dr Pepper®",
         "description": "A signature blend of 23 flavors makes it truly unique.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/155_large_US_en.jpg",
         "size": "Medium",
@@ -910,7 +942,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Dr Pepper®": {
+    {
+        "item": "Large Dr Pepper®",
         "description": "A signature blend of 23 flavors makes it truly unique.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/156_large_US_en.jpg",
         "size": "Large",
@@ -936,7 +969,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Barq's® Root Beer": {
+    {
+        "item": "Small Barq's® Root Beer",
         "description": "A sweet, spiced favorite that’s stood the test of time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/331_large_US_en.jpg",
         "size": "Small",
@@ -962,7 +996,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Barq's® Root Beer": {
+    {
+        "item": "Medium Barq's® Root Beer",
         "description": "A sweet, spiced favorite that’s stood the test of time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/332_large_US_en.jpg",
         "size": "Medium",
@@ -988,7 +1023,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Barq's® Root Beer": {
+    {
+        "item": "Large Barq's® Root Beer",
         "description": "A sweet, spiced favorite that’s stood the test of time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/333_large_US_en.jpg",
         "size": "Large",
@@ -1014,7 +1050,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Fanta® Orange": {
+    {
+        "item": "Small Fanta® Orange",
         "description": "Change up your routine with the bright, bubbly, fruity flavor of Fanta® Orange.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/337_large_US_en.jpg",
         "size": "Small",
@@ -1040,7 +1077,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Fanta® Orange": {
+    {
+        "item": "Medium Fanta® Orange",
         "description": "Change up your routine with the bright, bubbly, fruity flavor of Fanta® Orange.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/338_large_US_en.jpg",
         "size": "Medium",
@@ -1066,7 +1104,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Fanta® Orange": {
+    {
+        "item": "Large Fanta® Orange",
         "description": "Change up your routine with the bright, bubbly, fruity flavor of Fanta® Orange.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/339_large_US_en.jpg",
         "size": "Large",
@@ -1092,7 +1131,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Minute Maid® Light Lemonade": {
+    {
+        "item": "Small Minute Maid® Light Lemonade",
         "description": "A lighter take on the sweet, tart American classic.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/137_large_US_en.jpg",
         "size": "Small",
@@ -1118,7 +1158,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Minute Maid® Light Lemonade": {
+    {
+        "item": "Medium Minute Maid® Light Lemonade",
         "description": "A lighter take on the sweet, tart American classic.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/144_large_US_en.jpg",
         "size": "Medium",
@@ -1144,7 +1185,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Minute Maid® Light Lemonade": {
+    {
+        "item": "Large Minute Maid® Light Lemonade",
         "description": "A lighter take on the sweet, tart American classic.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/272_large_US_en.jpg",
         "size": "Large",
@@ -1170,7 +1212,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Hi-C® Flashin' Fruit Punch®": {
+    {
+        "item": "Small Hi-C® Flashin' Fruit Punch®",
         "description": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/325_large_US_en.jpg",
         "size": "Small",
@@ -1196,7 +1239,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Hi-C® Flashin' Fruit Punch®": {
+    {
+        "item": "Medium Hi-C® Flashin' Fruit Punch®",
         "description": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/326_large_US_en.jpg",
         "size": "Medium",
@@ -1222,7 +1266,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Hi-C® Flashin' Fruit Punch®": {
+    {
+        "item": "Large Hi-C® Flashin' Fruit Punch®",
         "description": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/327_large_US_en.jpg",
         "size": "Large",
@@ -1248,7 +1293,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Brewed Unsweetened Iced Tea": {
+    {
+        "item": "Small Brewed Unsweetened Iced Tea",
         "description": "Brewed to perfection, cool and refreshing any time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/58_large_US_en.jpg",
         "size": "Small",
@@ -1274,7 +1320,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Brewed Unsweetened Iced Tea": {
+    {
+        "item": "Medium Brewed Unsweetened Iced Tea",
         "description": "Brewed to perfection, cool and refreshing any time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/59_large_US_en.jpg",
         "size": "Medium",
@@ -1300,7 +1347,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Brewed Unsweetened Iced Tea": {
+    {
+        "item": "Large Brewed Unsweetened Iced Tea",
         "description": "Brewed to perfection, cool and refreshing any time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/271_large_US_en.jpg",
         "size": "Large",
@@ -1326,7 +1374,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Small Sweetened Iced Tea": {
+    {
+        "item": "Small Sweetened Iced Tea",
         "description": "Brewed perfectly and sweetened just the way you like it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/138_large_US_en.jpg",
         "size": "Small",
@@ -1352,7 +1401,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Medium Sweetened Iced Tea": {
+    {
+        "item": "Medium Sweetened Iced Tea",
         "description": "Brewed perfectly and sweetened just the way you like it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/147_large_US_en.jpg",
         "size": "Medium",
@@ -1378,7 +1428,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Sweetened Iced Tea": {
+    {
+        "item": "Large Sweetened Iced Tea",
         "description": "Brewed perfectly and sweetened just the way you like it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/273_large_US_en.jpg",
         "size": "Large",
@@ -1404,7 +1455,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Nestlé® Pure Life® Bottled Water": {
+    {
+        "item": "Nestlé® Pure Life® Bottled Water",
         "description": "Natural, pure, refreshing, and delicious.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/257_large_US_en.jpg",
         "flavor": "Nestlé® Pure Life® Bottled Water",
@@ -1429,7 +1481,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Regular Coffee": {
+    {
+        "item": "Regular Coffee",
         "description": "100% Arabica beans from around the world, medium-roasted to bring out all the best flavors.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/61_large_US_en.jpg",
         "size": "Regular",
@@ -1455,7 +1508,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Coffee": {
+    {
+        "item": "Large Coffee",
         "description": "100% Arabica beans from around the world, medium-roasted to bring out all the best flavors.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/62_large_US_en.jpg",
         "size": "Large",
@@ -1481,7 +1535,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Regular Decaffeinated Coffee": {
+    {
+        "item": "Regular Decaffeinated Coffee",
         "description": "Brewed to be rich and smooth without the caffeine.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/64_large_US_en.jpg",
         "size": "Regular",
@@ -1507,7 +1562,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Large Decaffeinated Coffee": {
+    {
+        "item": "Large Decaffeinated Coffee",
         "description": "Brewed to be rich and smooth without the caffeine.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/65_large_US_en.jpg",
         "size": "Large",
@@ -1533,7 +1589,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "Hot Tea": {
+    {
+        "item": "Hot Tea",
         "description": "Warm and soothing, brewed when you order it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/66_large_US_en.jpg",
         "flavor": "Hot Tea",
@@ -1558,7 +1615,8 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     },
-    "1% White Milk": {
+    {
+        "item": "1% White Milk",
         "description": "1% milk with 30% of the daily calcium requirement.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/316_large_US_en.jpg",
         "flavor": "1% White Milk",
@@ -1586,7 +1644,8 @@
             "milk"
         ]
     },
-    "1% Chocolate Milk": {
+    {
+        "item": "1% Chocolate Milk",
         "description": "A favorite since forever with 25% the daily calcium requirement.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/315_large_US_en.jpg",
         "flavor": "1% Chocolate Milk",
@@ -1614,7 +1673,8 @@
             "milk"
         ]
     },
-    "Honest Kids® Fruit Punch": {
+    {
+        "item": "Honest Kids® Fruit Punch",
         "description": "Grape, strawberry, and watermelon juices unite for a delicious, organic juice.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2148_large_US_en.jpg",
         "flavor": "Honest Kids® Fruit Punch",
@@ -1639,4 +1699,4 @@
             "iron": {"value": 0, "unit": "%DV"}
         }
     }
-}
+]

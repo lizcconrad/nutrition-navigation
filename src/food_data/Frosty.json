@@ -1,5 +1,6 @@
-{ 
-    "Junior Classic Chocolate Frosty®": {
+[ 
+    {
+        "item": "Junior Classic Chocolate Frosty®",
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/37_large_US_en.jpg",
         "size": "Junior",
@@ -32,7 +33,8 @@
                 "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
         }
     },
-    "Small Classic Chocolate Frosty®": {
+    {
+        "item": "Small Classic Chocolate Frosty®",
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/38_large_US_en.jpg",
         "size": "Small",
@@ -65,7 +67,8 @@
                 "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
         }
     },
-    "Medium Classic Chocolate Frosty®": {
+    {
+        "item": "Medium Classic Chocolate Frosty®",
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/38_large_US_en.jpg",
         "size": "Medium",
@@ -98,7 +101,8 @@
                 "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
         }
     },
-    "Large Classic Chocolate Frosty®": {
+    {
+        "item": "Large Classic Chocolate Frosty®",
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/40_large_US_en.jpg",
         "size": "Large",
@@ -131,7 +135,8 @@
                 "Cellulose Gum", "Natural Vanilla Flavor", "Carrageenan", "Calcium Sulfate", "Sodium Citrate", "Dextrose", "Vitamin A Palmitate"]
         }
     },
-    "Junior Vanilla Frosty®": {
+    {
+        "item": "Junior Vanilla Frosty®",
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/276_large_US_en.jpg",
         "size": "Junior",
@@ -164,7 +169,8 @@
                 "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
         }
     },
-    "Small Vanilla Frosty®": {
+    {
+        "item": "Small Vanilla Frosty®",
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/279_large_US_en.jpg",
         "size": "Small",
@@ -197,7 +203,8 @@
                 "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
         }
     },
-    "Medium Vanilla Frosty®": {
+    {
+        "item": "Medium Vanilla Frosty®",
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/278_large_US_en.jpg",
         "size": "Medium",
@@ -230,7 +237,8 @@
                 "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
         }
     },
-    "Large Vanilla Frosty®": {
+    {
+        "item": "Large Vanilla Frosty®",
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/277_large_US_en.jpg",
         "size": "Large",
@@ -263,4 +271,4 @@
                 "Sodium Citrate", "Natural Flavor", "Molasses", "Annatto Extract (Color)", "Vitamin A Palmitate"]
         }
     }
-}
+]

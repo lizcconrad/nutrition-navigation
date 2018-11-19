@@ -1,5 +1,6 @@
-{
-    "S'Awesome Bacon Classic Single": {
+[
+    {
+        "item": "S'Awesome Bacon Classic Single",
         "description": "A quarter-pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. A masterpiece signed with S’Awesome.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2723_large_US_en.jpg",
@@ -45,7 +46,8 @@
             "Sweet Onion": ["Onion"]
         }
     },
-    "S'Awesome Bacon Classic Double": {
+    {
+        "item": "S'Awesome Bacon Classic Double",
         "description": "A half-pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. What’s S’Awesome times two? You’re looking at it.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2708_large_US_en.jpg",
@@ -91,7 +93,8 @@
             "Sweet Onion": ["Onion"]
         }
     },
-    "S'Awesome Bacon Classic Triple": {
+    {
+        "item": "S'Awesome Bacon Classic Triple",
         "description": "Three quarters of a pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. It doesn’t get more S’Awesome than this",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2709_large_US_en.jpg",
@@ -137,7 +140,8 @@
             "Sweet Onion": ["Onion"]
         }
     },
-    "Dave's Single®": {
+    {
+        "item": "Dave's Single®",
         "description": "A quarter-pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun — just the way Dave intended.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/1_large_US_en.jpg",
@@ -181,7 +185,8 @@
             "Hamburger Patty": ["Ground Beef", "Salt"]
         }
     },
-    "Dave's Double®": {
+    {
+        "item": "Dave's Double®",
         "description": "A half-pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. More meat means more to love.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2_large_US_en.jpg",
@@ -225,7 +230,8 @@
             "Hamburger Patty": ["Ground Beef", "Salt"]
         }
     },
-    "Dave's Triple®": {
+    {
+        "item": "Dave's Triple®",
         "description": "Three quarters of a pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. Use both hands!",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/3_large_US_en.jpg",
@@ -269,7 +275,8 @@
             "Hamburger Patty": ["Ground Beef", "Salt"]
         }
     },
-    "Baconator®": {
+    {
+        "item": "Baconator®",
         "description": "A half-pound* of fresh, never frozen beef, American cheese, 6 pieces of crispy Applewood smoked bacon, ketchup, and mayo. Carnivores rejoice!",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/4_large_US_en.jpg",
@@ -310,7 +317,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Son of Baconator®": {
+    {
+        "item": "Son of Baconator®",
         "description": "A quarter-pound* of fresh, never frozen beef, plenty of Applewood smoked bacon, ketchup, and mayo. Like Baconator®, like Son.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/1429_large_US_en.jpg",
@@ -351,7 +359,8 @@
                 "Sodium Citrate", "Sodium Phosphate", "Sorbic Acid (Preservative)", "Soy Lecithin"]
         }
     },
-    "Jr. Bacon Cheeseburger": {
+    {
+        "item": "Jr. Bacon Cheeseburger",
         "description": "Fresh, never frozen beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, and mayo. It’s a favorite of bacon lovers everywhere.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/5_large_US_en.jpg",
@@ -394,7 +403,8 @@
 
         }
     },
-    "Jr. Cheeseburger Deluxe": {
+    {
+        "item": "Jr. Cheeseburger Deluxe",
         "description": "Fresh, never frozen beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It’s big flavor at a junior price.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/6_large_US_en.jpg",
@@ -438,7 +448,8 @@
             "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
         }
     },
-    "Jr. Cheeseburger": {
+    {
+        "item": "Jr. Cheeseburger",
         "description": "Fresh, never frozen beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It’s big flavor at a junior price.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/6_large_US_en.jpg",
@@ -480,7 +491,8 @@
             "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
         }
     },
-    "Double Stack™": {
+    {
+        "item": "Double Stack™",
         "description": "Two patties of fresh, never frozen beef with cheese, ketchup, mustard, pickle, and onion. It’s double the fresh beef, stacked with deliciousness.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/128_large_US_en.jpg",
@@ -522,7 +534,8 @@
             "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
         }
     },
-    "Jr. Hamburger": {
+    {
+        "item": "Jr. Hamburger",
         "description": "Fresh, never frozen beef topped with pickles, onion, ketchup, and mustard on a toasted bun. It’s done just right, and just the right size.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/78_large_US_en.jpg",
@@ -565,4 +578,4 @@
             "Jr. Hamburger Patty": ["Ground Beef", "Salt"]
         }
     }
-}
+]

@@ -1,5 +1,6 @@
-{ 
-    "Spicy Chicken Sandwich": {
+[ 
+    {
+        "item": "Spicy Chicken Sandwich",
         "description": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, cooled down with crisp lettuce, tomato, and mayo. It’s the original spicy chicken sandwich, and the one you crave.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/119_large_US_en.jpg",
         "metrics": {
@@ -43,7 +44,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Homestyle Chicken Sandwich": {
+    {
+        "item": "Homestyle Chicken Sandwich",
         "description": "A juicy, lightly-breaded chicken breast, crisp lettuce and tomato, and just enough mayo, all on a toasted bun. It’s extra comfy comfort food.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/118_large_US_en.jpg",
         "metrics": {
@@ -88,7 +90,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Asiago Ranch Chicken Club": {
+    {
+        "item": "Asiago Ranch Chicken Club",
         "description": "A juicy, lightly breaded chicken breast taken over the top with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. A club favorite that’s anything but boring.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/81_large_US_en.jpg",
         "metrics": {
@@ -138,7 +141,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Spicy Asiago Ranch Chicken Club": {
+    {
+        "item": "Spicy Asiago Ranch Chicken Club",
         "description": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, topped with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. So hot you’ll wanna give your mouth a heads up.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2230_large_US_en.jpg",
         "metrics": {
@@ -187,7 +191,8 @@
                 "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Grilled Asiago Ranch Chicken Club": {
+    {
+        "item": "Grilled Asiago Ranch Chicken Club",
         "description": "A sizzling chicken breast grilled to perfection, with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. Go grilled. Go home happy.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2224_large_US_en.jpg",
         "metrics": {
@@ -234,7 +239,8 @@
                 "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
         }
     },
-    "Grilled Chicken Sandwich": {
+    {
+        "item": "Grilled Chicken Sandwich",
         "description": "Herb-marinated grilled chicken breast topped with smoky honey mustard, crisp spring mix, and tomato, served on a warm toasted bun. See if it isn’t the best chicken sandwich you’ve ever had.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2587_large_US_en.jpg",
         "metrics": {
@@ -279,8 +285,8 @@
                 "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
         }
     },
-    "10PC Crispy Chicken Nuggets": {
-
+    {
+        "item": "10PC Crispy Chicken Nuggets",
         "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/248_large_US_en.jpg",
         "size": "10 piece",
@@ -316,7 +322,8 @@
                 "Citric Acid", "Yeast", "Spice Extractives", "Xanthan Gum", "Soybean Or Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "6PC Crispy Chicken Nuggets": {
+    {
+        "item": "6PC Crispy Chicken Nuggets",
         "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/33_large_US_en.jpg",
         "size": "6 piece",
@@ -352,7 +359,8 @@
                 "Citric Acid", "Yeast", "Spice Extractives", "Xanthan Gum", "Soybean Or Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "4PC Crispy Chicken Nuggets": {
+    {
+        "item": "4PC Crispy Chicken Nuggets",
         "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/35_large_US_en.jpg",
         "size": "4 piece",
@@ -388,7 +396,8 @@
                 "Citric Acid", "Yeast", "Spice Extractives", "Xanthan Gum", "Soybean Or Vegetable Oil", "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of The Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "6PC Chicken Tenders": {
+    {
+        "item": "6PC Chicken Tenders",
         "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2588_large_US_en.jpg",
         "size": "6 piece",
@@ -425,7 +434,8 @@
              "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "4PC Chicken Tenders": {
+    {
+        "item": "4PC Chicken Tenders",
         "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2580_large_US_en.jpg",
         "size": "4 piece",
@@ -462,7 +472,8 @@
              "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "3PC Chicken Tenders": {
+    {
+        "item": "3PC Chicken Tenders",
         "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2579_large_US_en.jpg",
         "size": "6 piece",
@@ -499,7 +510,8 @@
              "Vegetable Oil (Soybean Oil, Vegetable Oil [May Contain One Or More Of the Following: Canola, Corn, Or Cottonseed], Hydrogenated Soybean Oil, Dimethylpolysiloxane [Anti-Foaming Agent])"]
         }
     },
-    "Crispy Chicken BLT": {
+    {
+        "item": "Crispy Chicken BLT",
         "description": "Juicy white meat, lightly breaded and seasoned, topped with Applewood smoked bacon, crisp lettuce, tomato, cheese, and mayo. A classic taste, perfectly reinvented.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2198_large_US_en.jpg",
         "metrics": {
@@ -546,7 +558,8 @@
                     "Vegetable Oil (Soybean, Canola, Corn Or Cottonseed), Hydrogenated Soybean Oil And Dimethylpolysiloxane (Anti-Foaming Agent)"]
         }
     },
-    "Crispy Chicken Sandwich": {
+    {
+        "item": "Crispy Chicken Sandwich",
         "description": "Juicy white meat, lightly breaded and seasoned, topped with crisp lettuce, tomato and mayo. More than delicious, and just the right size.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/267_large_US_en.jpg",
         "metrics": {
@@ -589,7 +602,8 @@
                 "Vegetable Oil (Soybean, Canola, Corn Or Cottonseed), Hydrogenated Soybean Oil And Dimethylpolysiloxane (Anti-Foaming Agent)"]
         }
     },
-    "Grilled Chicken Wrap": {
+    {
+        "item": "Grilled Chicken Wrap",
         "description": "Herb-marinated grilled chicken breast wrapped in a flour tortilla with crisp spring mix, shredded cheddar cheese, and smoky honey mustard. It’s a handful of flavor.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/299_large_US_en.jpg",
         "metrics": {
@@ -634,7 +648,8 @@
                 "Potato Starch", "Carrageenan", "Xanthan Gum", "Soy Lecithin"]
         }
     },
-    "Spicy Chicken Wrap": {
+    {
+        "item": "Spicy Chicken Wrap",
         "description": "Juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, wrapped in a tortilla with crisp lettuce, shredded cheddar cheese, and ranch sauce. It’s a whole handful of hot.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/301_large_US_en.jpg",
         "metrics": {
@@ -682,4 +697,4 @@
 
         }
     }
-}
+]
