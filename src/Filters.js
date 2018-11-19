@@ -37,39 +37,9 @@ import './sass/Filters.scss';
 
 
 export default class Filters extends Component {
-  //Sidebar Stuff
-  constructor(props) {
-    super(props);
-    this.state = {
-      sidebarOpen: false
-    };
-    this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
-  }
-
-//Sidebar Stuff
-onSetSidebarOpen(open) {
-  this.setState({ sidebarOpen: open });
-}
-
-  //Button Collapses Example i believe. not sure if used or needed. will leave in case and test later and leave just
-state = { collapsed: true, ipsum: [] };
-
-//Button for Collapse Example i believe. not sure if used or needed. will leave in case and test later
-componentWillMount() {
-  this.setState({
-    collapsed: true,
-  });
-}
-
-//Button for Collapse Example i believe. not sure if used or needed. will leave in case and test later
-toggle = () => {
-  this.setState({ collapsed: !this.state.collapsed });
-};
-
-
+  
   render() {
-    const sidebar = <SidebarContent />
-    const { collapsed, ipsum } = this.state;// unsure if need
+    
     const { filterType } = Autocomplete.caseInsensitiveFilter; //for AutoComplete Text.
     const contentHeader = (
       <span>
@@ -297,9 +267,9 @@ toggle = () => {
             />
           </a>
           <br></br>
-          <a>
-          <Button raised primary>Filter</Button>
-          </a>
+          <br></br>
+          <br></br>
+          <div className="filter-btn"><Button raised primary>Filter</Button></div>
         </div>
         </MaterialTitlePanel>}
         open={this.state.sidebarOpen}
@@ -387,8 +357,7 @@ Sidebar.propTypes = {
 //Sidebar Stuff
 Sidebar.defaultProps = {
   docked: true,
-  shadow: false,
-  defaultSidebarWidth: 0
+  shadow: false
 };
 
 //Styles for Sidebar
@@ -396,7 +365,8 @@ const styles = {
   root: {
     fontFamily:
       '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif',
-    fontWeight: 300
+    fontWeight: 300,
+    height: "100%"
   },
   header: {
     backgroundColor: "#03a9f4",
@@ -422,7 +392,7 @@ const styles = {
   },
   content: {
     padding: "16px",
-    height: "100%",
+
     backgroundColor: "white"
   }
 };
