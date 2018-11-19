@@ -1,2 +1,17 @@
 
 $md-expansion-panel-padding: 0px !default;
+
+.filters-title {
+    background: #03A9F4;
+    text-decoration: none;
+
+    h2 {
+        color: white;
+        font-size: 1.5em;
+    }
+}
+
+.sticky-card {
+    position: sticky;
+    top: 0;
+}

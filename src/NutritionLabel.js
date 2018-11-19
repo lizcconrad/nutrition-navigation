@@ -6,6 +6,27 @@ import ServingSize from './ServingSize.js'
 
 export default class NutritionLabel extends Component {
 
+  getAllergens = () => {
+    let allergens = new Set();
+
+    for(let i=0; i < this.props.meal.length; i++) {
+      for(let j=0; j < this.props.meal[i].allergens.length; j++) {
+        allergens.add(this.props.meal[i].allergens[j]);
+      }
+    }
+
+    let allergenString = "";
+    allergens.forEach(function(allergen) {
+      allergenString += allergen + ", "
+    });
+    allergenString = allergenString.substring(0, allergenString.length - 2).toLocaleUpperCase();
+
+    console.log(allergenString);
+
+    return allergenString;
+
+  }
+
   calculateGoalPercentage = (current, goal) => {
     if(isNaN(goal)) {
       return goal;
@@ -15,12 +36,16 @@ export default class NutritionLabel extends Component {
   }
 
   render() {
+
+    console.log(this.props.meal);
+    console.log(this.getAllergens());
+
     return (
       <div className="nutrition-label">
         <h2>Nutrition Facts</h2>
         <Grid>
 
-          <ServingSize meal={this.props.meal} />
+          <ServingSize  meal={this.props.meal} />
 
           <Divider className="big-divider"/>
           <Cell size={12} className="goal-cell">
@@ -120,7 +145,7 @@ export default class NutritionLabel extends Component {
             value={this.props.iron + "% DV"} />
           <Divider className="medium-divider" />
           <Cell size={12} className="skinny-cell"> 
-            <span className="bold">CONTAINS: </span>
+            <span className="bold">{"CONTAINS: " + this.getAllergens()}</span>
           </Cell>
         </Grid>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { List, ListItem, Button } from 'react-md';
+import { List, ListItem, Button, FontIcon } from 'react-md';
 
 export default class ServingSize extends Component {
 
@@ -9,14 +9,14 @@ export default class ServingSize extends Component {
     for(let i=0; i < this.props.meal.length; i++) {
       mealList.push(
         <ListItem
+          className="serving-size-item"
           primaryText={this.props.meal[i].item}
-          renderChildrenOutside
-          primaryAction={
-            <Button icon primary>info</Button>
-          }
+          leftIcon={<FontIcon key="info">info</FontIcon>}
+          // renderChildrenOutside
           onClick={this.handleClick}
+          key={i}
         >
-          <Button icon primary>cancel</Button>
+          {/* <Button icon primary>close</Button> */}
         </ListItem>
       );
     }

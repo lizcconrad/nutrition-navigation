@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 import './styles/Filters.css';
-import Sidebar from "react-sidebar";
-import PropTypes from "prop-types";
 import {
-  Avatar,
   DataTable, TableHeader, TableBody, TableRow, TableColumn,
-  ExpansionList, ExpansionPanel,
-  Button, Collapse, GridList,
-  Slider,
-  Autocomplete
+  ExpansionList, ExpansionPanel, Button, Slider,
+  Autocomplete, Card, CardTitle, Grid, Cell
 } from 'react-md';
 import './sass/Filters.scss';
 
@@ -41,417 +36,208 @@ export default class Filters extends Component {
   render() {
     
     const { filterType } = Autocomplete.caseInsensitiveFilter; //for AutoComplete Text.
-    const contentHeader = (
-      <span>
-        {!this.state.docked && (
-          <a
-            onClick={this.toggleOpen}
-            href="#"
-            style={styles.contentHeaderMenuLink}
-          >
-            =
-          </a>
-        )}
-        <span> Responsive React Sidebar</span>
-      </span>
-     
-    );
-
 
     return (
-      <Sidebar
-        sidebar={<MaterialTitlePanel title="Filter" styles={contentHeader}>
-        <div style={styles.content}>
-          <a style={styles.sidebarLink}>
-
-            <Autocomplete
+      <Card className="sticky-card">
+        <CardTitle className="filters-title" title="Filters"></CardTitle>
+        <Grid className="div-class">
+        <Cell size={12}>
+          <Autocomplete
             id="filter-search-by-name"
             label="Search by Name"
             placeholder="Enter Name of Food/Drink"
-            data={null} // sample data to filter goes here
+            data={["one", "two", "three"]} // sample data to filter goes here
             filter={filterType}
-            />
-            <br></br>
-            <ExpansionList>
-              <ExpansionPanel label = "Allergens" footer={null}>
-                <Autocomplete
-                  id="filter-search-by-name"
-                  label="Search by Allergen"
-                  placeholder="Enter Allergen"
-                  data={null} // sample data to filter goes here
-                  filter={filterType}
-                />
-                <DataTable baseId="menu-table-allergens-buttons" plain>
-                  <TableRow>
-                      <TableColumn grow><Button raised primary>Include</Button></TableColumn>
-                      <TableColumn grow><Button raised primary>Exclude</Button></TableColumn>
-                  </TableRow>
-              </DataTable>
-                <br></br>
-              <div><b>Included Items</b></div>
-              <DataTable baseId="menu-table-allergens-include" plain>
-                <TableHeader>
-                  <TableRow>
-                    <TableColumn grow>Item Name(# of Orders):</TableColumn>
-                    <TableColumn grow>Click To Remove:</TableColumn>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {Array.from(Array(5)).map((_, i) => (
-                    <TableRow key={i}>
-                      <TableColumn>Item {i}</TableColumn>
-                      <Button raised>X</Button>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </DataTable>
-              <hr></hr>
-              <br></br>
-              <div><b>Excluded Items</b></div>
-              <DataTable baseId="menu-table-allergens-exclude" plain>
-                <TableHeader>
-                  <TableRow>
-                    <TableColumn grow>Item Name(# of Orders):</TableColumn>
-                    <TableColumn grow>Click To Remove:</TableColumn>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {Array.from(Array(5)).map((_, i) => (
-                    <TableRow key={i}>
-                      <TableColumn>Item {i}</TableColumn>
-                      <Button raised>X</Button>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </DataTable>   
-            </ExpansionPanel>
-            <ExpansionPanel label = "Ingredients" footer={null}>
-              <Autocomplete
-                id="filter-search-by-name"
-                label="Search by Ingredient"
-                placeholder="Enter Ingredient"
-                data={null} // sample data to filter goes here
-                filter={filterType}
-              />
-              <DataTable baseId="menu-table-allergens-buttons" plain>
-                  <TableRow>
-                      <TableColumn grow><Button raised primary>Include</Button></TableColumn>
-                      <TableColumn grow><Button raised primary>Exclude</Button></TableColumn>
-                  </TableRow>
-              </DataTable>
-                <br></br>
-              <div><b>Included Items</b></div>
-              <DataTable baseId="menu-table-ingredients-include" plain>
-                <TableHeader>
-                  <TableRow>
-                    <TableColumn grow>Item Name(# of Orders):</TableColumn>
-                    <TableColumn grow>Click To Remove:</TableColumn>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {Array.from(Array(5)).map((_, i) => (
-                    <TableRow key={i}>
-                      <TableColumn>Item {i}</TableColumn>
-                      <Button raised>X</Button>
-                    </TableRow>
-                  ))}
-                </TableBody>
-              </DataTable>
-              <hr></hr>
-              <br></br>
-              <div><b>Excluded Items</b></div>
-              <DataTable baseId="menu-table-ingredients-exclude" plain fullWidth>
-                <TableHeader>
-                  <TableRow>
-                    <TableColumn grow>Item Name(# of Orders):</TableColumn>
-                    <TableColumn grow>Click To Remove:</TableColumn>
-                  </TableRow>
-                </TableHeader>
-                  <TableBody>
-                    {Array.from(Array(5)).map((_, i) => (
-                      <TableRow key={i}>
-                        <TableColumn>Item {i}</TableColumn>
-                        <TableColumn><Button raised>X</Button></TableColumn>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </DataTable>         
-              </ExpansionPanel>
-            </ExpansionList>
-          </a>
-          <br></br>
-          <a>
-            <div><b>Nutritional Values:</b></div>
-            <br></br>
-            <Slider
-              id="calories-custom-range-slider"
-              label="Calories: Tick = 100"
-              min={300}
-              max={1000}
-              step={10}
-              valuePrecision={100}
-              leftIcon={"Min"} //TODO should be the actual minimum not "Min"
-              rightIcon={"Max"} //TODO should be the actual maximum not "Max"
-              discrete
-              discreteTicks={100}
-            />
-          </a>
-          <a>
-            <Slider
-              id="carbs-custom-range-slider"
-              label="Carbs: Tick = 100"
-              min={300}
-              max={1000}
-              step={10}
-              valuePrecision={100}
-              leftIcon={"Min"}
-              rightIcon={"Max"}
-              discrete
-              discreteTicks={100}
-            />
-          </a>
-          <a>
-            <Slider
-              id="fat-custom-range-slider"
-              label="Fat: Tick = 100"
-              min={300}
-              max={1000}
-              step={10}
-              valuePrecision={100}
-              leftIcon={"Min"}
-              rightIcon={"Max"}
-              discrete
-              discreteTicks={100}
-            />
-          </a>
-          <a>
-            <Slider
-              id="protein-custom-range-slider"
-              label="Protein: Tick = 100"
-              min={300}
-              max={1000}
-              step={10}
-              valuePrecision={100}
-              leftIcon={"Min"}
-              rightIcon={"Max"}
-              discrete
-              discreteTicks={100}
-            />
-          </a>
-          <a>
-            <Slider
-              id="sodium-custom-range-slider"
-              label="Sodium: Tick = 100"
-              min={300}
-              max={1000}
-              step={10}
-              valuePrecision={100}
-              leftIcon={"Min"}
-              rightIcon={"Max"}
-              discrete
-              discreteTicks={100}
-            />
-          </a>
-          <a>
-            <Slider
-              id="sugar-custom-range-slider"
-              label="Sugar: Tick = 100"
-              min={300}
-              max={1000}
-              step={10}
-              valuePrecision={100}
-              leftIcon={"Min"}
-              rightIcon={"Max"}
-              discrete
-              discreteTicks={100}
-            />
-          </a>
-          <br></br>
-          <br></br>
-          <br></br>
-          <div className="filter-btn"><Button raised primary>Filter</Button></div>
-        </div>
-        </MaterialTitlePanel>}
-        open={this.state.sidebarOpen}
-        onSetOpen={this.onSetSidebarOpen}
-        styles={{ sidebar: { background: "white", width: "25%",height: "100%" }}}
-      >
-      </Sidebar>
+          />
+        </Cell>
+        <Cell size={12}>
+          <ExpansionList>
+        <ExpansionPanel label = "Allergens" footer={null}>
+        <Autocomplete
+          id="filter-search-by-name"
+          label="Search by Allergen"
+          placeholder="Enter Allergen"
+          data={["one", "two", "three"]} // sample data to filter goes here
+          filter={filterType}
+        />
+        <DataTable baseId="menu-table-allergens-buttons" plain>
+          <TableRow>
+              <TableColumn grow><Button raised primary>Include</Button></TableColumn>
+              <TableColumn grow><Button raised primary>Exclude</Button></TableColumn>
+          </TableRow>
+        </DataTable>
+        <br></br>
+        <div><b>Included Items</b></div>
+        <DataTable baseId="menu-table-allergens-include" plain>
+        <TableHeader>
+          <TableRow>
+            <TableColumn grow>Item Name(# of Orders):</TableColumn>
+            <TableColumn grow>Click To Remove:</TableColumn>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {Array.from(Array(5)).map((_, i) => (
+            <TableRow key={i}>
+              <TableColumn>Item {i}</TableColumn>
+              <Button raised>X</Button>
+            </TableRow>
+          ))}
+        </TableBody>
+        </DataTable>
+        <hr></hr>
+        <br></br>
+        <div><b>Excluded Items</b></div>
+        <DataTable baseId="menu-table-allergens-exclude" plain>
+        <TableHeader>
+          <TableRow>
+            <TableColumn grow>Item Name(# of Orders):</TableColumn>
+            <TableColumn grow>Click To Remove:</TableColumn>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {Array.from(Array(5)).map((_, i) => (
+            <TableRow key={i}>
+              <TableColumn>Item {i}</TableColumn>
+              <Button raised>X</Button>
+            </TableRow>
+          ))}
+        </TableBody>
+        </DataTable>   
+        </ExpansionPanel>
+        <ExpansionPanel label = "Ingredients" footer={null}>
+        <Autocomplete
+        id="filter-search-by-name"
+        label="Search by Ingredient"
+        placeholder="Enter Ingredient"
+        data={["one", "two", "three"]} // sample data to filter goes here
+        filter={filterType}
+        />
+        <DataTable baseId="menu-table-allergens-buttons" plain>
+          <TableRow>
+              <TableColumn grow><Button raised primary>Include</Button></TableColumn>
+              <TableColumn grow><Button raised primary>Exclude</Button></TableColumn>
+          </TableRow>
+        </DataTable>
+        <br></br>
+        <div><b>Included Items</b></div>
+        <DataTable baseId="menu-table-ingredients-include" plain>
+        <TableHeader>
+          <TableRow>
+            <TableColumn grow>Item Name(# of Orders):</TableColumn>
+            <TableColumn grow>Click To Remove:</TableColumn>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {Array.from(Array(5)).map((_, i) => (
+            <TableRow key={i}>
+              <TableColumn>Item {i}</TableColumn>
+              <Button raised>X</Button>
+            </TableRow>
+          ))}
+        </TableBody>
+        </DataTable>
+        <hr></hr>
+        <br></br>
+        <div><b>Excluded Items</b></div>
+        <DataTable baseId="menu-table-ingredients-exclude" plain fullWidth>
+        <TableHeader>
+          <TableRow>
+            <TableColumn grow>Item Name(# of Orders):</TableColumn>
+            <TableColumn grow>Click To Remove:</TableColumn>
+          </TableRow>
+        </TableHeader>
+          <TableBody>
+            {Array.from(Array(5)).map((_, i) => (
+              <TableRow key={i}>
+                <TableColumn>Item {i}</TableColumn>
+                <TableColumn><Button raised>X</Button></TableColumn>
+              </TableRow>
+            ))}
+          </TableBody>
+        </DataTable>         
+        </ExpansionPanel>
+        </ExpansionList>
+        </Cell>
+        <Cell size={12}>
+          <div><b>Nutritional Values:</b></div>
+          <Slider
+            id="calories-custom-range-slider"
+            label="Calories: Tick = 100"
+            min={300}
+            max={1000}
+            step={10}
+            valuePrecision={100}
+            leftIcon={"Min"} //TODO should be the actual minimum not "Min"
+            rightIcon={"Max"} //TODO should be the actual maximum not "Max"
+            discrete
+            discreteTicks={100}
+          />
+          <Slider
+            id="carbs-custom-range-slider"
+            label="Carbs: Tick = 100"
+            min={300}
+            max={1000}
+            step={10}
+            valuePrecision={100}
+            leftIcon={"Min"}
+            rightIcon={"Max"}
+            discrete
+            discreteTicks={100}
+          />
+          <Slider
+            id="fat-custom-range-slider"
+            label="Fat: Tick = 100"
+            min={300}
+            max={1000}
+            step={10}
+            valuePrecision={100}
+            leftIcon={"Min"}
+            rightIcon={"Max"}
+            discrete
+            discreteTicks={100}
+          />
+          <Slider
+            id="protein-custom-range-slider"
+            label="Protein: Tick = 100"
+            min={300}
+            max={1000}
+            step={10}
+            valuePrecision={100}
+            leftIcon={"Min"}
+            rightIcon={"Max"}
+            discrete
+            discreteTicks={100}
+          />
+          <Slider
+            id="sodium-custom-range-slider"
+            label="Sodium: Tick = 100"
+            min={300}
+            max={1000}
+            step={10}
+            valuePrecision={100}
+            leftIcon={"Min"}
+            rightIcon={"Max"}
+            discrete
+            discreteTicks={100}
+          />
+          <Slider
+            id="sugar-custom-range-slider"
+            label="Sugar: Tick = 100"
+            min={300}
+            max={1000}
+            step={10}
+            valuePrecision={100}
+            leftIcon={"Min"}
+            rightIcon={"Max"}
+            discrete
+            discreteTicks={100}
+          />
+        </Cell>
+        <Cell size={12}>
+          <Button raised primary>Filter</Button>
+        </Cell>
+        </Grid>
+      </Card>
     );
   }
 }
-
-//Sidebar Stuff Start
-Sidebar.propTypes = {
-  // main content to render
-  children: PropTypes.node.isRequired,
-
-  // styles
-  styles: PropTypes.shape({
-    root: PropTypes.object,
-    sidebar: PropTypes.object,
-    content: PropTypes.object,
-    overlay: PropTypes.object,
-    dragHandle: PropTypes.object
-  }),
-
-  // root component optional class
-  rootClassName: PropTypes.string,
-
-  // sidebar optional class
-  sidebarClassName: PropTypes.string,
-
-  // content optional class
-  contentClassName: PropTypes.string,
-
-  // overlay optional class
-  overlayClassName: PropTypes.string,
-
-  // sidebar content to render
-  sidebar: PropTypes.node.isRequired,
-
-  // boolean if sidebar should be docked
-  docked: PropTypes.bool,
-
-  // boolean if sidebar should slide open
-  open: PropTypes.bool,
-
-  // boolean if transitions should be disabled
-  transitions: PropTypes.bool,
-
-  // boolean if touch gestures are enabled
-  touch: PropTypes.bool,
-
-  // max distance from the edge we can start touching
-  touchHandleWidth: PropTypes.number,
-
-  // Place the sidebar on the right
-  pullRight: PropTypes.bool,
-
-  // Enable/Disable sidebar shadow
-  shadow: PropTypes.bool,
-
-  // distance we have to drag the sidebar to toggle open state
-  dragToggleDistance: PropTypes.number,
-
-  // callback called when the overlay is clicked
-  onSetOpen: PropTypes.func,
-
-  // Initial sidebar width when page loads
-  defaultSidebarWidth: PropTypes.number,
-
-  // root component optional id
-  rootId: PropTypes.string,
-
-  // sidebar optional id
-  sidebarId: PropTypes.string,
-
-  // content optional id
-  contentId: PropTypes.string,
-
-  // overlay optional id
-  overlayId: PropTypes.string
-};
-/////// Sidebar Stuff end
-
-//Sidebar Stuff
-Sidebar.defaultProps = {
-  docked: true,
-  shadow: false
-};
-
-//Styles for Sidebar
-const styles = {
-  root: {
-    fontFamily:
-      '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif',
-    fontWeight: 300,
-    height: "100%"
-  },
-  header: {
-    backgroundColor: "#03a9f4",
-    color: "white",
-    padding: "16px",
-    fontSize: "1.5em"
-  },
-  contentHeaderMenuLink: {
-    textDecoration: "none",
-    color: "white",
-    padding: 8
-  },
-  sidebarLink: {
-    display: "block",
-    padding: "16px 0px",
-    color: "#757575",
-    textDecoration: "none",
-  },
-  divider: {
-    margin: "8px 0",
-    height: 1,
-    backgroundColor: "#757575"
-  },
-  content: {
-    padding: "16px",
-
-    backgroundColor: "white"
-  }
-};
-
-//Sidebar Stuff Unsure if used atm. Dont think it is used or needed. will leave in case and test later
-const SidebarContent = props => {
-  const style = props.style
-    ? { ...styles.sidebar, ...props.style }
-    : styles.sidebar;
-
-  const links = [];
-
-  for (let ind = 0; ind < 10; ind++) {
-    links.push(
-      <a key={ind} href="#" style={styles.sidebarLink}>
-        Mock menu item {ind}
-      </a>
-    );
-  }
-
-  return (
-    <MaterialTitlePanel title="Menu" style={style}>
-      <div style={styles.content}>
-        <a href="index.html" style={styles.sidebarLink}>
-          Home
-        </a>
-        <a href="responsive_example.html" style={styles.sidebarLink}>
-          Responsive Example
-        </a>
-        <div style={styles.divider} />
-        {links}
-      </div>
-    </MaterialTitlePanel>
-  );
-};
-
-//Sidebar Stuff
-SidebarContent.propTypes = {
-  style: PropTypes.object
-};
-
-// Sidebar Titles Panel stuff
-const MaterialTitlePanel = props => {
-  const rootStyle = props.style
-    ? { ...styles.root, ...props.style }
-    : styles.root;
-
-  return (
-    <div style={rootStyle}>
-      <div style={styles.header}><center>{props.title}</center></div>
-      {props.children}
-    </div>
-  );
-};
-
-// Sidebar Titles Panel Stuff
-MaterialTitlePanel.propTypes = {
-  style: PropTypes.object,
-  title: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-  children: PropTypes.object
-};
-

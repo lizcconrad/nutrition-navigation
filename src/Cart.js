@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Cart.css';
-import { Card, CardTitle, CardActions, CardText,
-  Avatar,
-  Divider,
-  FontIcon,
-  List,
-  ListItem,
-  ListItemControl,
-  Subheader,
-  Button, 
-  Grid, Cell,} from 'react-md'; 
+import { Card, CardTitle, FontIcon, List, ListItem, Button, Grid, Cell,} from 'react-md'; 
 
 
 export default class Cart extends Component {

@@ -80,7 +80,7 @@ export default class MealPlanner extends Component {
     const STRING_SELECTORS = ['At most', 'At least'];
 
     return (
-    <Card className="md-block-centered" defaultExpanded={true}>
+    <Card className="md-block-centered">
       <CardTitle
         title="Meal Planner"
       />
