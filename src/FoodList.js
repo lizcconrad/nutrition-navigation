@@ -28,7 +28,7 @@ export default class FoodList extends Component {
     let foodList = []
 
     for(let i = 0; i < foodType.length; i++) {
-        foodList.push(<FoodItem name= { foodType[i].item} cal={ foodType[i].metrics.calories.value}/>)
+        foodList.push(<FoodItem name= { foodType[i].item} cal={ foodType[i].metrics.calories.value} price={ foodType[i].price}/>)
         if(i!== foodType.length-1) foodList.push(<Divider/>)
     }
     return foodList
