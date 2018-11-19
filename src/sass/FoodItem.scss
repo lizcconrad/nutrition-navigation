@@ -1,0 +1,7 @@
+@mixin react-md-dialog-width($units: 5) {
+   width: $units * 56px;
+ }
+
+.md-dialog--big {
+   @include react-md-dialog-width(10);
+}
