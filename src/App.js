@@ -5,8 +5,16 @@ import MealPlanner from './MealPlanner.js';
 import FoodList from './FoodList.js';
 import Cart from './Cart.js';
 import { Grid, Cell } from 'react-md';
+import hamburger_data from './food_data/Hamburgers.json';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.meal = hamburger_data;
+  }
+
   render() {
     return (
       <Grid>
@@ -14,7 +22,7 @@ class App extends Component {
         <Filters />
       </Cell>
       <Cell size={7}>
-        <MealPlanner />
+        <MealPlanner meal={[this.meal[0], this.meal[1]]}/>
         <FoodList />
       </Cell>
       <Cell size={2}>
