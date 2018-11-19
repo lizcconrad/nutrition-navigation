@@ -1,6 +1,7 @@
 [ 
     {
         "item": "Junior Classic Chocolate Frosty®",
+        "price": 0.89,
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/37_large_US_en.jpg",
         "size": "Junior",
@@ -35,6 +36,7 @@
     },
     {
         "item": "Small Classic Chocolate Frosty®",
+        "price": 0.99,
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/38_large_US_en.jpg",
         "size": "Small",
@@ -69,6 +71,7 @@
     },
     {
         "item": "Medium Classic Chocolate Frosty®",
+        "price": 1.99,
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/38_large_US_en.jpg",
         "size": "Medium",
@@ -103,6 +106,7 @@
     },
     {
         "item": "Large Classic Chocolate Frosty®",
+        "price": 2.49,
         "description": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect hamburger. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/40_large_US_en.jpg",
         "size": "Large",
@@ -137,6 +141,7 @@
     },
     {
         "item": "Junior Vanilla Frosty®",
+        "price": 0.89,
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/276_large_US_en.jpg",
         "size": "Junior",
@@ -171,6 +176,7 @@
     },
     {
         "item": "Small Vanilla Frosty®",
+        "price": 0.99,
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/279_large_US_en.jpg",
         "size": "Small",
@@ -205,6 +211,7 @@
     },
     {
         "item": "Medium Vanilla Frosty®",
+        "price": 1.99,
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/278_large_US_en.jpg",
         "size": "Medium",
@@ -239,6 +246,7 @@
     },
     {
         "item": "Large Vanilla Frosty®",
+        "price": 2.49,
         "description": "The vanilla version of our signature frozen dessert. Cool and creamy don’t do it justice. This is the smooth, thick, sweet dessert masterpiece that goes with everything on our menu. You deserve a dessert this good, so go ahead.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/277_large_US_en.jpg",
         "size": "Large",

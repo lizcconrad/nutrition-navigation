@@ -1,6 +1,7 @@
 [
     {
         "item": "Chocolate Chunk Cookie",
+        "price": 1.39,
         "description": "A rich, soft, fresh-baked cookie full of semi-sweet chunks of chocolate, baked in-house. Grandma would love them.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2727_large_US_en.jpg",
         "flavor": "Chocolate Chunk Cookie",
@@ -35,6 +36,7 @@
     },
     {
         "item": "Double Chocolate Chunk",
+        "price": 1.39,
         "description": "A soft, fresh-baked chocolate cookie with chocolate chunks, baked in-house. Chocolate and chocolate, together at last.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2728_large_US_en.jpg",
         "flavor": "Double Chocolate Chunk",
@@ -70,6 +72,7 @@
     },
     {
         "item": "Sugar Cookie",
+        "price": 1.39,
         "description": "The traditional favorite. Soft, fresh-baked, simple, and perfect.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2726_large_US_en.jpg",
         "flavor": "Sugar Cookie",

@@ -1,6 +1,7 @@
 [ 
     {
         "item": "Small Apple Kiwi Fruit Tea",
+        "price": 2.29,
         "description": "Thirst-quenching apple juice and kiwifruit juice hand-shaken with Organic Honest® Tropical Green Tea. The best pick you’ll make today.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2692_large_US_en.jpg",
         "size": "Small",
@@ -32,6 +33,7 @@
     },
     {
         "item": "Medium Apple Kiwi Fruit Tea",
+        "price": 2.79,
         "description": "Thirst-quenching apple juice and kiwifruit juice hand-shaken with Organic Honest® Tropical Green Tea. The best pick you’ll make today.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2693_large_US_en.jpg",
         "size": "Large",
@@ -63,6 +65,7 @@
     },
     {
         "item": "Large Apple Kiwi Fruit Tea",
+        "price": 3.19,
         "description": "Thirst-quenching apple juice and kiwifruit juice hand-shaken with Organic Honest® Tropical Green Tea. The best pick you’ll make today.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2694_large_US_en.jpg",
         "size": "Large",
@@ -94,6 +97,7 @@
     },
     {
         "item": "Small Pear Berry Fruit Tea",
+        "price": 2.29,
         "description": "Refreshingly crisp pear juice and blackberry and apple puree hand-shaken with Organic Honest® Tropical Green Tea. Pears with anything.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2695_large_US_en.jpg",
         "size": "Small",
@@ -125,6 +129,7 @@
     },
     {
         "item": "Medium Pear Berry Fruit Tea",
+        "price": 2.79,
         "description": "Refreshingly crisp pear juice and blackberry and apple puree hand-shaken with Organic Honest® Tropical Green Tea. Pears with anything.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2696_large_US_en.jpg",
         "size": "Medium",
@@ -156,6 +161,7 @@
     },
     {
         "item": "Large Pear Berry Fruit Tea",
+        "price": 3.19,
         "description": "Refreshingly crisp pear juice and blackberry and apple puree hand-shaken with Organic Honest® Tropical Green Tea. Pears with anything.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2697_large_US_en.jpg",
         "size": "Large",
@@ -187,6 +193,7 @@
     },
     {
         "item": "Small Honest® Tropical Green Tea",
+        "price": 1.79,
         "description": "Organic Honest® Green Tea, pure and simple, with natural flavors and real organic cane sugar.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2113_large_US_en.jpg",
         "size": "Small",
@@ -217,6 +224,7 @@
     },
     {
         "item": "Medium Honest® Tropical Green Tea",
+        "price": 2.29,
         "description": "Organic Honest® Green Tea, pure and simple, with natural flavors and real organic cane sugar.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2114_large_US_en.jpg",
         "size": "Medium",
@@ -247,6 +255,7 @@
     },
     {
         "item": "Large Honest® Tropical Green Tea",
+        "price": 2.69,
         "description": "Organic Honest® Green Tea, pure and simple, with natural flavors and real organic cane sugar.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2115_large_US_en.jpg",
         "size": "Large",
@@ -277,6 +286,7 @@
     },
     {
         "item": "Small All-Natural Lemonade",
+        "price": 1.99,
         "description": "Real lemonade with no artificial ingredients or preservatives.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/420_large_US_en.jpg",
         "size": "Small",
@@ -307,6 +317,7 @@
     },
     {
         "item": "Medium All-Natural Lemonade",
+        "price": 2.39,
         "description": "Real lemonade with no artificial ingredients or preservatives.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/421_large_US_en.jpg",
         "size": "Medium",
@@ -337,6 +348,7 @@
     },
     {
         "item": "Large All-Natural Lemonade",
+        "price": 2.69,
         "description": "Real lemonade with no artificial ingredients or preservatives.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/422_large_US_en.jpg",
         "size": "Large",
@@ -367,6 +379,7 @@
     },
     {
         "item": "Small Strawberry Lemonade",
+        "price": 2.29,
         "description": "Our all-natural lemonade flavored with real strawberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2001_large_US_en.jpg",
         "size": "Small",
@@ -400,6 +413,7 @@
     },
     {
         "item": "Medium Strawberry Lemonade",
+        "price": 2.79,
         "description": "Our all-natural lemonade flavored with real strawberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2002_large_US_en.jpg",
         "size": "Medium",
@@ -433,6 +447,7 @@
     },
     {
         "item": "Large Strawberry Lemonade",
+        "price": 3.19,
         "description": "Our all-natural lemonade flavored with real strawberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2003_large_US_en.jpg",
         "size": "Large",
@@ -467,6 +482,7 @@
     },
     {
         "item": "Small Limeade",
+        "price": 2.29,
         "description": "Our all-natural lemonade, flavored with a twist of lime.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2629_large_US_en.jpg",
         "size": "Small",
@@ -500,6 +516,7 @@
     },
     {
         "item": "Medium Limeade",
+        "price": 2.79,
         "description": "Our all-natural lemonade, flavored with a twist of lime.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2630_large_US_en.jpg",
         "size": "Medium",
@@ -533,6 +550,7 @@
     },
     {
         "item": "Large Limeade",
+        "price": 3.19,
         "description": "Our all-natural lemonade, flavored with a twist of lime.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2631_large_US_en.jpg",
         "size": "Large",
@@ -566,6 +584,7 @@
     },
     {
         "item": "Small Coca-Cola®",
+        "price": 1.69,
         "description": "The cold, refreshing, sparkling classic that America loves.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/44_large_US_en.jpg",
         "size": "Small",
@@ -593,6 +612,7 @@
     },
     {
         "item": "Medium Coca-Cola®",
+        "price": 1.99,
         "description": "The cold, refreshing, sparkling classic that America loves.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/45_large_US_en.jpg",
         "size": "Medium",
@@ -620,6 +640,7 @@
     },
     {
         "item": "Large Coca-Cola®",
+        "price": 2.29,
         "description": "The cold, refreshing, sparkling classic that America loves.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/268_large_US_en.jpg",
         "size": "Large",
@@ -647,6 +668,7 @@
     },
     {
         "item": "Small Coca-Cola® Zero Sugar",
+        "price": 1.69,
         "description": "The same great taste as Coke Classic® but with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/349_large_US_en.jpg",
         "size": "Small",
@@ -674,6 +696,7 @@
     },
     {
         "item": "Medium Coca-Cola® Zero Sugar",
+        "price": 1.99,
         "description": "The same great taste as Coke Classic® but with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/350_large_US_en.jpg",
         "size": "Medium",
@@ -701,6 +724,7 @@
     },
     {
         "item": "Large Coca-Cola® Zero Sugar",
+        "price": 2.29,
         "description": "The same great taste as Coke Classic® but with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/351_large_US_en.jpg",
         "size": "Large",
@@ -728,6 +752,7 @@
     },
     {
         "item": "Small Diet Coke®",
+        "price": 1.69,
         "description": "The great taste of Coca-Cola® with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/49_large_US_en.jpg",
         "size": "Small",
@@ -755,6 +780,7 @@
     },
     {
         "item": "Medium Diet Coke®",
+        "price": 1.99,
         "description": "The great taste of Coca-Cola® with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/50_large_US_en.jpg",
         "size": "Medium",
@@ -782,6 +808,7 @@
     },
     {
         "item": "Large Diet Coke®",
+        "price": 2.29,
         "description": "The great taste of Coca-Cola® with zero calories.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/269_large_US_en.jpg",
         "size": "Large",
@@ -809,6 +836,7 @@
     },
     {
         "item": "Small Sprite®",
+        "price": 1.69,
         "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/54_large_US_en.jpg",
         "size": "Small",
@@ -836,6 +864,7 @@
     },
     {
         "item": "Medium Sprite®",
+        "price": 1.99,
         "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/55_large_US_en.jpg",
         "size": "Medium",
@@ -863,6 +892,7 @@
     },
     {
         "item": "Large Sprite®",
+        "price": 2.29,
         "description": "The cold, refreshing flavors of lemon and lime, perfectly blended.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/270_large_US_en.jpg",
         "size": "Large",
@@ -890,6 +920,7 @@
     },
     {
         "item": "Small Dr Pepper®",
+        "price": 1.69,
         "description": "A signature blend of 23 flavors makes it truly unique.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/154_large_US_en.jpg",
         "size": "Small",
@@ -917,6 +948,7 @@
     },
     {
         "item": "Medium Dr Pepper®",
+        "price": 1.99,
         "description": "A signature blend of 23 flavors makes it truly unique.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/155_large_US_en.jpg",
         "size": "Medium",
@@ -944,6 +976,7 @@
     },
     {
         "item": "Large Dr Pepper®",
+        "price": 2.29,
         "description": "A signature blend of 23 flavors makes it truly unique.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/156_large_US_en.jpg",
         "size": "Large",
@@ -971,6 +1004,7 @@
     },
     {
         "item": "Small Barq's® Root Beer",
+        "price": 1.69,
         "description": "A sweet, spiced favorite that’s stood the test of time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/331_large_US_en.jpg",
         "size": "Small",
@@ -998,6 +1032,7 @@
     },
     {
         "item": "Medium Barq's® Root Beer",
+        "price": 1.99,
         "description": "A sweet, spiced favorite that’s stood the test of time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/332_large_US_en.jpg",
         "size": "Medium",
@@ -1025,6 +1060,7 @@
     },
     {
         "item": "Large Barq's® Root Beer",
+        "price": 2.29,
         "description": "A sweet, spiced favorite that’s stood the test of time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/333_large_US_en.jpg",
         "size": "Large",
@@ -1052,6 +1088,7 @@
     },
     {
         "item": "Small Fanta® Orange",
+        "price": 1.69,
         "description": "Change up your routine with the bright, bubbly, fruity flavor of Fanta® Orange.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/337_large_US_en.jpg",
         "size": "Small",
@@ -1079,6 +1116,7 @@
     },
     {
         "item": "Medium Fanta® Orange",
+        "price": 1.99,
         "description": "Change up your routine with the bright, bubbly, fruity flavor of Fanta® Orange.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/338_large_US_en.jpg",
         "size": "Medium",
@@ -1106,6 +1144,7 @@
     },
     {
         "item": "Large Fanta® Orange",
+        "price": 2.29,
         "description": "Change up your routine with the bright, bubbly, fruity flavor of Fanta® Orange.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/339_large_US_en.jpg",
         "size": "Large",
@@ -1133,6 +1172,7 @@
     },
     {
         "item": "Small Minute Maid® Light Lemonade",
+        "price": 1.69,
         "description": "A lighter take on the sweet, tart American classic.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/137_large_US_en.jpg",
         "size": "Small",
@@ -1160,6 +1200,7 @@
     },
     {
         "item": "Medium Minute Maid® Light Lemonade",
+        "price": 1.99,
         "description": "A lighter take on the sweet, tart American classic.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/144_large_US_en.jpg",
         "size": "Medium",
@@ -1187,6 +1228,7 @@
     },
     {
         "item": "Large Minute Maid® Light Lemonade",
+        "price": 2.29,
         "description": "A lighter take on the sweet, tart American classic.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/272_large_US_en.jpg",
         "size": "Large",
@@ -1214,6 +1256,7 @@
     },
     {
         "item": "Small Hi-C® Flashin' Fruit Punch®",
+        "price": 1.69,
         "description": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/325_large_US_en.jpg",
         "size": "Small",
@@ -1241,6 +1284,7 @@
     },
     {
         "item": "Medium Hi-C® Flashin' Fruit Punch®",
+        "price": 1.99,
         "description": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/326_large_US_en.jpg",
         "size": "Medium",
@@ -1268,6 +1312,7 @@
     },
     {
         "item": "Large Hi-C® Flashin' Fruit Punch®",
+        "price": 2.29,
         "description": "Explosive fruit flavors and 100% of the vitamin C your body needs.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/327_large_US_en.jpg",
         "size": "Large",
@@ -1295,6 +1340,7 @@
     },
     {
         "item": "Small Brewed Unsweetened Iced Tea",
+        "price": 1.69,
         "description": "Brewed to perfection, cool and refreshing any time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/58_large_US_en.jpg",
         "size": "Small",
@@ -1322,6 +1368,7 @@
     },
     {
         "item": "Medium Brewed Unsweetened Iced Tea",
+        "price": 1.99,
         "description": "Brewed to perfection, cool and refreshing any time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/59_large_US_en.jpg",
         "size": "Medium",
@@ -1349,6 +1396,7 @@
     },
     {
         "item": "Large Brewed Unsweetened Iced Tea",
+        "price": 2.29,
         "description": "Brewed to perfection, cool and refreshing any time.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/271_large_US_en.jpg",
         "size": "Large",
@@ -1376,6 +1424,7 @@
     },
     {
         "item": "Small Sweetened Iced Tea",
+        "price": 1.69,
         "description": "Brewed perfectly and sweetened just the way you like it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/138_large_US_en.jpg",
         "size": "Small",
@@ -1403,6 +1452,7 @@
     },
     {
         "item": "Medium Sweetened Iced Tea",
+        "price": 1.99,
         "description": "Brewed perfectly and sweetened just the way you like it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/147_large_US_en.jpg",
         "size": "Medium",
@@ -1430,6 +1480,7 @@
     },
     {
         "item": "Large Sweetened Iced Tea",
+        "price": 2.29,
         "description": "Brewed perfectly and sweetened just the way you like it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/273_large_US_en.jpg",
         "size": "Large",
@@ -1457,6 +1508,7 @@
     },
     {
         "item": "Nestlé® Pure Life® Bottled Water",
+        "price": 1.49,
         "description": "Natural, pure, refreshing, and delicious.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/257_large_US_en.jpg",
         "flavor": "Nestlé® Pure Life® Bottled Water",
@@ -1483,6 +1535,7 @@
     },
     {
         "item": "Regular Coffee",
+        "price": 0.99,
         "description": "100% Arabica beans from around the world, medium-roasted to bring out all the best flavors.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/61_large_US_en.jpg",
         "size": "Regular",
@@ -1510,6 +1563,7 @@
     },
     {
         "item": "Large Coffee",
+        "price": 1.29,
         "description": "100% Arabica beans from around the world, medium-roasted to bring out all the best flavors.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/62_large_US_en.jpg",
         "size": "Large",
@@ -1537,6 +1591,7 @@
     },
     {
         "item": "Regular Decaffeinated Coffee",
+        "price": 0.99,
         "description": "Brewed to be rich and smooth without the caffeine.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/64_large_US_en.jpg",
         "size": "Regular",
@@ -1564,6 +1619,7 @@
     },
     {
         "item": "Large Decaffeinated Coffee",
+        "price": 1.29,
         "description": "Brewed to be rich and smooth without the caffeine.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/65_large_US_en.jpg",
         "size": "Large",
@@ -1591,6 +1647,7 @@
     },
     {
         "item": "Hot Tea",
+        "price": 0.99,
         "description": "Warm and soothing, brewed when you order it.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/66_large_US_en.jpg",
         "flavor": "Hot Tea",
@@ -1617,6 +1674,7 @@
     },
     {
         "item": "1% White Milk",
+        "price": 1.49,
         "description": "1% milk with 30% of the daily calcium requirement.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/316_large_US_en.jpg",
         "flavor": "1% White Milk",
@@ -1646,6 +1704,7 @@
     },
     {
         "item": "1% Chocolate Milk",
+        "price": 1.49,
         "description": "A favorite since forever with 25% the daily calcium requirement.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/315_large_US_en.jpg",
         "flavor": "1% Chocolate Milk",
@@ -1675,6 +1734,7 @@
     },
     {
         "item": "Honest Kids® Fruit Punch",
+        "price": 0.99,
         "description": "Grape, strawberry, and watermelon juices unite for a delicious, organic juice.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2148_large_US_en.jpg",
         "flavor": "Honest Kids® Fruit Punch",

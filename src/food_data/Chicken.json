@@ -1,6 +1,7 @@
 [ 
     {
         "item": "Spicy Chicken Sandwich",
+        "price": 4.49,
         "description": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, cooled down with crisp lettuce, tomato, and mayo. It’s the original spicy chicken sandwich, and the one you crave.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/119_large_US_en.jpg",
         "metrics": {
@@ -46,6 +47,7 @@
     },
     {
         "item": "Homestyle Chicken Sandwich",
+        "price": 4.49,
         "description": "A juicy, lightly-breaded chicken breast, crisp lettuce and tomato, and just enough mayo, all on a toasted bun. It’s extra comfy comfort food.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/118_large_US_en.jpg",
         "metrics": {
@@ -92,6 +94,7 @@
     },
     {
         "item": "Asiago Ranch Chicken Club",
+        "price": 5.19,
         "description": "A juicy, lightly breaded chicken breast taken over the top with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. A club favorite that’s anything but boring.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/81_large_US_en.jpg",
         "metrics": {
@@ -143,6 +146,7 @@
     },
     {
         "item": "Spicy Asiago Ranch Chicken Club",
+        "price": 5.19,
         "description": "A juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, topped with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. So hot you’ll wanna give your mouth a heads up.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2230_large_US_en.jpg",
         "metrics": {
@@ -193,6 +197,7 @@
     },
     {
         "item": "Grilled Asiago Ranch Chicken Club",
+        "price": 5.19,
         "description": "A sizzling chicken breast grilled to perfection, with thick Applewood smoked bacon, Asiago cheese, creamy ranch sauce, crisp lettuce, and tomato, all on a toasted bun. Go grilled. Go home happy.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2224_large_US_en.jpg",
         "metrics": {
@@ -241,6 +246,7 @@
     },
     {
         "item": "Grilled Chicken Sandwich",
+        "price": 4.49,
         "description": "Herb-marinated grilled chicken breast topped with smoky honey mustard, crisp spring mix, and tomato, served on a warm toasted bun. See if it isn’t the best chicken sandwich you’ve ever had.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2587_large_US_en.jpg",
         "metrics": {
@@ -287,6 +293,7 @@
     },
     {
         "item": "10PC Crispy Chicken Nuggets",
+        "price": 2.48,
         "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/248_large_US_en.jpg",
         "size": "10 piece",
@@ -324,6 +331,7 @@
     },
     {
         "item": "6PC Crispy Chicken Nuggets",
+        "price": 1.49,
         "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/33_large_US_en.jpg",
         "size": "6 piece",
@@ -361,6 +369,7 @@
     },
     {
         "item": "4PC Crispy Chicken Nuggets",
+        "price": 0.99,
         "description": "100% white-meat chicken breaded to crispy perfection and served with your choice of 6 dipping sauces including Buttermilk Ranch, Creamy Sriracha, BBQ, Sweet & Sour, Honey Mustard, or Side of S’Awesome™. They’re trending in our restaurants and Twitter feed alike.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/35_large_US_en.jpg",
         "size": "4 piece",
@@ -398,6 +407,7 @@
     },
     {
         "item": "6PC Chicken Tenders",
+        "price": 6.49,
         "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2588_large_US_en.jpg",
         "size": "6 piece",
@@ -436,6 +446,7 @@
     },
     {
         "item": "4PC Chicken Tenders",
+        "price": 4.49,
         "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2580_large_US_en.jpg",
         "size": "4 piece",
@@ -474,6 +485,7 @@
     },
     {
         "item": "3PC Chicken Tenders",
+        "price": 3.49,
         "description": "Crispy breading outside, tender all-white meat inside. They’re everything a chicken tender should be except better. For something even better than better, dip them in a Side of S’Awesome,™ or any one of our six dipping sauces.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2579_large_US_en.jpg",
         "size": "6 piece",
@@ -512,6 +524,7 @@
     },
     {
         "item": "Crispy Chicken BLT",
+        "price": 1.89,
         "description": "Juicy white meat, lightly breaded and seasoned, topped with Applewood smoked bacon, crisp lettuce, tomato, cheese, and mayo. A classic taste, perfectly reinvented.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2198_large_US_en.jpg",
         "metrics": {
@@ -560,6 +573,7 @@
     },
     {
         "item": "Crispy Chicken Sandwich",
+        "price": 1.29,
         "description": "Juicy white meat, lightly breaded and seasoned, topped with crisp lettuce, tomato and mayo. More than delicious, and just the right size.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/267_large_US_en.jpg",
         "metrics": {
@@ -604,6 +618,7 @@
     },
     {
         "item": "Grilled Chicken Wrap",
+        "price": 1.99,
         "description": "Herb-marinated grilled chicken breast wrapped in a flour tortilla with crisp spring mix, shredded cheddar cheese, and smoky honey mustard. It’s a handful of flavor.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/299_large_US_en.jpg",
         "metrics": {
@@ -650,6 +665,7 @@
     },
     {
         "item": "Spicy Chicken Wrap",
+        "price": 1.99,
         "description": "Juicy chicken breast marinated and breaded in our unique, fiery blend of peppers and spices to deliver more flavor inside and out, wrapped in a tortilla with crisp lettuce, shredded cheddar cheese, and ranch sauce. It’s a whole handful of hot.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/301_large_US_en.jpg",
         "metrics": {

@@ -1,6 +1,7 @@
 [
     {
         "item": "S'Awesome Bacon Classic Single",
+        "price": 5.19,
         "description": "A quarter-pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. A masterpiece signed with S’Awesome.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2723_large_US_en.jpg",
@@ -48,6 +49,7 @@
     },
     {
         "item": "S'Awesome Bacon Classic Double",
+        "price": 6.19,
         "description": "A half-pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. What’s S’Awesome times two? You’re looking at it.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2708_large_US_en.jpg",
@@ -95,6 +97,7 @@
     },
     {
         "item": "S'Awesome Bacon Classic Triple",
+        "price": 7.19,
         "description": "Three quarters of a pound* of fresh, never frozen beef, three strips of Applewood-smoked bacon, melted American cheese, crisp lettuce, onion, and pickle, all covered in our signature sweet, smoky, tangy sauce. It doesn’t get more S’Awesome than this",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2709_large_US_en.jpg",
@@ -142,6 +145,7 @@
     },
     {
         "item": "Dave's Single®",
+        "price": 4.19,
         "description": "A quarter-pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun — just the way Dave intended.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/1_large_US_en.jpg",
@@ -187,6 +191,7 @@
     },
     {
         "item": "Dave's Double®",
+        "price": 5.09,
         "description": "A half-pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. More meat means more to love.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2_large_US_en.jpg",
@@ -232,6 +237,7 @@
     },
     {
         "item": "Dave's Triple®",
+        "price": 6.19,
         "description": "Three quarters of a pound* of fresh, never frozen beef, American cheese, crisp lettuce, tomato, pickle, ketchup, mayo, and onion on a toasted bun. Use both hands!",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/3_large_US_en.jpg",
@@ -277,6 +283,7 @@
     },
     {
         "item": "Baconator®",
+        "price": 6.19,
         "description": "A half-pound* of fresh, never frozen beef, American cheese, 6 pieces of crispy Applewood smoked bacon, ketchup, and mayo. Carnivores rejoice!",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/4_large_US_en.jpg",
@@ -319,6 +326,7 @@
     },
     {
         "item": "Son of Baconator®",
+        "price": 4.49,
         "description": "A quarter-pound* of fresh, never frozen beef, plenty of Applewood smoked bacon, ketchup, and mayo. Like Baconator®, like Son.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.\n *Approximate weight before cooking",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/1429_large_US_en.jpg",
@@ -361,6 +369,7 @@
     },
     {
         "item": "Jr. Bacon Cheeseburger",
+        "price": 1.89,
         "description": "Fresh, never frozen beef, Applewood smoked bacon, American cheese, crisp lettuce, tomato, and mayo. It’s a favorite of bacon lovers everywhere.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/5_large_US_en.jpg",
@@ -405,6 +414,7 @@
     },
     {
         "item": "Jr. Cheeseburger Deluxe",
+        "price": 1.69,
         "description": "Fresh, never frozen beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It’s big flavor at a junior price.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/6_large_US_en.jpg",
@@ -450,6 +460,7 @@
     },
     {
         "item": "Jr. Cheeseburger",
+        "price": 1.29,
         "description": "Fresh, never frozen beef topped with cheese, pickles, onions, tomatoes, crisp lettuce, ketchup, and mayo. It’s big flavor at a junior price.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/6_large_US_en.jpg",
@@ -493,6 +504,7 @@
     },
     {
         "item": "Double Stack™",
+        "price": 2.29,
         "description": "Two patties of fresh, never frozen beef with cheese, ketchup, mustard, pickle, and onion. It’s double the fresh beef, stacked with deliciousness.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada. ",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/128_large_US_en.jpg",
@@ -536,6 +548,7 @@
     },
     {
         "item": "Jr. Hamburger",
+        "price": 0.89,
         "description": "Fresh, never frozen beef topped with pickles, onion, ketchup, and mustard on a toasted bun. It’s done just right, and just the right size.",
         "disclaimer": "Fresh beef available in the contiguous U.S., Alaska and Canada.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/78_large_US_en.jpg",

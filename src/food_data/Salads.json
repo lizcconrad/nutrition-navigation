@@ -1,6 +1,7 @@
 [
     {
         "item": "Harvest Chicken Salad Full",
+        "price": 6.79,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, diced red and green apples, dried cranberries, feta cheese, brown sugar walnuts, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Apple Cider Vinaigrette. It’s one bountiful Harvest.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2704_large_US_en.jpg",
@@ -48,6 +49,7 @@
     },
     {
         "item": "Harvest Chicken Salad Half",
+        "price": 4.79,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, diced red and green apples, dried cranberries, feta cheese, brown sugar walnuts, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Apple Cider Vinaigrette. It’s one bountiful Harvest.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2705_large_US_en.jpg",
@@ -95,6 +97,7 @@
     },
     {
         "item": "Southwest Avocado Chicken Salad Full",
+        "price": 6.69,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, pepper jack cheese, diced tomatoes, cool, creamy avocado, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Southwest Ranch Dressing. It’s zesty and Southwesty!",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2619_large_US_en.jpg",
@@ -141,6 +144,7 @@
     },
     {
         "item": "Southwest Avocado Chicken Salad Half",
+        "price": 4.69,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, pepper jack cheese, diced tomatoes, cool, creamy avocado, Applewood smoked bacon, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Southwest Ranch Dressing. It’s zesty and Southwesty!",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2620_large_US_en.jpg",
@@ -187,6 +191,7 @@
     },
     {
         "item": "Taco Salad Full",
+        "price": 6.29,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, shredded cheddar cheese, diced tomatoes, salsa, sour cream, tortilla chips, and our famous, hearty chili. A fresh twist on Taco Tuesday (or any other day for that matter).",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2284_large_US_en.jpg",
@@ -229,6 +234,7 @@
     },
     {
         "item": "Taco Salad Half",
+        "price": 4.29,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, shredded cheddar cheese, diced tomatoes, salsa, sour cream, tortilla chips, and our famous, hearty chili. A fresh twist on Taco Tuesday (or any other day for that matter).",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2285_large_US_en.jpg",
@@ -271,6 +277,7 @@
     },
     {
         "item": "Apple Pecan Chicken Salad Full",
+        "price": 6.29,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, crisp red and green apples, dried cranberries, roasted pecans, crumbled blue cheese, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Pomegranate Vinaigrette. An unbeatable pick.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/391_large_US_en.jpg",
@@ -317,6 +324,7 @@
     },
     {
         "item": "Apple Pecan Chicken Salad Half",
+        "price": 4.29,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, crisp red and green apples, dried cranberries, roasted pecans, crumbled blue cheese, and grilled chicken breast hot off the grill, all topped with Marzetti® Simply Dressed® Pomegranate Vinaigrette. An unbeatable pick.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/398_large_US_en.jpg",
@@ -363,6 +371,7 @@
     },
     {
         "item": "Spicy Caesar Chicken Salad Full",
+        "price": 6.09,
         "description": "Made fresh daily with hand-chopped romaine lettuce, grape tomatoes, a three cheese blend of Parmesan, Asiago, and Romano, croutons, and crispy, spicy chicken breast, all topped with creamy Marzetti® Simply Dressed® Caesar dressing. Hot is cool again.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including two packets of dressing, which come on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2238_large_US_en.jpg",
@@ -406,6 +415,7 @@
     },
     {
         "item": "Spicy Caesar Chicken Salad Half",
+        "price": 4.09,
         "description": "Made fresh daily with hand-chopped romaine lettuce, grape tomatoes, a three cheese blend of Parmesan, Asiago, and Romano, croutons, and crispy, spicy chicken breast, all topped with creamy Marzetti® Simply Dressed® Caesar dressing. Hot is cool again.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2236_large_US_en.jpg",
@@ -449,6 +459,7 @@
     },
     {
         "item": "Caesar Side Salad",
+        "price": 1.79,
         "description": "Made fresh daily with hand-chopped romaine lettuce, grape tomatoes, a three cheese blend of Parmesan, Asiago, and Romano, and croutons, all topped with a creamy Marzetti® Simply Dressed® Caesar dressing. Just the right size to satisfy.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2235_large_US_en.jpg",
@@ -488,6 +499,7 @@
     },
     {
         "item": "Garden Side Salad",
+        "price": 1.79,
         "description": "Made fresh daily with Wendy’s signature lettuce blend, cheddar cheese, tomatoes, and croutons, all topped with Marzetti® Simply Dressed® Ranch dressing. It’s the salad that goes with anything.",
         "disclaimer": "Nutrition and allergen information is inclusive of all ingredients in this salad including one packet of dressing, which comes on the side.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2232_large_US_en.jpg",
