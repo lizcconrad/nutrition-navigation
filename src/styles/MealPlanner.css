@@ -4,10 +4,12 @@ h3 {
 .textfield-margin {
   margin-right: 1em; }
 
-.radio-goal {
-  width: 50%;
-  display: inline;
-  margin-top: 1em; }
-
 .selector {
   margin-bottom: 0; }
+
+.meal-title {
+  background: #029CD3;
+  text-decoration: none; }
+  .meal-title h2 {
+    color: white;
+    font-size: 1.5em; }

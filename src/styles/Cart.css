@@ -1,13 +1,14 @@
-.total {
-  display: flex;
-  justify-content: flex-end; }
-
 .order {
   display: flex;
   justify-content: flex-end; }
 
+.total {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500; }
+
 .cart-title {
-  background: #03A9F4;
+  background: #029CD3;
   text-decoration: "none"; }
   .cart-title h2 {
     color: white;
@@ -17,7 +18,12 @@
   position: sticky;
   top: 5.5em; }
 
-.divider {
-  margin: 8px 0;
-  height: 1;
-  background: #757575; }
+.empty-cart {
+  padding: 2em; }
+  .empty-cart P {
+    text-align: center;
+    font-weight: 500;
+    color: #757575; }
+
+.icon {
+  color: white; }

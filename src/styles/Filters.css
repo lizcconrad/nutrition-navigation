@@ -1,5 +1,5 @@
 .filters-title {
-  background: #03A9F4;
+  background: #029CD3;
   text-decoration: none; }
   .filters-title h2 {
     color: white;
@@ -8,3 +8,7 @@
 .sticky-card {
   position: sticky;
   top: 4em; }
+
+.right-button {
+  display: flex;
+  justify-content: flex-end; }

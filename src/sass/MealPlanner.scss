@@ -6,12 +6,16 @@ h3 {
     margin-right: 1em;
 }
 
-.radio-goal {
-    width: 50%;
-    display: inline;
-    margin-top: 1em;
-}
-
 .selector {
     margin-bottom: 0;
+}
+
+.meal-title {
+    background: #029CD3;
+    text-decoration: none;
+
+    h2 {
+        color: white;
+        font-size: 1.5em;
+    }
 }

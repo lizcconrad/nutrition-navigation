@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './styles/App.css';
+import ToolBar from './ToolBar.js';
 import Filters from './Filters.js';
 import MealPlanner from './MealPlanner.js';
+import ExcludedItems from './ExcludedItems.js';
 import FoodList from './FoodList.js';
 import Cart from './Cart.js';
-import { Grid, Cell, TabsContainer, Tabs, Tab, Media } from 'react-md'; 
+import { Grid, Cell } from 'react-md'; 
 import hamburger_data from './food_data/Hamburgers.json'
 import chicken_data from './food_data/Chicken.json'
 import salad_data from './food_data/Salads.json'
@@ -16,6 +18,7 @@ import breakfast_data from './food_data/Breakfast.json'
 
 class App extends Component {
 
+  // COMPILE FULL LIST OF INGREDIENTS
   getIngredientsList = (categoryList) => {
     let ingredientList = new Set();
     let ingredientsOfItem;
@@ -32,38 +35,50 @@ class App extends Component {
     return [...ingredientList];
   }
 
-  constructor(props) {
-    super(props);
-    this.hamburger = hamburger_data;
-    this.chicken = chicken_data;
-    this.salad = salad_data;
-    this.sides = sides_data;
-    this.beverages = beverages_data;
-    this.frosty = frosty_data;
-    this.bakery = bakery_data;
-    this.breakfast = breakfast_data;
-    this.allFoods = [this.hamburger, this.chicken, this.salad, this.sides, this.beverages, this.frosty, this.bakery, this.breakfast].flat();
-    this.allIngredients = this.getIngredientsList(
-      [this.hamburger, this.chicken, this.salad, this.sides, this.beverages, this.frosty, this.bakery, this.breakfast].flat()
-    );
+  // COMPUTE MEAL METRICS AND PRICE
+  computePrice = () => {
+    let price = 0
+    this.state.meal.forEach(function(element) {
+      price += element.price;
+    });
 
-    this.state = {
-      meal: [],
-      hamburger: this.hamburger,
-      chicken: this.chicken,
-      salad: this.salad,
-      sides: this.sides,
-      beverages: this.beverages,
-      frosty: this.frosty,
-      bakery: this.bakery,
-      breakfast: this.breakfast,
-      excludedFoods: [],
-      excludedAllergens: [],
-      excludedIngredients: [],
-    }
+    this.setState({
+      price: price
+    })
+  }
+  computeMetrics = () =>  {
+    let metrics = {
+      "calories": 0,
+      "calories from fat": 0,
+      "total fat": 0,
+      "saturated fat": 0,
+      "trans fat": 0,
+      "monounsaturated fat": 0,
+      "polyunsaturated fat": 0,
+      "cholesterol": 0,
+      "sodium": 0,
+      "carbohydrates": 0,
+      "fiber": 0,
+      "sugar": 0,
+      "protein": 0,
+      "vitamin A": 0,
+      "vitamin C": 0,
+      "calcium": 0,
+      "iron": 0,
+    };
+
+    this.state.meal.forEach(function(element) {
+      for(var key in element.metrics) {
+        metrics[key] += element.metrics[key].value
+      }
+    });
+
+    this.setState({
+      metrics: metrics
+    });
   }
 
-  // Add items to the cart and meal planner
+  // ADD AND REMOVE ITEMS FROM MEAL/CART
   addItem = (item) => {
     let currentMeal = this.state.meal;
     currentMeal.push(item);
@@ -71,117 +86,40 @@ class App extends Component {
     this.setState({
       meal: currentMeal
     })
+
+    this.computePrice();
+    this.computeMetrics();
   }
-
-    // Remove items from the cart and meal planner
-    removeItem = (item) => {
-      let currentMeal = this.state.meal;
-      console.log(currentMeal)
-      for(let i = 0; i < currentMeal.length;i++){
-       
-        if(currentMeal[i] === item){
-          console.log("ITEMS ARE EQUAL AT INDEX i = " + i)
-          currentMeal.splice(i,1);
-        }
-        console.log("ITEMS ARE NOT EQUAL AT INDEX i = " + i)
-      }
-      console.log(item)
-      console.log(currentMeal)
-      this.setState({
-        meal: currentMeal
-      })
-    }
-
-  isIn = (dataToSearch, dataToCheck) => {
-    for(let i = 0; i < dataToCheck.length;i++){
-      if(dataToSearch === dataToCheck[i]){
-        return true;
+  removeItem = (item) => {
+    let currentMeal = this.state.meal;
+    for(let i = 0; i < currentMeal.length;i++){
+      if(currentMeal[i] === item){
+        currentMeal.splice(i,1);
       }
     }
-    return false;
+    this.setState({
+      meal: currentMeal
+    })
+
+    this.computePrice();
+    this.computeMetrics();
   }
 
-  // Filter Wrapper
-  filterData = (allergens, ingredients, sliderData, foodItems) => {
-    var filteredList = [];
-    foodItems = this.allFoods;
-    //fake data
-    var testAllergy = ["egg", "milk", "soy"];
-    var testIngredients = [];
-    var testSliders = {"calories": {"value": 310},
-    "calories from fat": {"value": 140},
-    "sugar": {"value": 24, "unit": "g"},
-    "protein": {"value": 3, "unit": "g"},
-    "total fat": {"value": 16, "unit": "g"},
-    "sodium": {"value": 210, "unit": "mg"},
-    "carbohydrates": {"value": 40, "unit": "g"}
-    };
-    //
+  // UPDATE STATES THAT DEPEND ON FILTERS
+  updateExcludedAllergens = (checked, event) => {
+    let currentAllergens = this.state.excludedAllergens;
+    let allergen = event.target.value;
 
-    filteredList = this.filterAllergens(foodItems,testAllergy);
-    console.log(filteredList)
-    console.log(filteredList.length)
-    //filteredList = this.filterIngredients(filteredList,ingredients);
-    filteredList = this.filterMetric(filteredList,testSliders);
-    console.log(filteredList)
-    console.log(filteredList.length)
-    return filteredList;
-  }
-
-  // Filter allergens
-  filterAllergens = (foodItems, allergensData) => {
-    var filteredList = [];
-    
-    if(allergensData === null || allergensData.length === 0){
-      return foodItems;
+    if(checked && currentAllergens.indexOf(allergen) < 0) {
+      currentAllergens.push(allergen);
+    } else if (!checked && currentAllergens.indexOf(allergen) > -1) {
+      currentAllergens.splice(currentAllergens.indexOf(allergen));
     }
 
-    let check = 0;
-    for(let i = 0; i < foodItems.length;i++){
-      check = 0; // reset counter
-      for(let j = 0; j < allergensData.length;j++){
-        console.log("allergens data = " + allergensData[j])
-        console.log("other data = " + foodItems[i].allergens)
-        if(this.isIn(allergensData[j],foodItems[i].allergens)){
-          check = 1;
-          break; // don't need to seethe rest.
-        }
-      }
-      if(check === 0){ //value passed tests. insert.
-        filteredList.push(foodItems[i]);
-      }
-    }
-
-    return foodItems;
+    this.setState({
+      excludedAllergens: currentAllergens
+    });   
   }
-
-  // Filter allergens
-  // type is for include or exclude
-  filterIngredients = (ingredients, type) => {
-
-  }
-
-  // Filter by the slider
-  filterMetric = (foodItems, metricData) => {
-    var filteredList = [];
-
-    let check = 0;
-    for(let i = 0; i < foodItems.length;i++){
-      check = 0; // reset counter
-      for(let key in metricData){
-        if(foodItems[i].metrics.key.value > metricData.key.value){
-          check = 1;
-          break;
-        }
-      }
-      if(check === 0){
-        filteredList.push(foodItems[i]);
-      }
-    }
-    return filteredList;
-  }
-
-
   addExcludedIngredient = (value) => {
     let currentExcluded = this.state.excludedIngredients;
     currentExcluded.push(value);
@@ -193,46 +131,276 @@ class App extends Component {
     let ingredient = event.currentTarget.getElementsByClassName("md-chip-text")[0].textContent;
     let currentExcluded = this.state.excludedIngredients;
     let index = currentExcluded.indexOf(ingredient);
-    if(index !== -1) {
+    if(index > -1) {
       currentExcluded.splice(index);
       this.setState({
         excludedIngredients: currentExcluded
       })
     }
   }
+  updateMetricFilters = (value, metric) => {
+    let currentMetricFilters = this.state.metricFilters;
+    currentMetricFilters[metric] = value;
+
+    this.setState({
+      metricFilters: currentMetricFilters
+    });
+  }
+
+  // PERFORM FILTERING
+  // Filter allergens
+  filterAllergens = (foodList, allergensData) => {
+    let foodItems = foodList;
+    let excludedFoodItems = [];
+    let filteredList = [];
+    
+    
+    if(allergensData === null || allergensData.length <= 0){
+      return {
+        excludedList: excludedFoodItems,
+        filteredList: foodItems
+      }
+    }
+
+    let check = 0;
+    let reasonString;
+    for(let i = 0; i < foodItems.length; i++){
+      check = 0; // reset counter
+      for(let j = 0; j < allergensData.length; j++){
+        if(foodItems[i].allergens && foodItems[i].allergens.indexOf(allergensData[j]) > -1) {
+          check = 1;
+          reasonString = "Contains " + allergensData[j].toUpperCase();
+          excludedFoodItems.push({food: foodItems[i], reason: reasonString});
+          break;
+        }
+      }
+      if(check <= 0){ //value passed tests. insert.
+        filteredList.push(foodItems[i]);
+      }
+    }
+
+    return {
+      excludedList: excludedFoodItems,
+      filteredList: filteredList
+    }
+  }
+  // Filter ingredients
+  // type is for include or exclude
+  filterIngredients = (foodList, excludedIngredients) => {
+    // exclude
+    let filteredList = [];
+    let excludedFoodItems = [];
+    let foodItems = foodList;
+    let found;
+    let reasonString;
+  
+    if(excludedIngredients === null || excludedIngredients.length <= 0){
+      return {
+        excludedList: excludedFoodItems,
+        filteredList: foodList
+      }
+    }
+
+    // for ingredient in list of excluded ingredients
+    for(let i=0; i < excludedIngredients.length; i++) {
+      // for food in list of foods to filter
+      for(let j=0; j < foodItems.length; j++) {
+        found = false;
+        // for key in the dictionary of ingredients for the current food to check
+
+        for(let key in foodItems[j].ingredients) {
+          if(key.toLowerCase() === excludedIngredients[i].toLowerCase()) {
+            found = true;
+            reasonString = "Contains " + excludedIngredients[i].toUpperCase();
+            excludedFoodItems.push({food: foodItems[j], reason: reasonString});
+            break;
+          } else if (foodItems[j].ingredients[key].indexOf(excludedIngredients[i]) > -1) {
+            found = true;
+            reasonString = "Contains " + excludedIngredients[i].toUpperCase();
+            excludedFoodItems.push({food: foodItems[j], reason: reasonString});
+            break;
+          }
+        }
+        if(!found) {
+          filteredList.push(foodItems[j]);
+        }
+      }
+    }
+    
+    return {
+      excludedList: excludedFoodItems,
+      filteredList: filteredList
+    }
+
+  }
+  // Filter by the slider
+  filterMetric = (foodList, metricData) => {
+    let foodItems = foodList;
+    let filteredList = [];
+    let excludedFoodItems = [];
+
+    let check = 0;
+    let reasonString = 0;
+    for(let i = 0; i < foodItems.length;i++){
+      check = 0; // reset counter
+      for(let key in metricData){
+        if(foodItems[i].metrics[key].value > metricData[key]){
+          check = 1;
+          if(key === "calories") {
+            reasonString = "Greater than " + metricData[key] + " " + key;
+          } else {
+            reasonString = "Greater than " + metricData[key] + foodItems[i].metrics[key].unit + " of " + key;
+          }
+          
+          excludedFoodItems.push({food: foodItems[i], reason: reasonString});
+          break;
+        }
+      }
+      if(check <= 0){
+        filteredList.push(foodItems[i]);
+      }
+    }
+
+    return {
+      excludedList: excludedFoodItems,
+      filteredList: filteredList
+    }
+  }
+  // Filter Wrapper
+  filterData = () => {
+    let updatedFood = {}
+    let fullExcluded = [];
+
+    let categories = ["hamburger", "chicken", "salad", "sides", "beverages", "frosty", "bakery", "breakfast"];
+    let currentList;
+    for(let i=0; i < categories.length; i++) {
+      currentList = this.categories[categories[i]];
+      updatedFood = this.filterAllergens(currentList, this.state.excludedAllergens);
+      fullExcluded = fullExcluded.concat(updatedFood.excludedList);
+
+      updatedFood = this.filterIngredients(updatedFood.filteredList, this.state.excludedIngredients);
+      fullExcluded = fullExcluded.concat(updatedFood.excludedList);
+
+      updatedFood = this.filterMetric(updatedFood.filteredList, this.state.metricFilters);
+      fullExcluded = fullExcluded.concat(updatedFood.excludedList);
+
+      this.setState({
+        [categories[i]]: updatedFood.filteredList
+      });
+    }
+
+    this.setState({
+      excludedFoods: fullExcluded
+    });
+  }
+
+
+  
+
+  constructor(props) {
+    super(props);
+    this.categories = {
+      hamburger: hamburger_data,
+      chicken: chicken_data,
+      salad: salad_data,
+      sides: sides_data,
+      beverages: beverages_data,
+      frosty: frosty_data,
+      bakery: bakery_data,
+      breakfast: breakfast_data
+    }
+    this.allFoods = [this.hamburger, this.chicken, this.salad, this.sides, this.beverages, this.frosty, this.bakery, this.breakfast].flat();
+    this.allIngredients = this.getIngredientsList(
+      [this.categories.hamburger, this.categories.chicken, this.categories.salad, this.categories.sides, 
+        this.categories.beverages, this.categories.frosty, this.categories.bakery, this.categories.breakfast].flat()
+    );
+
+    this.state = {
+      meal: [],
+      hamburger: this.categories.hamburger,
+      chicken: this.categories.chicken,
+      salad: this.categories.salad,
+      sides: this.categories.sides,
+      beverages: this.categories.beverages,
+      frosty: this.categories.frosty,
+      bakery: this.categories.bakery,
+      breakfast: this.categories.breakfast,
+      excludedFoods: [],
+      excludedAllergens: [],
+      excludedIngredients: [],
+      metricFilters: {
+        "calories": 2000,
+        "carbohydrates": 200,
+        "total fat": 100,
+        "protein": 100,
+        "sodium": 3000,
+        "sugar": 200
+      },
+      price: 0,
+      metrics: {
+        "calories": 0,
+        "calories from fat": 0,
+        "total fat": 0,
+        "saturated fat": 0,
+        "trans fat": 0,
+        "monounsaturated fat": 0,
+        "polyunsaturated fat": 0,
+        "cholesterol": 0,
+        "sodium": 0,
+        "carbohydrates": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "protein": 0,
+        "vitamin A": 0,
+        "vitamin C": 0,
+        "calcium": 0,
+        "iron": 0,
+      }
+    }
+  }
 
   render() {
+
+    let excludedCard;
+    if(this.state.excludedFoods.length > 0) {
+      excludedCard = <ExcludedItems excluded={this.state.excludedFoods} />;
+    }
+
     return (
       <div>
-      <TabsContainer panelClassName="md-grid" fixed colored>
-        <Tabs tabId="simple-tab">
-          <Tab icon={<img src="http://pluspng.com/img-png/wendys-logo-png-logo-wendy-s-1110.png" alt="Wendys" height="30" width="100"/>}/>
-          <Tab label="Explore Our Food"/>
-          <Tab label="What We Value"/>
-          <Tab label="Who We Are"/>
-          <Tab label="Find Jobs"/>
-          <Tab label=""/>
-          <Tab label="Sign In"/>
-          <Tab label="Find a Wendy's"/>
-          <Tab label="Order Online"/>
-       </Tabs>
-      </TabsContainer>
+      <ToolBar />
       <Grid>
       <Cell size={3}>
         <Filters 
+          ref="filters"
           ingredientList={this.allIngredients} 
           excludedIngredients={this.state.excludedIngredients} 
+          handleAllergenClick={this.updateExcludedAllergens}
           handleAutocomplete={this.addExcludedIngredient}
           handleExcludeClick={this.removeExcludedIngredient}
+          handleSliderChange={this.updateMetricFilters}
           handleFilterClick={this.filterData}
           />
       </Cell>
       <Cell size={7}>
-        <MealPlanner meal={this.state.meal}/>
-        <FoodList addItem={this.addItem}/>
+        <div className="sticky-div">
+          <MealPlanner meal={this.state.meal} metrics={this.state.metrics} removeItem={this.removeItem}/>
+          {excludedCard}
+          <FoodList 
+            addItem={this.addItem}
+            hamburger={this.state.hamburger}
+            chicken={this.state.chicken}
+            salad={this.state.salad}
+            sides={this.state.sides}
+            beverages={this.state.beverages}
+            frosty={this.state.frosty}
+            bakery={this.state.bakery}
+            breakfast={this.state.breakfast}
+            />
+          </div>
       </Cell>
       <Cell size={2}>
-        <Cart meal={this.state.meal}  removeItem={this.removeItem}/>
+        <Cart meal={this.state.meal} price={this.state.price}  removeItem={this.removeItem}/>
       </Cell>
       </Grid>
       </div>

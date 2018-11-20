@@ -8,27 +8,22 @@ export default class NutritionLabel extends Component {
 
   getAllergens = () => {
     let allergenString = "";
-    if(this.props.meal.allergens) {
-      let allergens = new Set();
+    let allergens = new Set();
 
-      for(let i=0; i < this.props.meal.length; i++) {
+    for(let i=0; i < this.props.meal.length; i++) {
+      if(this.props.meal[i].allergens) {
         for(let j=0; j < this.props.meal[i].allergens.length; j++) {
           allergens.add(this.props.meal[i].allergens[j]);
         }
       }
-  
-      
-      allergens.forEach(function(allergen) {
-        allergenString += allergen + ", "
-      });
-      allergenString = allergenString.substring(0, allergenString.length - 2).toLocaleUpperCase();
-  
-      console.log(allergenString);
-  
-      return allergenString;
-    } else {
-      return allergenString;
     }
+
+    allergens.forEach(function(allergen) {
+      allergenString += allergen + ", "
+    });
+    allergenString = allergenString.substring(0, allergenString.length - 2).toLocaleUpperCase();
+
+    return allergenString;
   }
 
   calculateGoalPercentage = (current, goal) => {
@@ -39,110 +34,201 @@ export default class NutritionLabel extends Component {
     }
   }
 
+  mouseOver = (item) => {
+    this.setState({
+      hoverCalories: item.metrics["calories"].value,
+      hoverCalFromFat: item.metrics["calories from fat"].value,
+      hoverTotalFat: item.metrics["total fat"].value,
+      hoverSaturatedFat: item.metrics["saturated fat"].value,
+      hoverTransFat: item.metrics["trans fat"].value,
+      hoverMonoFat: item.metrics["monounsaturated fat"].value,
+      hoverPolyFat: item.metrics["polyunsaturated fat"].value,
+      hoverCholesterol: item.metrics["cholesterol"].value,
+      hoverSodium: item.metrics["sodium"].value,
+      hoverCarbs: item.metrics["carbohydrates"].value,
+      hoverFiber: item.metrics["fiber"].value,
+      hoverSugar: item.metrics["sugar"].value,
+      hoverProtein: item.metrics["protein"].value,
+      hoverVitA: item.metrics["vitamin A"].value,
+      hoverVitC: item.metrics["vitamin C"].value,
+      hoverCalcium: item.metrics["calcium"].value,
+      hoverIron: item.metrics["iron"].value
+    });
+  }
+  mouseLeave = () => {
+    this.setState({
+      hoverCalories: null,
+      hoverCalFromFat: null,
+      hoverTotalFat: null,
+      hoverSaturatedFat: null,
+      hoverTransFat: null,
+      hoverMonoFat: null,
+      hoverPolyFat: null,
+      hoverCholesterol: null,
+      hoverSodium: null,
+      hoverCarbs: null,
+      hoverFiber: null,
+      hoverSugar: null,
+      hoverProtein: null,
+      hoverVitA: null,
+      hoverVitC: null,
+      hoverCalcium: null,
+      hoverIron: null
+    })
+  }
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      hoverCalories: null,
+      hoverCalFromFat: null,
+      hoverTotalFat: null,
+      hoverSaturatedFat: null,
+      hoverTransFat: null,
+      hoverMonoFat: null,
+      hoverPolyFat: null,
+      hoverCholesterol: null,
+      hoverSodium: null,
+      hoverCarbs: null,
+      hoverFiber: null,
+      hoverSugar: null,
+      hoverProtein: null,
+      hoverVitA: null,
+      hoverVitC: null,
+      hoverCalcium: null,
+      hoverIron: null
+    }
+  }
+
   render() {
+
+    let servingSize;
+    let goalCell;
+    if(this.props.goals) {
+      servingSize = <ServingSize  meal={this.props.meal} mouseOver={this.mouseOver} mouseLeave={this.mouseLeave} removeItem={this.props.removeItem}/>
+      goalCell = 
+      <Cell size={12} className="goal-cell">
+        <span>% Goal/Limit</span>
+      </Cell>;
+    }
+
     return (
       <div className="nutrition-label">
         <h2>Nutrition Facts</h2>
         <Grid>
-
-          <ServingSize  meal={this.props.meal} />
-
+          {servingSize}
           <Divider className="big-divider"/>
-          <Cell size={12} className="goal-cell">
-            <span>% Goal/Limit</span>
-          </Cell>
+          {goalCell}
           <Divider className="small-divider" />
           <NutritionEntry 
             bold={true} 
             label="Calories " 
-            value={ this.props.calories + " (" + this.props.calories_from_fat + " from Fat)" } 
-            goal={this.calculateGoalPercentage(this.props.calories, this.props["calories-goal"])}
-            type={this.props["calories-select"]} />
+            hoverValue={this.state.hoverCalories}
+            value={ this.props.metrics["calories"] + " (" + this.props.metrics["calories from fat"] + " from Fat)" } 
+            goal={this.calculateGoalPercentage(this.props.metrics["calories"], this.props["calories-goal"])}
+            type={this.props["calories-select"]}
+          />
           <Divider className="medium-divider" />
           <NutritionEntry 
             bold={true} 
             label="Total Fat " 
-            value={this.props.total_fat + "g"} 
-            goal={this.calculateGoalPercentage(this.props.total_fat, this.props["fat-goal"])}
+            hoverValue={this.state.hoverTotalFat}
+            value={this.props.metrics["total fat"] + "g"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["total fat"], this.props["fat-goal"])}
             type={this.props["fat-select"]} />
           <Divider className="small-divider inset" />
           <NutritionEntry 
             inset={true} 
             label="Saturated Fat" 
-            value={this.props.saturated_fat + "g"} />
+            hoverValue={this.state.hoverSaturatedFat}
+            value={this.props.metrics["saturated fat"] + "g"} />
           <Divider className="small-divider inset" />
           <NutritionEntry 
             inset={true} 
             label="Trans Fat" 
-            value={this.props.trans_fat + "g"} />
+            hoverValue={this.state.hoverTransFat}
+            value={this.props.metrics["trans fat"] + "g"} />
           <Divider className="small-divider inset" />
           <NutritionEntry 
             inset={true} 
             label="Monounsaturated Fat" 
-            value={this.props.monounsaturated_fat + "g"} />
+            hoverValue={this.state.hoverMonoFat}
+            value={this.props.metrics["monounsaturated fat"] + "g"} />
           <Divider className="small-divider inset" />
           <NutritionEntry 
             inset={true} 
             label="Polyunsaturated Fat" 
-            value={this.props.polyunsaturated_fat + "g"} />
+            hoverValue={this.state.hoverPolyFat}
+            value={this.props.metrics["polyunsaturated fat"] + "g"} />
           <Divider className="small-divider" />
           <NutritionEntry 
             bold={true} 
             label="Cholesterol " 
-            value={this.props.cholesterol + "mg"} 
-            goal={this.calculateGoalPercentage(this.props.cholesterol, this.props["cholesterol-goal"])}
+            hoverValue={this.state.hoverCholesterol}
+            value={this.props.metrics["cholesterol"] + "mg"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["cholesterol"], this.props["cholesterol-goal"])}
             type={this.props["cholesterol-select"]} />
           <Divider className="small-divider" />
           <NutritionEntry 
             bold={true} 
             label="Sodium " 
-            value={this.props.sodium + "mg"} 
-            goal={this.calculateGoalPercentage(this.props.sodium, this.props["sodium-goal"])}
+            hoverValue={this.state.hoverSodium}
+            value={this.props.metrics["sodium"] + "mg"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["sodium"], this.props["sodium-goal"])}
             type={this.props["sodium-select"]} />
           <Divider className="small-divider" />
           <NutritionEntry 
             bold={true} 
             label="Carbohydrates " 
-            value={this.props.carbohydrates + "g"} 
-            goal={this.calculateGoalPercentage(this.props.carbohydrates, this.props["carbs-goal"])}
+            hoverValue={this.state.hoverCarbs}
+            value={this.props.metrics["carbohydrates"] + "g"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["carbohydrates"], this.props["carbs-goal"])}
             type={this.props["carbs-select"]} />
           <Divider className="small-divider inset" />
           <NutritionEntry 
             inset={true} 
             label="Fiber" 
-            value={this.props.fiber + "g"} 
-            goal={this.calculateGoalPercentage(this.props.fiber, this.props["fiber-goal"])}
+            hoverValue={this.state.hoverFiber}
+            value={this.props.metrics["fiber"] + "g"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["fiber"], this.props["fiber-goal"])}
             type={this.props["fiber-select"]} />
           <Divider className="small-divider inset" />
           <NutritionEntry 
             inset={true} 
             label="Sugar" 
-            value={this.props.sugar + "g"} 
-            goal={this.calculateGoalPercentage(this.props.sugar, this.props["sugar-goal"])}
+            hoverValue={this.state.hoverSugar}
+            value={this.props.metrics["sugar"] + "g"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["sugar"], this.props["sugar-goal"])}
             type={this.props["sugar-select"]} />
           <Divider className="small-divider" />
           <NutritionEntry 
             bold={true} 
             label="Protein " 
-            value={this.props.protein + "g"} 
-            goal={this.calculateGoalPercentage(this.props.protein, this.props["protein-goal"])}
+            hoverValue={this.state.hoverProtein}
+            value={this.props.metrics["protein"] + "g"} 
+            goal={this.calculateGoalPercentage(this.props.metrics["protein"], this.props["protein-goal"])}
             type={this.props["protein-select"]} />
           <Divider className="big-divider" />
           <NutritionEntry 
             label="Vitamin A " 
-            value={this.props.vitamin_a + "% DV"} />
+            hoverValue={this.state.hoverVitA}
+            value={this.props.metrics["vitamin A"] + "% DV"} />
           <Divider className="small-divider" />
           <NutritionEntry 
             label="Vitamin C " 
-            value={this.props.vitamin_c + "% DV"} />
+            hoverValue={this.state.hoverVitC}
+            value={this.props.metrics["vitamin A"] + "% DV"} />
           <Divider className="small-divider" />
           <NutritionEntry 
             label="Calcium " 
-            value={this.props.calcium + "% DV"} />
+            hoverValue={this.state.hoverCalcium}
+            value={this.props.metrics["calcium"] + "% DV"} />
           <Divider className="small-divider" />
           <NutritionEntry 
             label="Iron " 
-            value={this.props.iron + "% DV"} />
+            hoverValue={this.state.hoverIron}
+            value={this.props.metrics["iron"] + "% DV"} />
           <Divider className="medium-divider" />
           <Cell size={12} className="skinny-cell"> 
             <span className="bold">{"CONTAINS: " + this.getAllergens()}</span>

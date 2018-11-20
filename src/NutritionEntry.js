@@ -44,11 +44,18 @@ export default class NutritionEntry extends Component {
       goal = <span>{this.props.goal}%</span>
     }
 
+    let value;
+    if(this.props.hoverValue !== null) {
+      value = <span><b>{this.props.hoverValue}</b>/{this.props.value}</span>
+    } else {
+      value = <span>{this.props.value}</span>
+    }
+
     return (
       <Cell size={12} className={"skinny-cell container goal-container " + colorClass}>
         <div> 
           {label}
-          <span>{this.props.value}</span>
+          {value}
         </div>
         {goal}
       </Cell>

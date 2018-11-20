@@ -10,13 +10,13 @@ export default class CartItem extends Component {
   }
 
     render() {
-        return (
-          <ListItem onClick={this.handleClick}
+      return (
+        <ListItem onClick={this.handleClick}
           leftIcon={<FontIcon>close</FontIcon>}
           primaryText={this.props.food.item}
           secondaryText={this.props.food.price}
-          key={this.props.key}
+          key={this.props.listKey}
         />
-        );
+      );
      }
 }

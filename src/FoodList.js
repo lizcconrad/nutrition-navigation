@@ -1,28 +1,9 @@
 import React, { Component } from 'react';
 import FoodItem from './FoodItem.js'
-import hamburger_data from './food_data/Hamburgers.json'
-import chicken_data from './food_data/Chicken.json'
-import salad_data from './food_data/Salads.json'
-import sides_data from './food_data/Sides.json'
-import beverages_data from './food_data/Beverages.json'
-import frosty_data from './food_data/Frosty.json'
-import bakery_data from './food_data/Bakery.json'
-import breakfast_data from './food_data/Breakfast.json'
 import { ExpansionList, ExpansionPanel, List, Divider } from 'react-md';
 import './styles/FoodList.css';
 
 export default class FoodList extends Component {
-  constructor(props) {
-    super(props);
-    this.hamburger = hamburger_data;
-    this.chicken = chicken_data;
-    this.salad = salad_data;
-    this.sides = sides_data;
-    this.beverages = beverages_data;
-    this.frosty = frosty_data;
-    this.bakery = bakery_data;
-    this.breakfast = breakfast_data;
-  }
 
   createFoodList = (foodType) => {
     let foodList = []
@@ -45,51 +26,107 @@ export default class FoodList extends Component {
       <div className="foodlist">
       <ExpansionList className= "md-cell md-cell--12">
 
-      <ExpansionPanel label="Hamburgers" footer={null}>
+      <ExpansionPanel 
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Hamburgers</span>
+            <span className="food-count">{"(" + this.props.hamburger.length + ")"}</span>
+          </div>
+        } 
+        footer={null}>
         <List>
-          {this.createFoodList(this.hamburger)}
+          {this.createFoodList(this.props.hamburger)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Chicken, Wraps & More" footer={null}>
+      <ExpansionPanel 
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Chicken, Wraps & More</span>
+            <span className="food-count">{"(" + this.props.chicken.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.chicken)}
+          {this.createFoodList(this.props.chicken)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Fresh Made Salads" footer={null}>
+      <ExpansionPanel 
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Fresh Made Salads</span>
+            <span className="food-count">{"(" + this.props.salad.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.salad)}
+          {this.createFoodList(this.props.salad)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Fries & Sides" footer={null}>
+      <ExpansionPanel 
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Fries & Sides</span>
+            <span className="food-count">{"(" + this.props.sides.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.sides)}
+          {this.createFoodList(this.props.sides)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Beverages" footer={null}>
+      <ExpansionPanel 
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Beverages</span>
+            <span className="food-count">{"(" + this.props.beverages.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.beverages)}
+          {this.createFoodList(this.props.beverages)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Frosty®" footer={null}>
+      <ExpansionPanel
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Frosty®</span>
+            <span className="food-count">{"(" + this.props.frosty.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.frosty)}
+          {this.createFoodList(this.props.frosty)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Bakery" footer={null}>
+      <ExpansionPanel
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Bakery</span>
+            <span className="food-count">{"(" + this.props.bakery.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.bakery)}
+          {this.createFoodList(this.props.bakery)}
         </List>
       </ExpansionPanel>
 
-      <ExpansionPanel label="Breakfast" footer={null}>
+      <ExpansionPanel
+        label={
+          <div className="expansion-title">
+            <span className="food-title">Breakfast</span>
+            <span className="food-count">{"(" + this.props.breakfast.length + ")"}</span>
+          </div>
+        }
+        footer={null}>
         <List>
-          {this.createFoodList(this.breakfast)}
+          {this.createFoodList(this.props.breakfast)}
         </List>
       </ExpansionPanel>
 

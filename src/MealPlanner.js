@@ -1,21 +1,11 @@
 import React, { Component } from 'react';
 import './styles/MealPlanner.css';
-import { Card, CardTitle, CardActions, CardText, Grid, Cell, Paper, SelectField, TextField } from 'react-md'; 
+import { Card, CardTitle, CardActions, CardText, Grid, Cell, Paper, FontIcon } from 'react-md'; 
 import NutritionLabel from './NutritionLabel.js';
 import GoalInput from './GoalInput';
+import QuickMetric from './QuickMetric.js';
 
 export default class MealPlanner extends Component {
-
-  computeMetrics = () =>  {
-    const self = this;
-
-    this.props.meal.forEach(function(element) {
-      for(var key in element.metrics) {
-        self.setState({[key]: element.metrics[key].value})
-      }
-    });
-  }
-
   handleInput = (event) => {
     let metric = event.currentTarget.id;
     let value = event.currentTarget.value;
@@ -52,39 +42,24 @@ export default class MealPlanner extends Component {
       "fiber-select": "At least",
       "sugar-select": "At least",
       "protein-select": "At least",
-      "calories": 0,
-      "calories from fat": 0,
-      "saturated fat": 0,
-      "trans fat": 0,
-      "polyunsaturated fat": 0,
-      "monounsaturated fat": 0,
-      "cholesterol": 0,
-      "sodium": 0,
-      "carbohydrates": 0,
-      "fiber": 0,
-      "sugar": 0,
-      "vitamin A": 0,
-      "vitamin C": 0,
-      "calcium": 0,
-      "iron": 0,
-      "potassium": 0,
     }
   }
 
-  componentDidMount() {
-    this.computeMetrics();
-  }
-
   render() {
-
     const STRING_SELECTORS = ['At most', 'At least'];
 
     return (
     <Card className="md-block-centered">
       <CardTitle
         title="Meal Planner"
+        className="meal-title"
+        avatar={<FontIcon className="icon" primary>fastfood</FontIcon>}
       />
       <CardActions expander>
+        <QuickMetric size={3} metric="Calories" value={this.props.metrics["calories"]}/>
+        <QuickMetric size={3} metric="Fat" value={this.props.metrics["total fat"]}/>
+        <QuickMetric size={3} metric="Carbs" value={this.props.metrics["carbohydrates"]}/>
+        <QuickMetric size={3} metric="Protein" value={this.props.metrics["protein"]}/>
       </CardActions>
       <CardText expandable>
         
@@ -105,23 +80,8 @@ export default class MealPlanner extends Component {
           <Cell size={6}>
               <NutritionLabel 
                 meal={this.props.meal}
-                calories={this.state["calories"]}
-                calories_from_fat={this.state["calories from fat"]}
-                total_fat={this.state["total fat"]}
-                saturated_fat={this.state["saturated fat"]}
-                trans_fat={this.state["trans fat"]}
-                monounsaturated_fat={this.state["monounsaturated fat"]}
-                polyunsaturated_fat={this.state["polyunsaturated fat"]}
-                cholesterol={this.state["cholesterol"]}
-                sodium={this.state["sodium"]}
-                carbohydrates={this.state["carbohydrates"]}
-                fiber={this.state["fiber"]}
-                sugar={this.state["sugar"]}
-                protein={this.state["protein"]}
-                vitamin_a={this.state["vitamin A"]}
-                vitamin_c={this.state["vitamin C"]}
-                calcium={this.state["calcium"]}
-                iron={this.state["iron"]}
+                goals={true}
+                metrics={this.props.metrics}
                 calories-goal={this.state["calories-goal"]}
                 fat-goal={this.state["fat-goal"]}
                 cholesterol-goal={this.state["cholesterol-goal"]}
@@ -138,6 +98,7 @@ export default class MealPlanner extends Component {
                 fiber-select={this.state["fiber-select"]}
                 sugar-select={this.state["sugar-select"]}
                 protein-select={this.state["protein-select"]}
+                removeItem={this.props.removeItem}
               />
           </Cell>
         </Grid>

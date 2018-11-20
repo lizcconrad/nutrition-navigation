@@ -1,0 +1,36 @@
+.excluded-card {
+    margin-top: 0.5em;
+    height: 3em;
+}
+
+.excluded-card-title {
+    height: 3em;
+    font-size: 100%;
+    font-weight: 600;
+    color: #757575;
+
+    .filtered-count {
+        color: #cd2028;
+    }
+    .view-items {
+        color: #029CD3;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+#excluded-list-dialog-title {
+    background: #029CD3;;
+    text-decoration: "none";
+    color: white; 
+    font-size: 1.5em
+}
+
+.excluded-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-text {
+    color: black;
+}

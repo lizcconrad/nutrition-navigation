@@ -16,6 +16,8 @@ export default class MetricSlider extends Component {
     this.setState({
       value: value
     });
+
+    this.props.handleSliderChange(value, this.props.metric);
   }
 
   render() {
