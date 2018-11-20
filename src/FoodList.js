@@ -28,8 +28,15 @@ export default class FoodList extends Component {
     let foodList = []
 
     for(let i = 0; i < foodType.length; i++) {
-        foodList.push(<FoodItem key={i} food={foodType[i]} name= { foodType[i].item} cal={ foodType[i].metrics.calories.value} price={ foodType[i].price}/>)
-        if(i!== foodType.length-1) foodList.push(<Divider/>)
+        foodList.push(<FoodItem 
+          key={i} 
+          food={foodType[i]} 
+          name= { foodType[i].item} 
+          cal={ foodType[i].metrics.calories.value} 
+          price={ foodType[i].price}
+          addItem={this.props.addItem}
+          />)
+        if(i!== foodType.length-1) foodList.push(<Divider key={"divider-" + i}/>)
     }
     return foodList
   }

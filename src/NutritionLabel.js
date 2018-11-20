@@ -7,24 +7,28 @@ import ServingSize from './ServingSize.js'
 export default class NutritionLabel extends Component {
 
   getAllergens = () => {
-    let allergens = new Set();
-
-    for(let i=0; i < this.props.meal.length; i++) {
-      for(let j=0; j < this.props.meal[i].allergens.length; j++) {
-        allergens.add(this.props.meal[i].allergens[j]);
-      }
-    }
-
     let allergenString = "";
-    allergens.forEach(function(allergen) {
-      allergenString += allergen + ", "
-    });
-    allergenString = allergenString.substring(0, allergenString.length - 2).toLocaleUpperCase();
+    if(this.props.meal.allergens) {
+      let allergens = new Set();
 
-    console.log(allergenString);
-
-    return allergenString;
-
+      for(let i=0; i < this.props.meal.length; i++) {
+        for(let j=0; j < this.props.meal[i].allergens.length; j++) {
+          allergens.add(this.props.meal[i].allergens[j]);
+        }
+      }
+  
+      
+      allergens.forEach(function(allergen) {
+        allergenString += allergen + ", "
+      });
+      allergenString = allergenString.substring(0, allergenString.length - 2).toLocaleUpperCase();
+  
+      console.log(allergenString);
+  
+      return allergenString;
+    } else {
+      return allergenString;
+    }
   }
 
   calculateGoalPercentage = (current, goal) => {
@@ -36,10 +40,6 @@ export default class NutritionLabel extends Component {
   }
 
   render() {
-
-    console.log(this.props.meal);
-    console.log(this.getAllergens());
-
     return (
       <div className="nutrition-label">
         <h2>Nutrition Facts</h2>

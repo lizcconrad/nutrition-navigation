@@ -22,6 +22,10 @@ export default class FoodItem extends Component {
       }
     };
 
+    handleClick = () => {
+      this.props.addItem(this.props.food);
+    }
+
     render() {
         return (
             <Grid className="FoodItem">
@@ -32,7 +36,7 @@ export default class FoodItem extends Component {
                   <InfoDialog food={this.props.food}/>
                 </Cell>
                 <Cell size={2}>
-                  <Button flat primary swapTheming> ADD </Button>
+                  <Button flat primary swapTheming onClick={this.handleClick}> ADD </Button>
                 </Cell>
             </Grid>
         );
