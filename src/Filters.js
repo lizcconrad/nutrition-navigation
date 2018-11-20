@@ -113,7 +113,7 @@ export default class Filters extends Component {
           <MetricSlider metric="sugar" unit="g" max={200} step={10}/>
         </Cell>
         <Cell size={12}>
-          <Button raised primary>Filter</Button>
+          <Button raised primary onClick={this.props.handleFilterClick}>Filter</Button>
         </Cell>
         </Grid>
       </Card>

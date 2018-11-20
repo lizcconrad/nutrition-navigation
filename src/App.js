@@ -73,14 +73,65 @@ class App extends Component {
     })
   }
 
-  // Remove items from the cart and meal planner
-  removeItem = (item) => {
+  isIn = (dataToSearch, dataToCheck) => {
+    for(let i = 0; i < dataToCheck.length;i++){
+      if(dataToSearch === dataToCheck[i]){
+        return true;
+      }
+    }
+    return false;
+  }
 
+  // Filter Wrapper
+  filterData = (allergens, ingredients, sliderData, foodItems) => {
+    var filteredList = [];
+    foodItems = this.allFoods;
+    //fake data
+    var testAllergy = ["egg", "milk", "soy"];
+    var testIngredients = [];
+    var testSliders = {"calories": {"value": 310},
+    "calories from fat": {"value": 140},
+    "sugar": {"value": 24, "unit": "g"},
+    "protein": {"value": 3, "unit": "g"},
+    "total fat": {"value": 16, "unit": "g"},
+    "sodium": {"value": 210, "unit": "mg"},
+    "carbohydrates": {"value": 40, "unit": "g"}
+    };
+    //
+
+    filteredList = this.filterAllergens(foodItems,testAllergy);
+    console.log(filteredList)
+    console.log(filteredList.length)
+    //filteredList = this.filterIngredients(filteredList,ingredients);
+    filteredList = this.filterMetric(filteredList,testSliders);
+    console.log(filteredList)
+    console.log(filteredList.length)
+    return filteredList;
   }
 
   // Filter allergens
-  filterAllergens = (allergens) => {
+  filterAllergens = (foodItems, allergensData) => {
+    var filteredList = [];
+    
+    if(allergensData === null || allergensData.length === 0){
+      return foodItems;
+    }
 
+    let check = 0;
+    for(let i = 0; i < foodItems.length;i++){
+      check = 0; // reset counter
+      for(let j = 0; j < allergensData.length;j++){
+        if(this.isIn(allergensData[j],foodItems[i].allergens)){
+          check = 1;
+          break; // don't need to seethe rest.
+        }
+      }
+      if(check === 0){ //value passed tests. insert.
+        filteredList.push(foodItems[i]);
+      }
+    }
+
+    return foodItems;
   }
 
   // Filter allergens
@@ -90,9 +141,25 @@ class App extends Component {
   }
 
   // Filter by the slider
-  filterMetric = (metric, amount) => {
+  filterMetric = (foodItems, metricData) => {
+    var filteredList = [];
 
+    let check = 0;
+    for(let i = 0; i < foodItems.length;i++){
+      check = 0; // reset counter
+      for(let key in metricData){
+        if(foodItems[i].metrics.key.value > metricData.key.value){
+          check = 1;
+          break;
+        }
+      }
+      if(check === 0){
+        filteredList.push(foodItems[i]);
+      }
+    }
+    return filteredList;
   }
+
 
   addExcludedIngredient = (value) => {
     let currentExcluded = this.state.excludedIngredients;
@@ -122,6 +189,7 @@ class App extends Component {
           excludedIngredients={this.state.excludedIngredients} 
           handleAutocomplete={this.addExcludedIngredient}
           handleExcludeClick={this.removeExcludedIngredient}
+          handleFilterClick={this.filterData}
           />
       </Cell>
       <Cell size={7}>
