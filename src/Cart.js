@@ -34,7 +34,7 @@ export default class Cart extends Component {
           <Divider />
           <Grid position='right'>
             <Cell size={12} position={'right'}>
-              <div className="total">{"Total = $" + this.props.price}</div>
+              <div className="total">{"Total = $" + this.props.price.toFixed(2)}</div>
                 </Cell>
                 <Cell size={12} position={'right'}>
               <div className="order"><Button raised secondary>Order</Button></div>
