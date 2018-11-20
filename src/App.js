@@ -73,6 +73,25 @@ class App extends Component {
     })
   }
 
+    // Remove items from the cart and meal planner
+    removeItem = (item) => {
+      let currentMeal = this.state.meal;
+      console.log(currentMeal)
+      for(let i = 0; i < currentMeal.length;i++){
+       
+        if(currentMeal[i] === item){
+          console.log("ITEMS ARE EQUAL AT INDEX i = " + i)
+          currentMeal.splice(i,1);
+        }
+        console.log("ITEMS ARE NOT EQUAL AT INDEX i = " + i)
+      }
+      console.log(item)
+      console.log(currentMeal)
+      this.setState({
+        meal: currentMeal
+      })
+    }
+
   isIn = (dataToSearch, dataToCheck) => {
     for(let i = 0; i < dataToCheck.length;i++){
       if(dataToSearch === dataToCheck[i]){
@@ -121,6 +140,8 @@ class App extends Component {
     for(let i = 0; i < foodItems.length;i++){
       check = 0; // reset counter
       for(let j = 0; j < allergensData.length;j++){
+        console.log("allergens data = " + allergensData[j])
+        console.log("other data = " + foodItems[i].allergens)
         if(this.isIn(allergensData[j],foodItems[i].allergens)){
           check = 1;
           break; // don't need to seethe rest.
@@ -211,7 +232,7 @@ class App extends Component {
         <FoodList addItem={this.addItem}/>
       </Cell>
       <Cell size={2}>
-        <Cart meal={this.state.meal}/>
+        <Cart meal={this.state.meal}  removeItem={this.removeItem}/>
       </Cell>
       </Grid>
       </div>

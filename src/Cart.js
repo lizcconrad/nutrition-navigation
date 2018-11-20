@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/Cart.css';
 import { Card, CardTitle, FontIcon, List, ListItem, Button, Grid, Cell,} from 'react-md'; 
+import CartItem from './CartItem';
 
 
 export default class Cart extends Component {
@@ -18,12 +19,8 @@ export default class Cart extends Component {
     let totalPrice = 0;
 
     for(let i = 0; i < meal.length; i++) {
-      cartList.push(
-          <ListItem 
-            leftIcon={<FontIcon>close</FontIcon>}
-            primaryText={meal[i].item}
-            secondaryText={meal[i].price}
-          />);
+      cartList.push(<CartItem food={meal[i]} removeItem={this.props.removeItem}></CartItem>
+      );
       totalPrice += meal[i].price
     }
 
