@@ -1,6 +1,7 @@
 [
     {
         "item": "Fresh Baked Biscuit with Natural Sausage",
+        "price": 3.29,
         "description": "Fresh-cracked grade A eggs on a butter-brushed buttermilk biscuit with grilled sausage and melted American cheese. Meet your new morning favorite.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2062_large_US_en.jpg",
         "metrics": {
@@ -38,6 +39,7 @@
     },
     {
         "item": "Fresh-Baked Biscuit with Applewood Smoked Bacon",
+        "price": 3.69,
         "description": "Fresh-cracked grade A eggs on a butter-brushed buttermilk biscuit with Applewood smoked bacon and melted American cheese. Rise and shine with a hearty favorite.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2061_large_US_en.jpg",
         "metrics": {
@@ -75,6 +77,7 @@
     },
     {
         "item": "Honey Butter Chicken Biscuit",
+        "price": 3.89,
         "description": "A crispy, chicken fillet, perfectly seasoned and topped with real honey butter on a fluffy buttermilk biscuit. It’s sweet, it’s savory, and it’s a great reason to get out of bed in the morning.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2024_large_US_en.jpg",
         "metrics": {
@@ -118,6 +121,7 @@
     },
     {
         "item": "Classic  Sausage, Egg & Cheese Sandwich",
+        "price": 3.55,
         "description": "Fresh-cracked grade A eggs, grilled sausage and melted American cheese on a warm breakfast roll. It’s how mornings were meant to begin.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2743_large_US_en.jpg",
         "metrics": {
@@ -154,6 +158,7 @@
     },
     {
         "item": "Classic Bacon, Egg & Cheese Sandwich",
+        "price": 3.89,
         "description": "Fresh-cracked grade A eggs, Applewood-smoked bacon, and melted American cheese on a warm breakfast roll. A tried and true reason to rise.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2742_large_US_en.jpg",
         "metrics": {
@@ -190,6 +195,7 @@
     },
     {
         "item": "Biggie Breakfast Sandwich",
+        "price": 4.25,
         "description": "Fresh-cracked grade A eggs, Applewood smoked bacon, sausage, and melted American cheese on a toasted bun. It’s a monument to Wendy’s best of breakfast.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2623_large_US_en.jpg",
         "metrics": {
@@ -230,6 +236,7 @@
     },
     {
         "item": "Sausage Breakfast Bowl",
+        "price": 4.55,
         "description": "Fresh-cracked grade A eggs mixed with crispy, perfectly-seasoned breakfast potatoes, sliced sausage, and melted cheddar cheese. It’s how good mornings get even better.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2626_large_US_en.jpg",
         "metrics": {
@@ -274,6 +281,7 @@
     },
     {
         "item": "Bacon Breakfast Bowl",
+        "price": 4.55,
         "description": "Fresh-cracked grade A eggs mixed with crispy, perfectly-seasoned homestyle breakfast potatoes, Applewood smoked bacon, and melted cheddar cheese. Nothing beats wakin’ up to bacon.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2627_large_US_en.jpg",
         "metrics": {
@@ -318,6 +326,7 @@
     },
     {
         "item": "Small Breakfast Potatoes",
+        "price": 3.25,
         "description": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with natural sea salt, cracked black pepper, and garlic powder. Start your day with some seasoned satisfaction.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2036_large_US_en.jpg",
         "size": "Small",
@@ -352,6 +361,7 @@
     },
     {
         "item": "Medium Breakfast Potatoes",
+        "price": 3.45,
         "description": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with natural sea salt, cracked black pepper, and garlic powder. Start your day with some seasoned satisfaction.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2621_large_US_en.jpg",
         "size": "Medium",
@@ -386,6 +396,7 @@
     },
     {
         "item": "Large Breakfast Potatoes",
+        "price": 3.65,
         "description": "Natural-cut, skin-on potatoes cooked to perfection and seasoned with natural sea salt, cracked black pepper, and garlic powder. Start your day with some seasoned satisfaction.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2622_large_US_en.jpg",
         "size": "Large",
@@ -420,6 +431,7 @@
     },
     {
         "item": "Fresh Baked Oatmeal Bar",
+        "price": 2.45,
         "description": "Give yourself a wholesome start to the day with our Fresh Baked Oatmeal Bar made with whole oats, sweet blueberries and tart cranberries.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2038_large_US_en.jpg",
         "metrics": {
@@ -454,6 +466,7 @@
     },
     {
         "item": "Apple Bites",
+        "price": 3.15,
         "description": "A selection of crisp, juicy sliced apple pieces, perfect as a snack or a side. Great pick!",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2555_large_US_en.jpg",
         "metrics": {
@@ -482,6 +495,7 @@
     },
     {
         "item": "Sausage and Egg Burrito",
+        "price": 3.55,
         "description": "Scrambled grade A eggs, melty cheese, and sliced, perfectly seasoned, breakfast sausage wrapped in a warm, soft, flour tortilla. Conveniently delicious, and deliciously convenient.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2031_large_US_en.jpg",
         "metrics": {
@@ -522,6 +536,7 @@
     },
     {
         "item": "Sausage Biscuit",
+        "price": 3.15,
         "description": "Grilled, breakfast sausage on a soft, butter-brushed buttermilk biscuit. Simple breakfast perfection",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2032_large_US_en.jpg",
         "metrics": {
@@ -556,6 +571,7 @@
     },
     {
         "item": "Sausage and Gravy Biscuit",
+        "price": 3.25,
         "description": "A fluffy buttermilk biscuit smothered in grilled, breakfast sausage and white pepper gravy. Enjoy a Southern-style classic anywhere.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2033_large_US_en.jpg",
         "metrics": {
@@ -591,6 +607,7 @@
     },
     {
         "item": "Cranberry Pecan Oatmeal",
+        "price": 3.85,
         "description": "Natural oats cooked to perfection with your choice of sweet cranberries and roasted pecans.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2027_large_US_en.jpg",
         "metrics": {
@@ -626,6 +643,7 @@
     },
     {
         "item": "Plain Oatmeal",
+        "price": 3.35,
         "description": "Natural oats cooked to perfection.",
         "img": "https://app.wendys.com/unified/assets/menu/cropped/2026_large_US_en.jpg",
         "metrics": {
