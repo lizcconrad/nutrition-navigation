@@ -1,0 +1,17 @@
+.graph-icon {
+  padding-top: 175%; }
+
+.md-progress--linear {
+  height: 20px; }
+
+.warning {
+  background: #ffff8d; }
+
+.warning-active {
+  background: #ffea00; }
+
+.exceeded {
+  background: #ff9e80; }
+
+.exceeded-active {
+  background: #ff3d00; }

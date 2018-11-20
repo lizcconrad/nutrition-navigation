@@ -1,0 +1,36 @@
+.nutrition-label {
+  border: 1px solid black;
+}
+.nutrition-label h2 {
+  padding-left: 0.25em;
+  margin-bottom: 0.1em;
+}
+.nutrition-label .big-divider {
+  width: 100%;
+  height: 0.5em;
+  background: black;
+  margin: 0 !important;
+}
+.nutrition-label .medium-divider {
+  width: 100%;
+  height: 0.25em;
+  background: black;
+  margin: 0 !important;
+}
+.nutrition-label .small-divider {
+  width: 100%;
+  background: black;
+  margin: 0 !important;
+}
+.nutrition-label .inset {
+  margin-left: 2em;
+}
+.nutrition-label .bold {
+  font-weight: bold;
+}
+.nutrition-label .goal-cell {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=NutritionLabel.css.map */
