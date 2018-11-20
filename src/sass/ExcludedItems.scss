@@ -1,3 +1,5 @@
+@import 'globals';
+
 .excluded-card {
     margin-top: 0.5em;
     height: 3em;
@@ -10,17 +12,20 @@
     color: #757575;
 
     .filtered-count {
-        color: #cd2028;
+        // color: #cd2028;
+        color: $md-primary-color;
     }
     .view-items {
-        color: #029CD3;
+        // color: #029CD3;
+        color: $md-secondary-color;
         text-decoration: underline;
         cursor: pointer;
     }
 }
 
 #excluded-list-dialog-title {
-    background: #029CD3;;
+    // background: #029CD3;
+    background: $md-secondary-color;
     text-decoration: "none";
     color: white; 
     font-size: 1.5em

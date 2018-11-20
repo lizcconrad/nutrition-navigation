@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"FoodList.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/FoodList.scss","../sass/_globals.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;;;AAGJ;EAEI,OCRiB;EDSjB;EACA;EACA","file":"FoodList.css"}

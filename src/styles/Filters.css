@@ -1,14 +1,20 @@
 .filters-title {
   background: #029CD3;
-  text-decoration: none; }
-  .filters-title h2 {
-    color: white;
-    font-size: 1.5em; }
+  text-decoration: none;
+}
+.filters-title h2 {
+  color: white;
+  font-size: 1.5em;
+}
 
 .sticky-card {
   position: sticky;
-  top: 4em; }
+  top: 4em;
+}
 
 .right-button {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=Filters.css.map */

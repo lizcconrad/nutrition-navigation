@@ -1,5 +1,8 @@
+@import 'globals';
+
 .filters-title {
-    background: #029CD3;
+    // background: #029CD3;
+    background: $md-secondary-color;
     text-decoration: none;
 
     h2 {
