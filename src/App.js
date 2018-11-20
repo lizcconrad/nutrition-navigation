@@ -4,7 +4,7 @@ import Filters from './Filters.js';
 import MealPlanner from './MealPlanner.js';
 import FoodList from './FoodList.js';
 import Cart from './Cart.js';
-import { Grid, Cell } from 'react-md';
+import { Grid, Cell, TabsContainer, Tabs, Tab, Media } from 'react-md'; 
 import hamburger_data from './food_data/Hamburgers.json'
 import chicken_data from './food_data/Chicken.json'
 import salad_data from './food_data/Salads.json'
@@ -182,6 +182,20 @@ class App extends Component {
 
   render() {
     return (
+      <div>
+      <TabsContainer panelClassName="md-grid" fixed colored>
+        <Tabs tabId="simple-tab">
+          <Tab icon={<img src="http://pluspng.com/img-png/wendys-logo-png-logo-wendy-s-1110.png" alt="Wendys" height="30" width="100"/>}/>
+          <Tab label="Explore Our Food"/>
+          <Tab label="What We Value"/>
+          <Tab label="Who We Are"/>
+          <Tab label="Find Jobs"/>
+          <Tab label=""/>
+          <Tab label="Sign In"/>
+          <Tab label="Find a Wendy's"/>
+          <Tab label="Order Online"/>
+       </Tabs>
+      </TabsContainer>
       <Grid>
       <Cell size={3}>
         <Filters 
@@ -200,6 +214,7 @@ class App extends Component {
         <Cart meal={this.state.meal}/>
       </Cell>
       </Grid>
+      </div>
     );
   }
 }
