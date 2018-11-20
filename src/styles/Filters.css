@@ -8,3 +8,6 @@
 .sticky-card {
   position: sticky;
   top: 0; }
+
+.chips-list {
+  padding: 1em; }

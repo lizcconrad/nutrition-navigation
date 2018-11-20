@@ -16,6 +16,22 @@ import breakfast_data from './food_data/Breakfast.json'
 
 class App extends Component {
 
+  getIngredientsList = (categoryList) => {
+    let ingredientList = new Set();
+    let ingredientsOfItem;
+    for(let i=0; i < categoryList.length; i++) {
+      ingredientsOfItem = categoryList[i].ingredients;
+      for(let key in ingredientsOfItem) {
+        ingredientList.add(key);
+        for(let j=0; j < ingredientsOfItem[key].length; j++) {
+          ingredientList.add(ingredientsOfItem[key][j]);
+        }
+      }
+    }
+
+    return [...ingredientList];
+  }
+
   constructor(props) {
     super(props);
     this.hamburger = hamburger_data;
@@ -26,6 +42,10 @@ class App extends Component {
     this.frosty = frosty_data;
     this.bakery = bakery_data;
     this.breakfast = breakfast_data;
+    this.allFoods = [this.hamburger, this.chicken, this.salad, this.sides, this.beverages, this.frosty, this.bakery, this.breakfast].flat();
+    this.allIngredients = this.getIngredientsList(
+      [this.hamburger, this.chicken, this.salad, this.sides, this.beverages, this.frosty, this.bakery, this.breakfast].flat()
+    );
 
     this.state = {
       meal: [],
@@ -37,7 +57,9 @@ class App extends Component {
       frosty: this.frosty,
       bakery: this.bakery,
       breakfast: this.breakfast,
-      excluded: []
+      excludedFoods: [],
+      excludedAllergens: [],
+      excludedIngredients: [],
     }
   }
 
@@ -72,11 +94,35 @@ class App extends Component {
 
   }
 
+  addExcludedIngredient = (value) => {
+    let currentExcluded = this.state.excludedIngredients;
+    currentExcluded.push(value);
+    this.setState({
+      excludedIngredients: currentExcluded
+    })
+  }
+  removeExcludedIngredient = (event) => {
+    let ingredient = event.currentTarget.getElementsByClassName("md-chip-text")[0].textContent;
+    let currentExcluded = this.state.excludedIngredients;
+    let index = currentExcluded.indexOf(ingredient);
+    if(index !== -1) {
+      currentExcluded.splice(index);
+      this.setState({
+        excludedIngredients: currentExcluded
+      })
+    }
+  }
+
   render() {
     return (
       <Grid>
       <Cell size={3}>
-        <Filters />
+        <Filters 
+          ingredientList={this.allIngredients} 
+          excludedIngredients={this.state.excludedIngredients} 
+          handleAutocomplete={this.addExcludedIngredient}
+          handleExcludeClick={this.removeExcludedIngredient}
+          />
       </Cell>
       <Cell size={7}>
         <MealPlanner meal={this.state.meal}/>
