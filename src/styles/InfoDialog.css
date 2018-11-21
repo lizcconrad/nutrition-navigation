@@ -1,13 +1,8 @@
 .nutrition-dialog {
-  width: 50%;
-}
+  width: 50%; }
 
 .food-image {
-  border: 2px solid black;
-}
+  border: 2px solid black; }
 
 #nutrition-dialog-title {
-  font-size: 300%;
-}
-
-/*# sourceMappingURL=InfoDialog.css.map */
+  font-size: 300%; }

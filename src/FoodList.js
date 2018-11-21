@@ -22,24 +22,37 @@ export default class FoodList extends Component {
     return foodList
   }
   render() {
+
+    let panels = [];
+    let categories = [this.props.hamburger, this.props.chicken, this.props.salad, this.props.sides, 
+      this.props.beverages, this.props.frosty, this.props.bakery, this.props.breakfast];
+    let labels = ["Hamburgers", "Chicken, Wraps & More", "Fresh Made Salads", "Fries & Sides", 
+      "Beverages", "Frosty®", "Bakery", "Breakfast"];
+
+    for(let i=0; i < categories.length; i++) {
+      if(categories[i].length > 0) {
+        panels.push( 
+          <ExpansionPanel 
+            key={i}
+            label={
+              <div className="expansion-title">
+                <span className="food-title">{labels[i]}</span>
+                <span className="food-count">{"(" + categories[i].length + ")"}</span>
+              </div>
+            } 
+            footer={null}>
+            <List>
+              {this.createFoodList(categories[i])}
+            </List>
+          </ExpansionPanel>);
+      }
+    }
+    
     return (
       <div className="foodlist">
       <ExpansionList className= "md-cell md-cell--12">
-
-      <ExpansionPanel 
-        label={
-          <div className="expansion-title">
-            <span className="food-title">Hamburgers</span>
-            <span className="food-count">{"(" + this.props.hamburger.length + ")"}</span>
-          </div>
-        } 
-        footer={null}>
-        <List>
-          {this.createFoodList(this.props.hamburger)}
-        </List>
-      </ExpansionPanel>
-
-      <ExpansionPanel 
+      {panels}
+      {/* <ExpansionPanel 
         label={
           <div className="expansion-title">
             <span className="food-title">Chicken, Wraps & More</span>
@@ -128,7 +141,7 @@ export default class FoodList extends Component {
         <List>
           {this.createFoodList(this.props.breakfast)}
         </List>
-      </ExpansionPanel>
+      </ExpansionPanel> */}
 
     </ExpansionList>
       </div>

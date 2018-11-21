@@ -1,3 +1,6 @@
+.serving-size-item {
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
-
-/*# sourceMappingURL=ServingSize.css.map */
+.serving-size {
+  width: 95%; }

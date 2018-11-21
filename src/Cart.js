@@ -17,7 +17,7 @@ export default class Cart extends Component {
   createCartList = (meal) => {
     let cartList = [];
     for(let i = 0; i < meal.length; i++) {
-      cartList.push(<CartItem listKey={i} food={meal[i]} removeItem={this.props.removeItem}></CartItem>
+      cartList.push(<CartItem key={i} food={meal[i]} removeItem={this.props.removeItem}></CartItem>
       );
     }
     return cartList

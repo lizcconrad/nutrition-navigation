@@ -1,39 +1,29 @@
 .order {
   display: flex;
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .total {
   display: flex;
   justify-content: flex-end;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .cart-title {
   background: #029CD3;
-  text-decoration: "none";
-}
-.cart-title h2 {
-  color: white;
-  font-size: 1.5em;
-}
+  text-decoration: "none"; }
+  .cart-title h2 {
+    color: white;
+    font-size: 1.5em; }
 
 .cart-card {
   position: sticky;
-  top: 5.5em;
-}
+  top: 5.5em; }
 
 .empty-cart {
-  padding: 2em;
-}
-.empty-cart P {
-  text-align: center;
-  font-weight: 500;
-  color: #757575;
-}
+  padding: 2em; }
+  .empty-cart P {
+    text-align: center;
+    font-weight: 500;
+    color: #757575; }
 
 .icon {
-  color: white;
-}
-
-/*# sourceMappingURL=Cart.css.map */
+  color: white; }

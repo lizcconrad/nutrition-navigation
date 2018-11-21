@@ -15,7 +15,6 @@ export default class CartItem extends Component {
           leftIcon={<FontIcon>close</FontIcon>}
           primaryText={this.props.food.item}
           secondaryText={this.props.food.price}
-          key={this.props.listKey}
         />
       );
      }

@@ -1,26 +1,18 @@
 .skinny-cell {
-  margin: 0.1em;
-}
+  margin: 0.1em; }
 
 .container {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .green {
-  color: green;
-}
+  color: green; }
 
 .orange {
-  color: orange;
-}
+  color: orange; }
 
 .red {
-  color: red;
-}
+  color: red; }
 
 .gray {
-  color: gray;
-}
-
-/*# sourceMappingURL=NutritionEntry.css.map */
+  color: gray; }

@@ -1,11 +1,7 @@
 .chip {
   margin: 0.25em;
-  max-width: 200px;
-}
-.chip .md-chip-text {
-  max-width: 200px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-/*# sourceMappingURL=ChipList.css.map */
+  max-width: 200px; }
+  .chip .md-chip-text {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden; }

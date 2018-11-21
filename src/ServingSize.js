@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { List, ListItem, FontIcon } from 'react-md';
+import './styles/ServingSize.css';
 
 export default class ServingSize extends Component {
 
@@ -51,7 +52,7 @@ export default class ServingSize extends Component {
 
   render() {
     return (
-      <div className="servingsize">
+      <div className="serving-size">
         <span>Serving size: </span>
         <List>
           {this.createMealList()}
