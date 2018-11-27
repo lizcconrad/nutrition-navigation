@@ -68,13 +68,13 @@ export default class MealPlanner extends Component {
             <Paper zDepth={0}>
               <h3>My Goals</h3>
               <GoalInput id="calories" label="Calories" defaultGoal={this.state["calories-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="fat" label="Fat" defaultGoal={this.state["fat-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="cholesterol" label="Cholesterol" defaultGoal={this.state["cholesterol-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="sodium" label="Sodium" defaultGoal={this.state["sodium-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="carbs" label="Carbohydrates" defaultGoal={this.state["carbs-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="fiber" label="Fiber" defaultGoal={this.state["fiber-goal"]} defaultSelector="At least" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="sugar" label="Sugar" defaultGoal={this.state["sugar-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
-              <GoalInput id="protein" label="Protein" defaultGoal={this.state["protein-goal"]} defaultSelector="At least" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="fat" label="Fat (g)" defaultGoal={this.state["fat-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="cholesterol" label="Cholesterol (mg)" defaultGoal={this.state["cholesterol-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="sodium" label="Sodium (mg)" defaultGoal={this.state["sodium-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="carbs" label="Carbohydrates (g)" defaultGoal={this.state["carbs-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="fiber" label="Fiber (g)" defaultGoal={this.state["fiber-goal"]} defaultSelector="At least" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="sugar" label="Sugar (g)" defaultGoal={this.state["sugar-goal"]} defaultSelector="At most" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
+              <GoalInput id="protein" label="Protein (g)" defaultGoal={this.state["protein-goal"]} defaultSelector="At least" handleInput={this.handleInput} handleSelection={this.handleSelection} STRING_SELECTORS={STRING_SELECTORS} />
             </Paper>
           </Cell>
           <Cell size={6}>

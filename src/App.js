@@ -95,6 +95,7 @@ class App extends Component {
     for(let i = 0; i < currentMeal.length;i++){
       if(currentMeal[i] === item){
         currentMeal.splice(i,1);
+        break; // added break to fix the removal of multiple of the same item.
       }
     }
     this.setState({

@@ -20,20 +20,16 @@ export default class Cart extends Component {
       cartList.push(<CartItem key={i} food={meal[i]} removeItem={this.props.removeItem}></CartItem>
       );
     }
-    //this is an issue i think, but it works.
-    //this.state.totalPrice = totalPrice;
-    
-    //this.setState({totalPrice: totalPrice})
-    
     return cartList
   }
+
 
   render() {
     let lowerCart;
     if(this.props.meal.length > 0) {
       lowerCart = 
         <div>
-          <List className="">
+          <List className="cart-list">
             {this.createCartList(this.props.meal)}
           </List>
           <Divider />
@@ -53,24 +49,13 @@ export default class Cart extends Component {
     return (
       <Card className="cart-card">
         <CardTitle className="cart-title"
-        title="Cart"
-        avatar={<FontIcon>shopping_cart</FontIcon>}
-        />
-        <List className="">
-          {this.createCartList(this.props.meal)}
-          {/* <div className="total"><b>{meal[i].price}</b></div> */}
-        </List>
-        <div><hr className="divider"></hr></div>
-        <Grid position='right'>
-          <Cell size={12} position={'right'}>
-           <div className="total"><b>{"Total = $" + this.state.totalPrice.toFixed(2)}</b></div>
-          </Cell>
-          <Cell size={12} position={'right'}>
-           <div className="order"><Button raised primary>Order</Button></div>
-          </Cell>
-        </Grid>
+          title={"Cart (" + this.props.meal.length + ")"}
+          avatar={<FontIcon className="icon" primary>shopping_cart</FontIcon>}
+        >
+        </CardTitle>
+        {lowerCart}
       </Card>
+     
     )
   }
 }
-
