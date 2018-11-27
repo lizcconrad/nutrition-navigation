@@ -116,26 +116,14 @@ class App extends Component {
       currentAllergens.splice(currentAllergens.indexOf(allergen));
     }
 
-    this.setState({
-      excludedAllergens: currentAllergens
-    });   
-  }
-  addExcludedIngredient = (value) => {
-    let currentExcluded = this.state.excludedIngredients;
-    currentExcluded.push(value);
-    this.setState({
-      excludedIngredients: currentExcluded
-    })
-  }
-  removeExcludedIngredient = (event) => {
-    let ingredient = event.currentTarget.getElementsByClassName("md-chip-text")[0].textContent;
-    let currentExcluded = this.state.excludedIngredients;
-    let index = currentExcluded.indexOf(ingredient);
-    if(index > -1) {
-      currentExcluded.splice(index);
-      this.setState({
-        excludedIngredients: currentExcluded
-      })
+  isIn = (dataToSearch, dataToCheck) => {
+    if(dataToCheck == null){
+      return false;
+    }
+    for(let i = 0; i < dataToCheck.length;i++){
+      if(dataToSearch === dataToCheck[i]){
+        return true;
+      }
     }
   }
   updateMetricFilters = (value, metric) => {
