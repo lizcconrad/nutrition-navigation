@@ -108,7 +108,9 @@ export default class Filters extends Component {
         </Cell> */}
       
         <Cell size={12}>
+          <br />
           <h3>Nutritional Values</h3>
+          <br/ >
           <MetricSlider metric="calories" unit="" max={2000} step={50} handleSliderChange={this.props.handleSliderChange}/>
           <MetricSlider metric="carbohydrates" unit="g" max={200} step={10} handleSliderChange={this.props.handleSliderChange}/>
           <MetricSlider metric="total fat" unit="g" max={100} step={10} handleSliderChange={this.props.handleSliderChange}/>
