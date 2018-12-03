@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "css-loader": "^1.0.1",
+    "global": "^4.3.2",
     "jquery": "^3.3.1",
     "json-loader": "^0.5.7",
     "lorem-ipsum": "^1.0.6",
@@ -19,6 +20,7 @@
     "react-sweet-progress": "^1.1.2",
     "react-virtualized": "^9.21.0",
     "style-loader": "^0.23.1",
+    "surge": "^0.20.1",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
@@ -28,7 +30,8 @@
     "start": "react-scripts start",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build"
   },
   "eslintConfig": {
     "extends": "react-app"

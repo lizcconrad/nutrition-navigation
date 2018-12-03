@@ -9,7 +9,7 @@ export default class Filters extends Component {
   render() {
     const { filterType } = Autocomplete.caseInsensitiveFilter; //for AutoComplete Text.
     return (
-      <Card className="sticky-card">
+      <Card>
         <CardTitle className="filters-title" title="Filters" avatar={<FontIcon className="icon" primary>filter_list</FontIcon>}></CardTitle>
         <Grid className="div-class">
         <Cell size={12}>

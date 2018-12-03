@@ -29,7 +29,7 @@ export default class Cart extends Component {
     if(this.props.meal.length > 0) {
       lowerCart = 
         <div>
-          <List className="cart-list">
+          <List>
             {this.createCartList(this.props.meal)}
           </List>
           <Divider />
@@ -47,7 +47,7 @@ export default class Cart extends Component {
     }
 
     return (
-      <Card className="cart-card">
+      <Card>
         <CardTitle className="cart-title"
           title={"Cart (" + this.props.meal.length + ")"}
           avatar={<FontIcon className="icon" primary>shopping_cart</FontIcon>}

@@ -39,7 +39,7 @@ export default class InfoDialog extends Component {
       "total fat": food.metrics["total fat"].value,
       "saturated fat": food.metrics["saturated fat"].value,
       "trans fat": food.metrics["trans fat"].value,
-      "monunsaturated fat": food.metrics["monounsaturated fat"].value,
+      "monounsaturated fat": food.metrics["monounsaturated fat"].value,
       "polyunsaturated fat": food.metrics["polyunsaturated fat"].value,
       "cholesterol": food.metrics["cholesterol"].value,
       "sodium": food.metrics["sodium"].value,
